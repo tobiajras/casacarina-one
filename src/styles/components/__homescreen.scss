@@ -1,0 +1,10 @@
+.homescreen__title {
+  display: flex;
+  justify-content: center;
+  font-family: $poppins;
+  color: $primary;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
