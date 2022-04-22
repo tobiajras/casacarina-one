@@ -1,0 +1,26 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+.carousel__ofDiv {
+  overflow-x: hidden;
+}
+
+.carousel__parentDiv {  
+  display: flex;
+  animation: slide 3s infinite;
+  transform: translateX(-100vw);
+}
+
+.carousel__childDiv {
+  width: 100vw;
+}
+
+.carousel__img {
+  width: 100vw;
+}
