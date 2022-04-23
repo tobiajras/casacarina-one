@@ -1,0 +1,25 @@
+
+.swiper__parentDiv {
+  width: 100%;
+  display: flex;
+}
+
+.swiper__parentImg {
+  width: 100%;
+}
+
+.swiper__img {
+  width: 100%;
+}
+
+.swiper-pagination-bullet{
+  background-color: white;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.swiper-pagination-clickable {
+  background-color: $primary;
+}

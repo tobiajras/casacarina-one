@@ -1,9 +1,9 @@
 @keyframes slide {
   from {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   to {
-    transform: translateX(-100vw);
+    transform: translateX(-100%);
   }
 }
 
@@ -18,20 +18,22 @@
 }
 
 .carousel__ofDiv {
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 .carousel__parentDiv {  
   display: flex;
-  // animation: slide 2s infinite;
-  animation: fade-in 2s infinite;
-  transform: translateX(-100vw);
+  animation: slide 2s infinite;
+  // animation: fade-in 2s infinite;
+  // transform: translateX(-100vw);
 }
 
 .carousel__childDiv {
   width: 100vw;
+  
 }
 
 .carousel__img {
+  transform: translateX(-100vw);
   width: 100vw;
 }
