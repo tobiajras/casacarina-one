@@ -4,7 +4,7 @@ import { carouselData } from "../../data/carouselData";
 export const Carousel = () => {
   const [images, setImages] = useState(1);
 
-  if (images > 0) {
+  if (images > 1) {
     const handleImg = () => {
       let popped = carouselData.pop();
       carouselData.unshift(popped);
@@ -12,6 +12,7 @@ export const Carousel = () => {
       console.log(carouselData);
     };
     handleImg();
+    console.log("handle!");
   }
 
   return (
