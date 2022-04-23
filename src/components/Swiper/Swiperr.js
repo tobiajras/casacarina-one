@@ -21,6 +21,11 @@ export default function Swiperr() {
       pagination={{
         clickable: true,
       }}
+      navigation={{
+        hideOnClick: true,
+        nextEl: "nextElSelector",
+        prevEl: "prevElSelector",
+      }}
       loop={true}
     >
       {carouselData.map((data) => {
