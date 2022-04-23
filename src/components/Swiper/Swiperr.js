@@ -8,7 +8,7 @@ import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 import { carouselData } from "../../data/carouselData";
 
-export default () => {
+export default function Swiperr() {
   return (
     <Swiper
       // spaceBetween={50}?
@@ -36,4 +36,4 @@ export default () => {
       })}
     </Swiper>
   );
-};
+}
