@@ -1,0 +1,15 @@
+
+.autoCarousel__parentDiv {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.autoCarousel__img {
+  width: 100%;
+}
+
+.autoCarousel__swiper-wrapper {
+  transition-timing-function: linear;
+}
