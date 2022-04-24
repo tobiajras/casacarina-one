@@ -10,6 +10,10 @@
   width: 100%;
 }
 
-.autoCarousel__swiper-wrapper {
+.autoCarousel__parentDiv .swiper-wrapper {
   transition-timing-function: linear;
+}
+
+.autoCarousel__parentDiv .swiper-wrapper {
+  align-items: center;
 }
