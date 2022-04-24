@@ -10,35 +10,38 @@ import { carouselData } from "../../data/carouselData";
 
 export default function Swiperr() {
   return (
-    <Swiper
-      // spaceBetween={50}?
-      height={"300px"}
-      modules={[Autoplay, Pagination, Navigation]}
-      slidesPerView={1}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
-      autoplay={{ delay: 3000, disableOnInteraction: false }}
-      pagination={{
-        clickable: true,
-      }}
-      navigation={{
-        hideOnClick: true,
-        nextEl: "nextElSelector",
-        prevEl: "prevElSelector",
-      }}
-      loop={true}
-    >
-      {carouselData.map((data) => {
-        return (
-          <SwiperSlide key={data.id}>
-            <img
-              className="swiper__img"
-              src={`assets/Fondos/${data.src}`}
-              alt=""
-            />
-          </SwiperSlide>
-        );
-      })}
-    </Swiper>
+    <div className="swiperr__parentDiv">
+      <Swiper
+        // spaceBetween={50}?
+        height={"300px"}
+        modules={[Autoplay, Pagination, Navigation]}
+        slidesPerView={1}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        pagination={{
+          clickable: true,
+        }}
+        // navigation={{
+        //   hideOnClick: true,
+        //   nextEl: ".nextElSelector",
+        //   prevEl: ".prevElSelector",
+        // }}
+        loop={true}
+        speed={500}
+      >
+        {carouselData.map((data) => {
+          return (
+            <SwiperSlide key={data.id}>
+              <img
+                className="swiperr__img"
+                src={`assets/Fondos/${data.src}`}
+                alt=""
+              />
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </div>
   );
 }

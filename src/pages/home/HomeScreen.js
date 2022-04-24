@@ -6,7 +6,7 @@ import { Categories } from "../products/Categories";
 export const HomeScreen = () => {
   return (
     <div>
-      {/* <Carousel /> */}
+      {/* <Carousel2 /> */}
       <Swiperr />
       <h1 className="homescreen__title">Productos</h1>
       <Categories />

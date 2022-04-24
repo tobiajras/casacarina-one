@@ -1,18 +1,17 @@
-.swiper__parentDiv {
+.swiperr__parentDiv {
   width: 100%;
+  height: 100%;
   display: flex;
 }
 
-.swiper__parentImg {
-  width: 100%;
-}
-
-.swiper__img {
+.swiperr__img {
   width: 100%;
 }
 
 .swiper-pagination-bullet {
-  background-color: white;
+  background-color: $primary;
+  opacity: 1;
+  transition: background-color 0.5s;
 }
 
 .swiper-pagination-bullet-active {
@@ -20,7 +19,8 @@
 }
 
 .swiper-pagination-clickable {
-  background-color: rgba(0, 0, 0, 0.495)
+  // background-color: rgba(0, 0, 0, 0.495);
+  
 }
 
 .nextElSelector {
