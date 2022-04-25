@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClickMenu = () => {
+    setClicked(!clicked);
+  };
+
   return (
     <div className="navbar__parentDiv">
       <div className="navbar__childDiv">
-        <Link className="navbar__childLink" to={"/"}>
+        <Link className="navbar__logoLink" to={"/"}>
           <img src="/assets/logoCasaCarina.svg" alt="LogoCasaCarina" />
         </Link>
       </div>
-      <nav className="navbar__childNav">
+      <div className="navbar__menuIcon" onClick={handleClickMenu}>
+        <i className={clicked ? "fas fa-times" : "fa fa-bars"}></i>
+      </div>
+      <nav className={clicked ? "navbar__menuList" : "navbar__menuList close"}>
         <NavLink
           className={(navData) =>
             navData.isActive
