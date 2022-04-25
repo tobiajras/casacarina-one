@@ -113,7 +113,6 @@
     margin-bottom: 20px;
     font-family: $poppins;
     text-decoration: none;
-    transition: all 0.2s ease;
     color: $secondary;
     text-align: center;
     border-bottom: none;
@@ -121,6 +120,8 @@
     padding: 10px 0;
     background-color: $primary;
     border-radius: 2px;
+    transition: all 0.2s ease;
+    transition-property:background-color;
   }
 
   .navbar__menuIcon .fa-times {
