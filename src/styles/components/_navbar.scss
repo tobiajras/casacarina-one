@@ -104,9 +104,11 @@
 
   .navbar__childNavlink {
     margin-bottom: 20px;
+    font-size: 1.6rem
   }
 
   .navbar__childNavlink_active{
+    font-size: 1.6rem;
     margin: 0;
     margin-bottom: 20px;
     font-family: $poppins;
