@@ -16,7 +16,7 @@ export default function AutoCarousel() {
         loop={true}
         speed={2000}
         modules={[Autoplay, Pagination]}
-        slidesPerView={5}
+        slidesPerView={4}
         autoplay={{ delay: 0, disableOnInteraction: false }}
       >
         {marcasData.map(({ id, title, src }) => {
