@@ -32,6 +32,7 @@ export default function CarouselSwiper() {
             </SwiperSlide>
           );
         })}
+        <div className="carouselSwiper__absolute"></div>
       </Swiper>
     </div>
   );

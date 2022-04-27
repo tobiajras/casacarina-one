@@ -5,6 +5,7 @@
 }
 
 .carouselSwiper__Swiper::before {
+  pointer-events: none;
   content: "";
   width: 100%;
   height: 100%;
