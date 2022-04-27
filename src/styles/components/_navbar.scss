@@ -113,8 +113,20 @@
     padding: 1rem 0;
 
     &:hover{
-      border-bottom: none;
-      color: none;
+      font-size: 1.8rem;
+      margin: 0;
+      margin-bottom: 20px;
+      font-family: $poppins;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      width: 100%;
+      padding: 1rem 0;
+      background-color: $secondary;
+      border-radius: none;
+      transition: all 0.2s ease;
+      transition-property:background-color;
+      
     }
   }
 
@@ -126,11 +138,10 @@
     text-decoration: none;
     color: white;
     text-align: center;
-    border-bottom: none;
     width: 100%;
     padding: 1rem 0;
     background-color: $secondary;
-    border-radius: 2px;
+    border-radius: none;
     transition: all 0.2s ease;
     transition-property:background-color;
   }
