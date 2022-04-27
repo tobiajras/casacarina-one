@@ -19,6 +19,7 @@ export const Navbar = () => {
         <i className={clicked ? "fas fa-times" : "fa fa-bars"}></i>
       </div>
       <nav className={clicked ? "navbar__menuList" : "navbar__menuList close"}>
+        <div></div>
         <NavLink
           className={(navData) =>
             navData.isActive
