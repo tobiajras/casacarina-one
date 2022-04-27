@@ -3,7 +3,7 @@ export const Informacion = () => {
     <div className="informacion__parentDiv">
       <img
         className="informacion__img"
-        src="/assets/informacion.jpg"
+        src="/assets/InfoContacto.svg"
         alt="informacion"
       />
     </div>

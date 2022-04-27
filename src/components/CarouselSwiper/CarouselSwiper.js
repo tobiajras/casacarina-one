@@ -11,6 +11,7 @@ export default function CarouselSwiper() {
   return (
     <div className="carouselSwiper__parentDiv">
       <Swiper
+        className="carouselSwiper__Swiper"
         modules={[Autoplay, Pagination, EffectCoverflow]}
         slidesPerView={1}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
@@ -31,7 +32,6 @@ export default function CarouselSwiper() {
             </SwiperSlide>
           );
         })}
-        <div className="carouselSwiper__absolute"></div>
       </Swiper>
     </div>
   );
