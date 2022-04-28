@@ -17,7 +17,7 @@ export const HomeScreen = () => {
       <AutoCarousel />
       <h1 className="homescreen__title">Información</h1>
       <Informacion />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

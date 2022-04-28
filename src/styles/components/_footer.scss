@@ -1,0 +1,44 @@
+.footer__divParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-brands {
+  color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.footer__firstDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__secondDiv {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__childSecondDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__img {
+  width: 100%;
+}
+
+.footer__thirdDiv {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
