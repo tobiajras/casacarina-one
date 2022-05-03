@@ -8,7 +8,7 @@ import { HomeScreen } from './pages/home/HomeScreen';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { Categories } from './pages/products/Categories';
 import { ProductsList } from './pages/products/ProductsList';
-import { ProductsScreen } from './pages/products/ProductsScreen';
+// import { ProductsScreen } from './pages/products/ProductsScreen';
 import './styles/styles.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
