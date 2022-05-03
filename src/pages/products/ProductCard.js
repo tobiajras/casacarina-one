@@ -8,7 +8,7 @@ export const ProductCard = ({ title, price, src }) => {
         <h3>{title}</h3>
       </div>
       <div className='productCard__priceDiv'>
-        <h4>{price}</h4>
+        <h4>${price}</h4>
       </div>
     </div>
   );
