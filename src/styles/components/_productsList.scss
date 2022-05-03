@@ -1,0 +1,14 @@
+
+.productsList__parentDiv {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.2rem;
+  width: 100%;
+}
+
+.productsList__gridDiv{
+  display: grid;
+  width: 100%;
+  gap: 1.2rem;
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,42 +1,42 @@
 export const categoriesData = [
   {
     id: 1,
-    title: "Construcción",
+    title: "construccion",
     src: "construccion.png",
   },
   {
     id: 2,
-    title: "Sanitarios",
+    title: "sanitarios",
     src: "sanitarios.png",
   },
   {
     id: 3,
-    title: "Aberturas",
+    title: "aberturas",
     src: "aberturas.png",
   },
   {
     id: 4,
-    title: "Revestimientos",
+    title: "revestimientos",
     src: "revestimientos.png",
   },
   {
     id: 5,
-    title: "Pinturas",
+    title: "pinturas",
     src: "pinturas.png",
   },
   {
     id: 6,
-    title: "Ferretería",
+    title: "ferreteria",
     src: "ferreteria.png",
   },
   {
     id: 7,
-    title: "Muebles",
+    title: "muebles",
     src: "muebles.png",
   },
   {
     id: 8,
-    title: "Electricidad",
+    title: "electricidad",
     src: "electricidad.png",
   },
 ];

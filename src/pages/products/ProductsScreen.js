@@ -5,7 +5,6 @@ export const ProductsScreen = () => {
   return (
     <div>
       <h1>Products Screen</h1>
-      <Categories />
     </div>
   );
 };
