@@ -373,7 +373,7 @@ export const productos = [
   {
     id: '	CCCC54	',
     category: 'construccion',
-    title: '	BLOQUE TECHO TELGOPOR C/assets/construccionPng/DIBUJO 10X42X1	',
+    title: '	BLOQUE TECHO TELGOPOR c/DIBUJO 10X42X1	',
     price: 225,
     src: '	NO	',
   },
@@ -807,14 +807,14 @@ export const productos = [
   {
     id: '	CCCC116	',
     category: 'construccion',
-    title: '	TANQUE 600L CUATRICAPA C/assets/construccionPng/FLOTANTE ETERNIT	',
+    title: '	TANQUE 600L CUATRICAPA c/FLOTANTE ETERNIT	',
     price: 18400,
     src: '	/assets/construccionPng/Tanque600CuatricapaEternit.png	',
   },
   {
     id: '	CCCC117	',
     category: 'construccion',
-    title: '	TANQUE 1100L CUATRICAPA C/assets/construccionPng/FLOTANTE ETERNIT	',
+    title: '	TANQUE 1100L CUATRICAPA c/FLOTANTE ETERNIT	',
     price: 27990,
     src: '	/assets/construccionPng/Tanque1100CuatricapaEternit.png	',
   },
@@ -933,7 +933,7 @@ export const productos = [
   {
     id: '	CCCC134	',
     category: 'construccion',
-    title: '	GUARDACANTO C/assets/construccionPng/MATERIAL DESPLEGABLE	',
+    title: '	GUARDACANTO C/MATERIAL DESPLEGABLE	',
     price: 220,
     src: '	/assets/construccionPng/GuardacantoConMaterialDesplegable.png	',
   },
@@ -1094,14 +1094,14 @@ export const productos = [
   {
     id: '	CCCC158	',
     category: 'construccion',
-    title: '	Aislante c/assets/construccionPng/Burbuja x 15m	',
+    title: '	Aislante c/Burbuja x 15m	',
     price: 1700,
     src: '	NO	',
   },
   {
     id: '	CCCC159	',
     category: 'construccion',
-    title: '	Aislante c/assets/construccionPng/Burbuja x 30m	',
+    title: '	Aislante c/Burbuja x 30m	',
     price: 3300,
     src: '	NO	',
   },

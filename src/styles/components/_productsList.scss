@@ -9,7 +9,7 @@
 
 .productsList__gridDiv{
   display: grid;
-  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
 }

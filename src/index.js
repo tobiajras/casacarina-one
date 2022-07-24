@@ -6,8 +6,8 @@ import { AboutUs } from './pages/aboutUs/AboutUs';
 import { ContactScreen } from './pages/contact/ContactScreen';
 import { HomeScreen } from './pages/home/HomeScreen';
 import { NotFoundPage } from './pages/NotFoundPage';
-import { Categories } from './pages/products/Categories';
 import { ProductsList } from './pages/products/ProductsList';
+import { ProductsScreen } from './pages/products/ProductsScreen';
 // import { ProductsScreen } from './pages/products/ProductsScreen';
 import './styles/styles.scss';
 
@@ -17,7 +17,7 @@ root.render(
     <Navbar />
     <Routes>
       <Route path='/' element={<HomeScreen />} />
-      <Route path='productos' element={<Categories />} />
+      <Route path='productos' element={<ProductsScreen />} />
       <Route path='productos/:title' element={<ProductsList />} />
       <Route path='nosotros' element={<AboutUs />} />
       <Route path='contacto' element={<ContactScreen />} />
