@@ -1942,7 +1942,7 @@ export const productos = [
   {
     id: '	CCSS48	',
     category: 'sanitarios',
-    title: '	Codo c/assets/sanitariosPng/base Pvc 110 (3.2mm)	',
+    title: '	Codo c/base Pvc 110 (3.2mm)	',
     price: 510,
     src: '	/assets/sanitariosPng/CodoConBase.png	',
   },
@@ -2229,7 +2229,7 @@ export const productos = [
   {
     id: '	CCSS89	',
     category: 'sanitarios',
-    title: '	Codo c/assets/sanitariosPng/base Pvc 100 (1.8mm)	',
+    title: '	Codo c/base Pvc 100 (1.8mm)	',
     price: 290,
     src: '	/assets/sanitariosPng/CodoConBasePvc.png	',
   },
@@ -2600,7 +2600,7 @@ export const productos = [
   {
     id: '	CCSS142	',
     category: 'sanitarios',
-    title: '	Codo c/assets/sanitariosPng/base Awaduct 110	',
+    title: '	Codo c/base Awaduct 110	',
     price: 560,
     src: '	/assets/sanitariosPng/CodoConBaseAwaduct.png	',
   },
