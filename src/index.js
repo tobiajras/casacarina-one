@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar/Navbar';
+import ScrollToTop from './helpers/ScrollToTop';
 import { AboutUs } from './pages/aboutUs/AboutUs';
 import { ContactScreen } from './pages/contact/ContactScreen';
 import { HomeScreen } from './pages/home/HomeScreen';
@@ -15,6 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Navbar />
+    <ScrollToTop />
     <Routes>
       <Route path='/' element={<HomeScreen />} />
       <Route path='productos' element={<ProductsScreen />} />
