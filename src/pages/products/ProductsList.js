@@ -7,11 +7,13 @@ export const ProductsList = () => {
   const products = getElementByCategory(params.title);
   return (
     <div>
-      <img
-        className='productsList__banner'
-        src={`/assets/banners/${params.title}Banner.jpg`}
-        alt='banner'
-      />
+      <div className='productsList__bannerDiv'>
+        <img
+          className='productsList__banner'
+          src={`/assets/banners/${params.title}Banner.jpg`}
+          alt='banner'
+        />
+      </div>
       <div className='productsList__parentDiv'>
         <div className='productsList__gridDiv'>
           {products.map((product) => (
