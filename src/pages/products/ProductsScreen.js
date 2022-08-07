@@ -1,12 +1,12 @@
 import React from 'react';
-import { SearchInput } from '../../components/Search/SearchInput';
+import { SearchFilter } from '../../components/Search/SearchFilter';
 import { Categories } from './Categories';
 
 export const ProductsScreen = () => {
   return (
     <div>
       <h1>Products Screen</h1>
-      <SearchInput />
+      <SearchFilter />
       <Categories />
     </div>
   );
