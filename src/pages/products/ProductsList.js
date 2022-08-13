@@ -6,6 +6,7 @@ import { SearchFilter } from '../../components/Search/SearchFilter';
 
 export const ProductsList = ({ searchValue }) => {
   let params = useParams();
+  console.log(params.title);
   // const products = getElementByCategory(params.title);
   const products = getElementByTitle(searchValue);
   return (

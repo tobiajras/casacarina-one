@@ -4,17 +4,20 @@ import queryString from 'query-string';
 import { ProductsList } from '../../pages/products/ProductsList';
 
 export const SearchFilter = () => {
-  const [searchValue, setSearchValue] = useState('');
-
   const navigate = useNavigate();
   const location = useLocation();
 
   const { q = '' } = queryString.parse(location.search);
-  console.log(q);
+
+  const [searchValue, setSearchValue] = useState(q);
 
   const handleSearch = (e) => {
     e.preventDefault();
     navigate(`?q=${searchValue}`);
+  };
+
+  const handleInputSearch = (e) => {
+    setSearchValue(e.target.value);
   };
 
   return (
@@ -22,7 +25,7 @@ export const SearchFilter = () => {
       <form onSubmit={handleSearch}>
         <input
           value={searchValue}
-          onChange={(e) => setSearchValue(e.target.value)}
+          onChange={handleInputSearch}
           type='text'
           name=''
           id=''
