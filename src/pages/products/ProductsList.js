@@ -1,8 +1,7 @@
-import { getElementByCategory } from '../../selectors/getElementByCategory';
+// import { getElementByCategory } from '../../selectors/getElementByCategory';
 import { getElementByTitle } from '../../selectors/getElementByTitle';
 import { useParams } from 'react-router-dom';
 import { ProductCard } from './ProductCard';
-import { SearchFilter } from '../../components/Search/SearchFilter';
 
 export const ProductsList = ({ searchValue }) => {
   let params = useParams();
