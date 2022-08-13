@@ -1,0 +1,28 @@
+.searchFilter__div {
+}
+
+.searchFilter__form{
+  width: 100%;
+  background-color: $primary;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+ 
+}
+
+.searchFilter__input {
+  background-color: transparent;
+  color: white;
+  flex: 1;
+  border: 0;
+  outline: none;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.765);
+  }
+}
+
+.searchFilter__icon {
+  font-size: 1rem;
+  color: white;
+}
