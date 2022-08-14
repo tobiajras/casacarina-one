@@ -1,15 +1,34 @@
 // import { getElementByCategory } from '../../selectors/getElementByCategory';
 import { getElementByTitle } from '../../selectors/getElementByTitle';
-import { useParams } from 'react-router-dom';
+import { getElementByCategory } from '../../selectors/getElementByCategory';
+import { useLocation } from 'react-router-dom';
 import { ProductCard } from './ProductCard';
+import { useState, useEffect } from 'react';
 
-export const ProductsList = ({ searchValue }) => {
-  let params = useParams();
-  console.log(params.title);
-  // const products = getElementByCategory(params.title);
-  const products = getElementByTitle(searchValue);
+import queryString from 'query-string';
+import { SearchFilter } from '../../components/Search/SearchFilter';
+
+export const ProductsList = () => {
+  const location = useLocation();
+  const { q = '' } = queryString.parse(location.search);
+  const { c = '' } = queryString.parse(location.search);
+
+  useEffect(() => {
+    if (c !== '') {
+      setProducts(getElementByCategory(c));
+    }
+  }, [c]);
+
+  useEffect(() => {
+    if (q !== '') {
+      setProducts(getElementByTitle(q));
+    }
+  }, [q]);
+
+  const [products, setProducts] = useState([]);
   return (
     <div>
+      <SearchFilter />
       {/* <div className='productsList__bannerDiv'>
         <img
           className='productsList__banner'

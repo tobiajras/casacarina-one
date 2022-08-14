@@ -20,7 +20,7 @@ root.render(
     <Routes>
       <Route path='/' element={<HomeScreen />} />
       <Route path='productos' element={<ProductsScreen />} />
-      <Route path='productos/:title' element={<ProductsList />} />
+      <Route path='productos/busqueda' element={<ProductsList />} />
       <Route path='nosotros' element={<AboutUs />} />
       <Route path='contacto' element={<ContactScreen />} />
       <Route path='*' element={<NotFoundPage />} />

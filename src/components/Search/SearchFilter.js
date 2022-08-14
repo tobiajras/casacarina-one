@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import queryString from 'query-string';
-import { ProductsList } from '../../pages/products/ProductsList';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -16,7 +15,7 @@ export const SearchFilter = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    navigate(`?q=${searchValue}`);
+    navigate(`/productos/busqueda?q=${searchValue}`);
   };
 
   const handleInputSearch = (e) => {
@@ -34,7 +33,7 @@ export const SearchFilter = () => {
             type='text'
             name=''
             id=''
-            placeholder='Arena...'
+            placeholder='Cemento...'
             autoComplete='none'
           />
           <FontAwesomeIcon
@@ -43,7 +42,6 @@ export const SearchFilter = () => {
           />
         </form>
       </div>
-      <ProductsList searchValue={searchValue} />
     </div>
   );
 };
