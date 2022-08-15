@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Footer } from './components/Footer/Footer';
 import { Navbar } from './components/Navbar/Navbar';
 import ScrollToTop from './helpers/ScrollToTop';
 import { AboutUs } from './pages/aboutUs/AboutUs';
@@ -25,5 +26,6 @@ root.render(
       <Route path='contacto' element={<ContactScreen />} />
       <Route path='*' element={<NotFoundPage />} />
     </Routes>
+    <Footer />
   </BrowserRouter>
 );

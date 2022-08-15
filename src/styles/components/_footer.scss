@@ -1,44 +1,72 @@
 .footer__divParent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.fa-brands {
-  color: black;
-  width: 100px;
-  height: 100px;
+  background-color: $primary;
+  padding: 1rem;
 }
 
 .footer__firstDiv {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.footer__firstDiv span {
+  color: white;
+  font-family: $poppins;
+}
+
+.footer__casacarinaLogo{
+  width: 10rem;
+}
+
+.footer__secondDiv h4 {
+  color: white;
+}
+
+.footer__menuDiv{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.footer__linksMenu {
+  color: white;
+  text-decoration: none;
+  font-family: $poppins;
+}
+
+.footer__thirdtDiv {
+  width: 100%;
+}
+
+.footer__thirdtDiv h4 {
+  color: white;
+}
+
+.footer__iconsDiv {
+  padding: 1rem 0;
+}
+
+.footer__icons {
+  font-size: 2rem;
+  color: white;
+  padding-right: 1rem;
+}
+
+.footer__h4 {
+  font-family: $poppins;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.footer__copyDiv {
+  background-color: $dark-grey;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
-.footer__secondDiv {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.footer__childSecondDiv {
-  display: flex;
-  justify-content: center;
-}
-
-.footer__img {
-  width: 100%;
-}
-
-.footer__thirdDiv {
-  flex: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.footer__copyDiv h5 {
+  padding: 0.2rem;
+  color: white;
+  font-size: 1rem;
 }
