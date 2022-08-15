@@ -17,30 +17,30 @@ export const Footer = () => {
             alt='casacarinaLogo'
             className='footer__casacarinaLogo'
           />
+          <span>Homero 2762, entre Zuberoa y Bayona</span>
+          <span>Lomas de Zamora</span>
           <span>4273-1474</span>
           <span>7500-8000</span>
         </div>
         <div className='footer__secondDiv'>
           <h4 className='footer__h4'>MENU</h4>
-          <hr />
           <div className='footer__menuDiv'>
             <Link to={'/'} className='footer__linksMenu'>
-              Inicio
+              > Inicio
             </Link>
             <Link to={'productos'} className='footer__linksMenu'>
-              Productos
+              > Productos
             </Link>
             <Link to={'nosotros'} className='footer__linksMenu'>
-              Nosotros
+              > Nosotros
             </Link>
             <Link to={'contacto'} className='footer__linksMenu'>
-              Contacto
+              > Contacto
             </Link>
           </div>
         </div>
         <div className='footer__thirdtDiv'>
           <h4 className='footer__h4'>REDES</h4>
-          <hr />
           <div className='footer__iconsDiv'>
             <a
               href='https://wa.me/5491135560618/?text=Hola, queria solicitar lista de precios. Gracias'
