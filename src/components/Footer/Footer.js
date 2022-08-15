@@ -45,13 +45,22 @@ export const Footer = () => {
             <a
               href='https://wa.me/5491135560618/?text=Hola, queria solicitar lista de precios. Gracias'
               target='_blank'
+              rel='noopener noreferrer'
             >
               <FontAwesomeIcon className='footer__icons' icon={faWhatsapp} />
             </a>
-            <a href='https://www.facebook.com/CasaCarinaLomas/' target='_blank'>
+            <a
+              href='https://www.facebook.com/CasaCarinaLomas/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FontAwesomeIcon className='footer__icons' icon={faFacebook} />
             </a>
-            <a href='https://www.instagram.com/casacarinaok' target='_blank'>
+            <a
+              href='https://www.instagram.com/casacarinaok'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FontAwesomeIcon className='footer__icons' icon={faInstagram} />
             </a>
           </div>
