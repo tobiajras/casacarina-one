@@ -44,7 +44,15 @@ export const ProductsList = () => {
     if (q !== '') {
       setProducts(
         data.filter((oneData) =>
-          oneData.DESCRIPCION.toLowerCase().includes(q.toLowerCase())
+          oneData.DESCRIPCION.toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .includes(
+              q
+                .toLowerCase()
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+            )
         )
       );
     }
@@ -73,3 +81,8 @@ export const ProductsList = () => {
     </div>
   );
 };
+
+const prueba = 'construcción';
+const prueba2 = prueba.normalize('NFKD');
+console.log(prueba);
+console.log(prueba2);
