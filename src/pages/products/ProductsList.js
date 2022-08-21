@@ -34,7 +34,14 @@ export const ProductsList = () => {
     if (c !== '') {
       setProducts(
         data.filter(
-          (oneData) => oneData.LISTA.toLowerCase() === c.toLowerCase()
+          (oneData) =>
+            oneData.LISTA.toLowerCase()
+              .normalize('NFD')
+              .replace(/[\u0300-\u036f]/g, '') ===
+            c
+              .toLowerCase()
+              .normalize('NFD')
+              .replace(/[\u0300-\u036f]/g, '')
         )
       );
     }
@@ -61,28 +68,36 @@ export const ProductsList = () => {
   console.log(products);
   console.log(isLoading);
 
-  return (
-    <div>
-      <SearchFilter />
-      {/* <div className='productsList__bannerDiv'>
+  if (isLoading) {
+    return (
+      <div>
+        <h4>Cargando...</h4>
+      </div>
+    );
+  } else if (products.length >= 1) {
+    return (
+      <div>
+        <SearchFilter />
+        {/* <div className='productsList__bannerDiv'>
         <img
           className='productsList__banner'
           src={`/assets/banners/${params.title}Banner.jpg`}
           alt='banner'
         />
       </div> */}
-      <div className='productsList__parentDiv'>
-        <div className='productsList__gridDiv'>
-          {products.map((product) => (
-            <ProductCard key={product.CODIGO} {...product} />
-          ))}
+        <div className='productsList__parentDiv'>
+          <div className='productsList__gridDiv'>
+            {products.map((product) => (
+              <ProductCard key={product.CODIGO} {...product} />
+            ))}
+          </div>
         </div>
       </div>
+    );
+  }
+  return (
+    <div>
+      <h4>Sin resultados</h4>
     </div>
   );
 };
-
-const prueba = 'construcción';
-const prueba2 = prueba.normalize('NFKD');
-console.log(prueba);
-console.log(prueba2);

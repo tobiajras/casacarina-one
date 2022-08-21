@@ -13,7 +13,7 @@ export const ProductCard = ({ DESCRIPCION, PRECIO, SRC }) => {
           <h3>${PRECIO}</h3>
         </div>
         <div className='productCard__titleDiv'>
-          <h4>{DESCRIPCION}</h4>
+          <h4>{DESCRIPCION.substring(0, 45)}</h4>
         </div>
       </div>
     </div>
