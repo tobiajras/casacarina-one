@@ -1,7 +1,0 @@
-import { productos } from '../data/productosData';
-
-export const getElementByTitle = (title) => {
-  return productos.filter((producto) =>
-    producto.title.toLowerCase().includes(title.toLowerCase())
-  );
-};
