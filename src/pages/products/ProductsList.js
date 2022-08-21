@@ -30,7 +30,7 @@ export const ProductsList = () => {
       setIsLoading(false);
     };
     getProducts();
-  }, []);
+  }, [q]);
 
   const getByCategory = (data) => {
     if (c !== '') {
