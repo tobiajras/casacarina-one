@@ -14,8 +14,6 @@ export const ProductsList = () => {
   const location = useLocation();
   const { q = '' } = queryString.parse(location.search);
   const { c = '' } = queryString.parse(location.search);
-  const ubicacion = queryString.parse(location.search);
-  console.log(ubicacion);
 
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -30,7 +28,7 @@ export const ProductsList = () => {
       setIsLoading(false);
     };
     getProducts();
-  }, [q]);
+  }, [q]); //  eslint-disable-line react-hooks/exhaustive-deps
 
   const getByCategory = (data) => {
     if (c !== '') {
