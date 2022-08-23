@@ -253,7 +253,7 @@
     "PRECIO": "570",
     "TAG": "Materiales",
     "LISTA": "Construccion",
-    "SRC": "/AlambraFardo1.png"
+    "SRC": "/AlambreFardo1.png"
   },
   {
     "CODIGO": "CCCC34",
@@ -277,7 +277,7 @@
     "PRECIO": "25",
     "TAG": "Materiales",
     "LISTA": "Construccion",
-    "SRC": "/BolsaVaciaEscombro.png"
+    "SRC": "/BolsaVaciaEscombros.png"
   },
   {
     "CODIGO": "CCCC37",
@@ -937,7 +937,7 @@
   },
   {
     "CODIGO": "CCCC124",
-    "DESCRIPCION": "Base de Tanque 1.10 Fib�n",
+    "DESCRIPCION": "Base de Tanque 1.10 Fibón",
     "PRECIO": "4200",
     "TAG": "Materiales",
     "LISTA": "Construccion",
@@ -1329,11 +1329,11 @@
   },
   {
     "CODIGO": "CCCC185",
-    "DESCRIPCION": "Bu�a Perimetral Blanca (2.60m)",
+    "DESCRIPCION": "Buña Perimetral Blanca (2.60m)",
     "PRECIO": "470",
     "TAG": "Materiales",
     "LISTA": "Construccion",
-    "SRC": "/Bu�aPerimetralBlanca.png"
+    "SRC": "/BuñaPerimetralBlanca.png"
   },
   {
     "CODIGO": "CCCC186",
@@ -8299,7 +8299,7 @@
     "TAG": "",
     "MARCA": "",
     "LISTA PROVEEDOR": "FRANCO FIA",
-    "COD PROVEEDOR": "ZIN.CA�.0000011",
+    "COD PROVEEDOR": "ZIN.CAÑ.0000011",
     "LISTA": "SANITARIOS",
     "SRC": "/Caño1Zingueria.png"
   },

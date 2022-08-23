@@ -5,7 +5,7 @@ export const ProductCard = ({ DESCRIPCION, PRECIO, SRC }) => {
         <img
           className='productCard__img'
           src={`/assets/productos${SRC}`}
-          alt=''
+          alt='imagenProducto'
         />
       </div>
       <div className='productCard__details'>

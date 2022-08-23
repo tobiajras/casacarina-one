@@ -6,6 +6,7 @@ import {
   faInstagram,
   faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 export const Footer = () => {
   return (
@@ -26,16 +27,16 @@ export const Footer = () => {
           <h4 className='footer__h4'>MENU</h4>
           <div className='footer__menuDiv'>
             <Link to={'/'} className='footer__linksMenu'>
-              > Inicio
+              <FontAwesomeIcon icon={faAngleRight} /> Inicio
             </Link>
             <Link to={'productos'} className='footer__linksMenu'>
-              > Productos
+              <FontAwesomeIcon icon={faAngleRight} /> Productos
             </Link>
             <Link to={'nosotros'} className='footer__linksMenu'>
-              > Nosotros
+              <FontAwesomeIcon icon={faAngleRight} /> Nosotros
             </Link>
             <Link to={'contacto'} className='footer__linksMenu'>
-              > Contacto
+              <FontAwesomeIcon icon={faAngleRight} /> Contacto
             </Link>
           </div>
         </div>

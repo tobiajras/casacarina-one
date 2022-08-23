@@ -1,0 +1,25 @@
+.autoCarousel2__parentDiv {
+  width: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes animation {
+  0% {
+  }
+  100% {
+    transform: translateX(-50vw);
+  }
+}
+
+.autoCarousel2__div {
+  animation: animation 5s linear infinite;
+  width: 100%;
+
+  img {
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
+
