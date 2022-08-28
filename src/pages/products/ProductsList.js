@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { ProductCard } from './ProductCard';
 import { useState, useEffect } from 'react';
 
@@ -15,63 +15,37 @@ import axios from 'axios';
 
 export const ProductsList = () => {
   const location = useLocation();
-  const { q = '' } = queryString.parse(location.search);
-  const { c = '' } = queryString.parse(location.search);
+  const navigate = useNavigate();
+  const { q = '' } = queryString.parse(location.search); // search query
+  const { c = '' } = queryString.parse(location.search); // category query
+  const { i = 0 } = queryString.parse(location.search); // index query (pagination)
+  const indexPage = parseInt(i); // queryParam i (string) to a number
 
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(0);
-  const productsForPage = 20;
+  const productsPerPage = 20;
+  const search = location.search;
 
-  const filteredProducts = () => {
-    return products.slice(currentPage, currentPage + productsForPage);
-  };
-
-  const previousPage = () => {
-    if (currentPage > 0) setCurrentPage(currentPage - productsForPage);
-  };
-
-  const nextPage = () => {
-    if (products.length > currentPage + productsForPage)
-      setCurrentPage(currentPage + productsForPage);
-  };
-
-  console.log(currentPage);
-  console.log(productsForPage);
   useEffect(() => {
     setIsLoading(true);
     const getProducts = async () => {
       const res = await axios.get('/casacarinaDataProductos.json');
       const { data } = res;
-      getByCategory(data);
-      getByDescription(data);
-      setCurrentPage(0);
+      filterData(q, c, data).then(
+        setProducts((products) =>
+          products.slice(indexPage, indexPage + productsPerPage)
+        )
+      );
       setIsLoading(false);
     };
     getProducts();
-  }, [q]); //  eslint-disable-line react-hooks/exhaustive-deps
+  }, [search]); //  eslint-disable-line react-hooks/exhaustive-deps
 
-  const getByCategory = (data) => {
-    if (c !== '') {
-      setProducts(
-        data.filter(
-          (oneData) =>
-            oneData.LISTA.toLowerCase()
-              .normalize('NFD')
-              .replace(/[\u0300-\u036f]/g, '') ===
-            c
-              .toLowerCase()
-              .normalize('NFD')
-              .replace(/[\u0300-\u036f]/g, '')
-        )
-      );
-    }
-  };
-
-  const getByDescription = (data) => {
+  const filterData = (q, c, dataFetch) => {
     if (q !== '') {
       setProducts(
-        data.filter((oneData) =>
+        dataFetch.filter((oneData) =>
           oneData.DESCRIPCION.toLowerCase()
             .normalize('NFD')
             .replace(/[\u0300-\u036f]/g, '')
@@ -83,16 +57,43 @@ export const ProductsList = () => {
             )
         )
       );
+    } else if (c !== '') {
+      setProducts(
+        dataFetch.filter(
+          (oneData) =>
+            oneData.LISTA.toLowerCase()
+              .normalize('NFD')
+              .replace(/[\u0300-\u036f]/g, '') ===
+            c
+              .toLowerCase()
+              .normalize('NFD')
+              .replace(/[\u0300-\u036f]/g, '')
+        )
+      );
+    }
+    return new Promise((resolve) => {
+      resolve(dataFetch);
+    });
+  };
+
+  const previousPage = () => {
+    if (currentPage > 0) {
+      setCurrentPage(currentPage - productsPerPage);
+      navigate(`/productos/busqueda?q=${q}&c=${c}&i=${currentPage - 20}`);
     }
   };
 
-  console.log(products);
-  console.log(isLoading);
+  const nextPage = () => {
+    if (products.length === productsPerPage) {
+      setCurrentPage(currentPage + productsPerPage);
+      navigate(`/productos/busqueda?q=${q}&c=${c}&i=${currentPage + 20}`);
+    }
+  };
 
   if (isLoading) {
     return (
       <div>
-        <h4>Cargando...</h4>
+        <h4>Loading...</h4>
       </div>
     );
   } else if (products.length >= 1) {
@@ -108,7 +109,7 @@ export const ProductsList = () => {
       </div> */}
         <div className='productsList__parentDiv'>
           <div className='productsList__gridDiv'>
-            {filteredProducts().map((product) => (
+            {products.map((product) => (
               <ProductCard key={product.CODIGO} {...product} />
             ))}
           </div>
@@ -126,7 +127,7 @@ export const ProductsList = () => {
   }
   return (
     <div>
-      <h4>Sin resultados</h4>
+      <h4>No results</h4>
     </div>
   );
 };

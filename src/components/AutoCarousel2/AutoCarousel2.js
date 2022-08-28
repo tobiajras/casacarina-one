@@ -1,4 +1,4 @@
-import './carouselCss.css';
+import './autoCarousel2.scss';
 
 export const AutoCarousel2 = () => {
   return (

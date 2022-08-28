@@ -1021,7 +1021,7 @@
     "PRECIO": "220",
     "TAG": "Materiales",
     "LISTA": "Construccion",
-    "SRC": "/GuardacantoConMaterialDesplegable.png"
+    "SRC": "/GuardacantoConMetalDesplegable.png"
   },
   {
     "CODIGO": "CCCC135",
@@ -1277,7 +1277,7 @@
     "PRECIO": "540",
     "TAG": "Materiales",
     "LISTA": "Construccion",
-    "SRC": "/SoleraGalv35.png"
+    "SRC": "/SoleraGalv.png"
   },
   {
     "CODIGO": "CCCC179",
@@ -1285,7 +1285,7 @@
     "PRECIO": "620",
     "TAG": "Materiales",
     "LISTA": "Construccion",
-    "SRC": "/MontanteGalv35.png"
+    "SRC": "/MontanteGalv.png"
   },
   {
     "CODIGO": "CCCC180",
@@ -1293,7 +1293,7 @@
     "PRECIO": "730",
     "TAG": "Materiales",
     "LISTA": "Construccion",
-    "SRC": "/SoleraGalv70.png"
+    "SRC": "/SoleraGalv.png"
   },
   {
     "CODIGO": "CCCC181",
@@ -1301,7 +1301,7 @@
     "PRECIO": "800",
     "TAG": "Materiales",
     "LISTA": "Construccion",
-    "SRC": "/MontanteGalv69.png"
+    "SRC": "/MontanteGalv.png"
   },
   {
     "CODIGO": "CCCC182",
@@ -2229,7 +2229,7 @@
     "LISTA PROVEEDOR": "",
     "COD PROVEEDOR": "",
     "LISTA": "SANITARIOS",
-    "SRC": "/CodoConBase.png"
+    "SRC": "/CodoConBasePvc.png"
   },
   {
     "CODIGO": "CCSS49",
@@ -3777,7 +3777,7 @@
     "LISTA PROVEEDOR": "FRANCO FIA",
     "COD PROVEEDOR": "AWA.CAÑ.2275",
     "LISTA": "SANITARIOS",
-    "SRC": "/CañoCamaraAntiplagaAwaduct.png"
+    "SRC": "/CañoCamaraAntiplagaAwaductHH.png"
   },
   {
     "CODIGO": "CCSS178",
@@ -4113,7 +4113,7 @@
     "LISTA PROVEEDOR": "CASA FERNANDES",
     "COD PROVEEDOR": "2250",
     "LISTA": "SANITARIOS",
-    "SRC": "/AdaptadorInodoroAInodoroAwaduct.png"
+    "SRC": "/AdaptadorInodoroAwaduct.png"
   },
   {
     "CODIGO": "CCSS206",
@@ -4125,7 +4125,7 @@
     "LISTA PROVEEDOR": "CASA FERNANDES",
     "COD PROVEEDOR": "2251",
     "LISTA": "SANITARIOS",
-    "SRC": "/AdaptadorInodoroAInodoroAwaduct.png"
+    "SRC": "/AdaptadorInodoroAwaduct.png"
   },
   {
     "CODIGO": "CCSS207",
@@ -4293,7 +4293,7 @@
     "LISTA PROVEEDOR": "TREBOL",
     "COD PROVEEDOR": "50035",
     "LISTA": "SANITARIOS",
-    "SRC": "/RoscaConTuercaPpng.png"
+    "SRC": "/RoscaConTuercaPpn.png"
   },
   {
     "CODIGO": "CCSS221",
@@ -4305,7 +4305,7 @@
     "LISTA PROVEEDOR": "TREBOL",
     "COD PROVEEDOR": "50036",
     "LISTA": "SANITARIOS",
-    "SRC": "/RoscaConTuercaPpng.png"
+    "SRC": "/RoscaConTuercaPpn.png"
   },
   {
     "CODIGO": "CCSS222",
@@ -4317,7 +4317,7 @@
     "LISTA PROVEEDOR": "TREBOL",
     "COD PROVEEDOR": "50037",
     "LISTA": "SANITARIOS",
-    "SRC": "/RoscaConTuercaPpng.png"
+    "SRC": "/RoscaConTuercaPpn.png"
   },
   {
     "CODIGO": "CCSS223",
@@ -4329,7 +4329,7 @@
     "LISTA PROVEEDOR": "TREBOL",
     "COD PROVEEDOR": "50040",
     "LISTA": "SANITARIOS",
-    "SRC": "/RoscaConTuercaPpng.png"
+    "SRC": "/RoscaConTuercaPpn.png"
   },
   {
     "CODIGO": "CCSS224",
@@ -5829,7 +5829,7 @@
     "LISTA PROVEEDOR": "CASA FERNANDES",
     "COD PROVEEDOR": "100017972",
     "LISTA": "SANITARIOS",
-    "SRC": "/UnioDobleFusion.png"
+    "SRC": "/UnionDobleFusion.png"
   },
   {
     "CODIGO": "CCSS352",
@@ -5841,7 +5841,7 @@
     "LISTA PROVEEDOR": "CASA FERNANDES",
     "COD PROVEEDOR": "100017973",
     "LISTA": "SANITARIOS",
-    "SRC": "/UnioDobleFusion.png"
+    "SRC": "/UnionDobleFusion.png"
   },
   {
     "CODIGO": "CCSS353",
@@ -5853,7 +5853,7 @@
     "LISTA PROVEEDOR": "CASA FERNANDES",
     "COD PROVEEDOR": "100017974",
     "LISTA": "SANITARIOS",
-    "SRC": "/UnioDobleFusion.png"
+    "SRC": "/UnionDobleFusion.png"
   },
   {
     "CODIGO": "CCSS354",
@@ -6321,7 +6321,7 @@
     "LISTA PROVEEDOR": "CASA FERNANDES",
     "COD PROVEEDOR": "60-361020000",
     "LISTA": "SANITARIOS",
-    "SRC": "/MonturaReparacion.png"
+    "SRC": "/MonturaReparacionSigas.png"
   },
   {
     "CODIGO": "CCSS408",
@@ -6333,7 +6333,7 @@
     "LISTA PROVEEDOR": "CASA FERNANDES",
     "COD PROVEEDOR": "60-361025000",
     "LISTA": "SANITARIOS",
-    "SRC": "/MonturaReparacion.png"
+    "SRC": "/MonturaReparacionSigas.png"
   },
   {
     "CODIGO": "CCSS409",
@@ -6345,7 +6345,7 @@
     "LISTA PROVEEDOR": "CASA FERNANDES",
     "COD PROVEEDOR": "60-361032000",
     "LISTA": "SANITARIOS",
-    "SRC": "/MonturaReparacion.png"
+    "SRC": "/MonturaReparacionSigas.png"
   },
   {
     "CODIGO": "CCSS410",
@@ -6789,7 +6789,7 @@
     "LISTA PROVEEDOR": "FRANCO FIA",
     "COD PROVEEDOR": "BRO.CUR.01621",
     "LISTA": "SANITARIOS",
-    "SRC": "/Curva45BronceHH.png"
+    "SRC": "/Curva45Bronce.png"
   },
   {
     "CODIGO": "CCSS447",
@@ -6801,7 +6801,7 @@
     "LISTA PROVEEDOR": "FRANCO FIA",
     "COD PROVEEDOR": "BRO.CUR.01622",
     "LISTA": "SANITARIOS",
-    "SRC": "/Curva45BronceHH.png"
+    "SRC": "/Curva45Bronce.png"
   },
   {
     "CODIGO": "CCSS448",
@@ -6813,7 +6813,7 @@
     "LISTA PROVEEDOR": "FRANCO FIA",
     "COD PROVEEDOR": "BRO.CUR.01623",
     "LISTA": "SANITARIOS",
-    "SRC": "/Curva45BronceHH.png"
+    "SRC": "/Curva45Bronce.png"
   },
   {
     "CODIGO": "CCSS449",
@@ -13721,15 +13721,6 @@
     "SRC": "/MicolorIntLavableNetcolor.png"
   },
   {
-    "CODIGO": "CCPP67",
-    "DESCRIPCION": "Látex Interior Acrilico Micolor 4l",
-    "MEDIDA": "4l",
-    "PRECIO": "1820",
-    "PROVEEDOR": "Micolor",
-    "LISTA": "Pinturas",
-    "SRC": ""
-  },
-  {
     "CODIGO": "CCPP70",
     "DESCRIPCION": "Látex Chau Bacteria Netcolor 4l",
     "MEDIDA": "4l",
@@ -16054,393 +16045,1554 @@
   {
     "CODIGO": "CCMB1",
     "DESCRIPCION": "Bajo Mesada 1.20m Negro Vetas",
-    "PRECIO": "",
+    "PRECIO": "31600",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada2PuertasNegroVetas.png"
   },
   {
     "CODIGO": "CCMB2",
     "DESCRIPCION": "Alacena 1.20m Negro Vetas",
-    "PRECIO": "",
+    "PRECIO": "24800",
     "LISTA": "Muebleria",
     "SRC": "/Alacena3PuertasNegroVetas.png"
   },
   {
     "CODIGO": "CCMB3",
     "DESCRIPCION": "Bajo Mesada 1.20m Blanco",
-    "PRECIO": "",
+    "PRECIO": "31600",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada2PuertasBlanco.png"
   },
   {
     "CODIGO": "CCMB4",
     "DESCRIPCION": "Alacena 1.20m Blanco",
-    "PRECIO": "",
+    "PRECIO": "24800",
     "LISTA": "Muebleria",
     "SRC": "/Alacena3PuertasBlanco.png"
   },
   {
     "CODIGO": "CCMB5",
     "DESCRIPCION": "Bajo Mesada 1.20m Ciliegio",
-    "PRECIO": "",
+    "PRECIO": "31600",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada2PuertasCiliegio.png"
   },
   {
     "CODIGO": "CCMB6",
     "DESCRIPCION": "Alacena 1.20m Ciliegio",
-    "PRECIO": "",
+    "PRECIO": "24800",
     "LISTA": "Muebleria",
     "SRC": "/Alacena3PuertasCiliegio.png"
   },
   {
     "CODIGO": "CCMB7",
     "DESCRIPCION": "Bajo Mesada 1.40m Negro Vetas",
-    "PRECIO": "",
+    "PRECIO": "36300",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada2PuertasNegroVetas.png"
   },
   {
     "CODIGO": "CCMB8",
     "DESCRIPCION": "Alacena 1.40m Negro Vetas",
-    "PRECIO": "",
+    "PRECIO": "29700",
     "LISTA": "Muebleria",
     "SRC": "/Alacena3PuertasNegroVetas.png"
   },
   {
     "CODIGO": "CCMB9",
     "DESCRIPCION": "Bajo Mesada 1.40m Blanco",
-    "PRECIO": "",
+    "PRECIO": "36300",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada2PuertasBlanco.png"
   },
   {
     "CODIGO": "CCMB10",
     "DESCRIPCION": "Alacena 1.40m Blanco",
-    "PRECIO": "",
+    "PRECIO": "29700",
     "LISTA": "Muebleria",
     "SRC": "/Alacena3PuertasBlanco.png"
   },
   {
     "CODIGO": "CCMB11",
     "DESCRIPCION": "Bajo Mesada 1.40m Ciliegio",
-    "PRECIO": "",
+    "PRECIO": "36300",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada2PuertasCiliegio.png"
   },
   {
     "CODIGO": "CCMB12",
     "DESCRIPCION": "Alacena 1.40m Ciliegio",
-    "PRECIO": "",
+    "PRECIO": "29700",
     "LISTA": "Muebleria",
     "SRC": "/Alacena3PuertasCiliegio.png"
   },
   {
     "CODIGO": "CCMB13",
     "DESCRIPCION": "Bajo Mesada 1.60m Negro Vetas",
-    "PRECIO": "",
+    "PRECIO": "42300",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada3PuertasNegroVetas.png"
   },
   {
     "CODIGO": "CCMB14",
     "DESCRIPCION": "Alacena 1.60m Negro Vetas",
-    "PRECIO": "",
+    "PRECIO": "35900",
     "LISTA": "Muebleria",
     "SRC": "/Alacena4PuertasNegroVetas.png"
   },
   {
     "CODIGO": "CCMB15",
     "DESCRIPCION": "Bajo Mesada 1.60m Blanco",
-    "PRECIO": "",
+    "PRECIO": "42300",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada3PuertasBlanco.png"
   },
   {
     "CODIGO": "CCMB16",
     "DESCRIPCION": "Alacena 1.60m Blanco",
-    "PRECIO": "",
+    "PRECIO": "35900",
     "LISTA": "Muebleria",
     "SRC": "/Alacena4PuertasBlanco.png"
   },
   {
     "CODIGO": "CCMB17",
     "DESCRIPCION": "Bajo Mesada 1.60m Ciliegio",
-    "PRECIO": "",
+    "PRECIO": "42300",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada3PuertasCiliegio.png"
   },
   {
     "CODIGO": "CCMB18",
     "DESCRIPCION": "Alacena 1.60m Ciliegio",
-    "PRECIO": "",
+    "PRECIO": "35900",
     "LISTA": "Muebleria",
     "SRC": "/Alacena4PuertasCiliegio.png"
   },
   {
     "CODIGO": "CCMB19",
     "DESCRIPCION": "Bajo Mesada 1.80m Negro Vetas",
-    "PRECIO": "",
+    "PRECIO": "44500",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada3PuertasNegroVetas.png"
   },
   {
     "CODIGO": "CCMB20",
     "DESCRIPCION": "Alacena 1.80m Negro Vetas",
-    "PRECIO": "",
+    "PRECIO": "37900",
     "LISTA": "Muebleria",
     "SRC": "/Alacena4PuertasNegroVetas.png"
   },
   {
     "CODIGO": "CCMB21",
     "DESCRIPCION": "Bajo Mesada 1.80m Blanco",
-    "PRECIO": "",
+    "PRECIO": "44500",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada3PuertasBlanco.png"
   },
   {
     "CODIGO": "CCMB22",
     "DESCRIPCION": "Alacena 1.80m Blanco",
-    "PRECIO": "",
+    "PRECIO": "37900",
     "LISTA": "Muebleria",
     "SRC": "/Alacena4PuertasBlanco.png"
   },
   {
     "CODIGO": "CCMB23",
     "DESCRIPCION": "Bajo Mesada 1.80m Ciliegio",
-    "PRECIO": "",
+    "PRECIO": "44500",
     "LISTA": "Muebleria",
     "SRC": "/Bajomesada3PuertasCiliegio.png"
   },
   {
     "CODIGO": "CCMB24",
     "DESCRIPCION": "Alacena 1.80m Ciliegio",
-    "PRECIO": "",
+    "PRECIO": "37900",
     "LISTA": "Muebleria",
     "SRC": "/Alacena4PuertasCiliegio.png"
   },
   {
     "CODIGO": "CCMB25",
     "DESCRIPCION": "Escritorio Gamer 1.20m Negro",
-    "PRECIO": "",
+    "PRECIO": "14000",
     "LISTA": "Muebleria",
     "SRC": "/escritorioGamer120Negro.png"
   },
   {
     "CODIGO": "CCMB26",
     "DESCRIPCION": "Escritorio Gamer 1.00m Negro y Verde",
-    "PRECIO": "",
+    "PRECIO": "12000",
     "LISTA": "Muebleria",
     "SRC": "/EscritorioGamer100NegroVerde.png"
   },
   {
     "CODIGO": "CCMB27",
     "DESCRIPCION": "Escritorio Oficina 85cm Blanco",
-    "PRECIO": "",
+    "PRECIO": "8900",
     "LISTA": "Muebleria",
     "SRC": "/escritorioOficina85Blanco.png"
   },
   {
     "CODIGO": "CCMB28",
     "DESCRIPCION": "Escritorio Oficina 100cm Marron",
-    "PRECIO": "",
+    "PRECIO": "10500",
     "LISTA": "Muebleria",
     "SRC": "/escritorioOficina100Marron.png"
   },
   {
     "CODIGO": "CCMB29",
     "DESCRIPCION": "Escritorio Esquinero 80cm",
-    "PRECIO": "",
+    "PRECIO": "8500",
     "LISTA": "Muebleria",
     "SRC": "/EscritorioEsquinero80.png"
   },
   {
     "CODIGO": "CCMB30",
     "DESCRIPCION": "Escritorio Cajonera 75cm",
-    "PRECIO": "",
+    "PRECIO": "6500",
     "LISTA": "Muebleria",
     "SRC": "/escritorioCajonera75.png"
   },
   {
     "CODIGO": "CCMB31",
     "DESCRIPCION": "Mesa de Luz c/Cajon",
-    "PRECIO": "",
+    "PRECIO": "4900",
     "LISTA": "Muebleria",
     "SRC": "/MesaLuzCajon.png"
   },
   {
     "CODIGO": "CCMB32",
     "DESCRIPCION": "Cubo Flotante Gris",
-    "PRECIO": "",
+    "PRECIO": "1300",
     "LISTA": "Muebleria",
     "SRC": "/CuboFlotanteGris.png"
   },
   {
     "CODIGO": "CCMB33",
     "DESCRIPCION": "Cubo Flotante Rojo",
-    "PRECIO": "",
+    "PRECIO": "1300",
     "LISTA": "Muebleria",
     "SRC": "/CuboFlotanteRojo.png"
   },
   {
     "CODIGO": "CCMB34",
     "DESCRIPCION": "Colchón Soñar 80x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "25600",
     "LISTA": "Muebleria",
     "SRC": "/ColchonSoñar80x190Cannon.png"
   },
   {
     "CODIGO": "CCMB35",
     "DESCRIPCION": "Colchón Soñar 100x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "30400",
     "LISTA": "Muebleria",
     "SRC": "/ColchonSoñar100x190Cannon.png"
   },
   {
     "CODIGO": "CCMB36",
     "DESCRIPCION": "Colchón Soñar 140x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "40200",
     "LISTA": "Muebleria",
     "SRC": "/ColchonSoñar140x190Cannon.png"
   },
   {
     "CODIGO": "CCMB37",
     "DESCRIPCION": "Colchón Princess23 80x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "27300",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPrincess2380x190Cannon.png"
   },
   {
     "CODIGO": "CCMB38",
     "DESCRIPCION": "Colchón Princess23 100x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "33300",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPrincess23100x190Cannon.png"
   },
   {
     "CODIGO": "CCMB39",
     "DESCRIPCION": "Colchón Princess23 140x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "45600",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPrincess23140x190Cannon.png"
   },
   {
     "CODIGO": "CCMB40",
     "DESCRIPCION": "Colchón Princess20 80x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "21800",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPrincess2080x190Cannon.png"
   },
   {
     "CODIGO": "CCMB41",
     "DESCRIPCION": "Colchón Princess20 100x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "26500",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPrincess20100x190Cannon.png"
   },
   {
     "CODIGO": "CCMB42",
     "DESCRIPCION": "Colchón Princess20 140x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "36300",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPrincess20140x190Cannon.png"
   },
   {
     "CODIGO": "CCMB43",
     "DESCRIPCION": "Colchón Tropical 80x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "16100",
     "LISTA": "Muebleria",
     "SRC": "/ColchonTropical80x190Cannon.png"
   },
   {
     "CODIGO": "CCMB44",
     "DESCRIPCION": "Colchón Tropical 100x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "21000",
     "LISTA": "Muebleria",
     "SRC": "/ColchonTropical100x190Cannon.png"
   },
   {
     "CODIGO": "CCMB45",
     "DESCRIPCION": "Colchón Tropical 140x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "29500",
     "LISTA": "Muebleria",
     "SRC": "/ColchonTropical140x190Cannon.png"
   },
   {
     "CODIGO": "CCMB46",
     "DESCRIPCION": "Colchón Especial de Lujo 80x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "27000",
     "LISTA": "Muebleria",
     "SRC": "/ColchonEspecialDeLujo80x190Cannon.png"
   },
   {
     "CODIGO": "CCMB47",
     "DESCRIPCION": "Colchón Especial de Lujo 100x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "33900",
     "LISTA": "Muebleria",
     "SRC": "/ColchonEspecialDeLujo100x190Cannon.png"
   },
   {
     "CODIGO": "CCMB48",
     "DESCRIPCION": "Colchón Especial de Lujo 140x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "44900",
     "LISTA": "Muebleria",
     "SRC": "/ColchonEspecialDeLujo140x190Cannon.png"
   },
   {
     "CODIGO": "CCMB49",
     "DESCRIPCION": "Colchón Exclusive 140x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "59600",
     "LISTA": "Muebleria",
     "SRC": "/ColchonExclusive140x190Cannon.png"
   },
   {
     "CODIGO": "CCMB50",
     "DESCRIPCION": "Colchón Renovation 80x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "44900",
     "LISTA": "Muebleria",
     "SRC": "/ColchonRenovation80x190Cannon.png"
   },
   {
     "CODIGO": "CCMB51",
     "DESCRIPCION": "Colchón Renovation 100x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "55700",
     "LISTA": "Muebleria",
     "SRC": "/ColchonRenovation100x190Cannon.png"
   },
   {
     "CODIGO": "CCMB52",
     "DESCRIPCION": "Colchón Renovation 140x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "75100",
     "LISTA": "Muebleria",
     "SRC": "/ColchonRenovation140x190Cannon.png"
   },
   {
     "CODIGO": "CCMB53",
     "DESCRIPCION": "Colchón Renovation 160x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "97700",
     "LISTA": "Muebleria",
     "SRC": "/ColchonRenovation160x190Cannon.png"
   },
   {
     "CODIGO": "CCMB54",
     "DESCRIPCION": "Colchón Platino 80x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "31000",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPlatino80x190Cannon.png"
   },
   {
     "CODIGO": "CCMB55",
     "DESCRIPCION": "Colchón Platino 100x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "37500",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPlatino100x190Cannon.png"
   },
   {
     "CODIGO": "CCMB56",
     "DESCRIPCION": "Colchón Platino 140x190 Cannon",
-    "PRECIO": "",
+    "PRECIO": "49900",
     "LISTA": "Muebleria",
     "SRC": "/ColchonPlatino140x190Cannon.png"
+  },
+  {
+    "CODIGO": "CCEE1",
+    "DESCRIPCION": "m Cable Unipolar 1x1mm",
+    "PRECIO": "90",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE2",
+    "DESCRIPCION": "m Cable Unipolar 1x1.5mm",
+    "PRECIO": "110",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE3",
+    "DESCRIPCION": "m Cable Unipolar 1x2.5mm",
+    "PRECIO": "170",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE4",
+    "DESCRIPCION": "m Cable Unipolar 1x4mm",
+    "PRECIO": "280",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE5",
+    "DESCRIPCION": "m Cable Unipolar 1x6mm",
+    "PRECIO": "400",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE6",
+    "DESCRIPCION": "m Cable Unipolar 1x10mm",
+    "PRECIO": "690",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE7",
+    "DESCRIPCION": "Rollo 100m Cable Unipolar 1x1mm",
+    "PRECIO": "8100",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE8",
+    "DESCRIPCION": "Rollo 100m Cable Unipolar 1x1.5mm",
+    "PRECIO": "10450",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE9",
+    "DESCRIPCION": "Rollo 100m Cable Unipolar 1x2.5mm",
+    "PRECIO": "16150",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE10",
+    "DESCRIPCION": "Rollo 100m Cable Unipolar 1x4mm",
+    "PRECIO": "26600",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE11",
+    "DESCRIPCION": "Rollo 100m Cable Unipolar 1x6mm",
+    "PRECIO": "38000",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE12",
+    "DESCRIPCION": "Rollo 100m Cable Unipolar 1x10mm",
+    "PRECIO": "65550",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCableUnipolar.png"
+  },
+  {
+    "CODIGO": "CCEE13",
+    "DESCRIPCION": "m Cable Bipolar 2x0.35mm",
+    "PRECIO": "80",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBipolar.png"
+  },
+  {
+    "CODIGO": "CCEE14",
+    "DESCRIPCION": "m Cable Bipolar 2x0.50mm",
+    "PRECIO": "110",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBipolar.png"
+  },
+  {
+    "CODIGO": "CCEE15",
+    "DESCRIPCION": "m Cable Bipolar 2x0.80mm",
+    "PRECIO": "130",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBipolar.png"
+  },
+  {
+    "CODIGO": "CCEE16",
+    "DESCRIPCION": "m Cable Bipolar 2x1mm",
+    "PRECIO": "170",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBipolar.png"
+  },
+  {
+    "CODIGO": "CCEE17",
+    "DESCRIPCION": "m Cable Bipolar 2x1.5mm",
+    "PRECIO": "240",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBipolar.png"
+  },
+  {
+    "CODIGO": "CCEE18",
+    "DESCRIPCION": "m Cable Bipolar 2x2.5mm",
+    "PRECIO": "380",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBipolar.png"
+  },
+  {
+    "CODIGO": "CCEE19",
+    "DESCRIPCION": "m Cable Taller 2x1mm",
+    "PRECIO": "190",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableTaller.png"
+  },
+  {
+    "CODIGO": "CCEE20",
+    "DESCRIPCION": "m Cable Taller 2x1.5mm",
+    "PRECIO": "300",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableTaller.png"
+  },
+  {
+    "CODIGO": "CCEE21",
+    "DESCRIPCION": "m Cable Taller 2x2.5mm",
+    "PRECIO": "470",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableTaller.png"
+  },
+  {
+    "CODIGO": "CCEE22",
+    "DESCRIPCION": "m Cable Taller 2x1mm",
+    "PRECIO": "680",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableTaller.png"
+  },
+  {
+    "CODIGO": "CCEE23",
+    "DESCRIPCION": "m Cable Bajo Plomo 2x1mm",
+    "PRECIO": "160",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBajoPlomo.png"
+  },
+  {
+    "CODIGO": "CCEE24",
+    "DESCRIPCION": "m Cable Bajo Plomo 2x1.5mm",
+    "PRECIO": "260",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBajoPlomo.png"
+  },
+  {
+    "CODIGO": "CCEE25",
+    "DESCRIPCION": "m Cable Bajo Plomo 2x2.5mm",
+    "PRECIO": "400",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBajoPlomo.png"
+  },
+  {
+    "CODIGO": "CCEE26",
+    "DESCRIPCION": "m Cable Bajo Plomo 2x4mm",
+    "PRECIO": "580",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBajoPlomo.png"
+  },
+  {
+    "CODIGO": "CCEE27",
+    "DESCRIPCION": "m Cable Subterraneo Violeta 2x1.5mm",
+    "PRECIO": "400",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableSubterraneoVioleta.png"
+  },
+  {
+    "CODIGO": "CCEE28",
+    "DESCRIPCION": "m Cable Subterraneo Violeta 2x2.5mm",
+    "PRECIO": "560",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableSubterraneoVioleta.png"
+  },
+  {
+    "CODIGO": "CCEE29",
+    "DESCRIPCION": "m Cable Subterraneo Violeta 2x4mm",
+    "PRECIO": "830",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableSubterraneoVioleta.png"
+  },
+  {
+    "CODIGO": "CCEE30",
+    "DESCRIPCION": "m Cable Subterraneo Violeta 2x6mm",
+    "PRECIO": "1160",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableSubterraneoVioleta.png"
+  },
+  {
+    "CODIGO": "CCEE31",
+    "DESCRIPCION": "m Cable Bafle 2x0.35mm",
+    "PRECIO": "120",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBafle.png"
+  },
+  {
+    "CODIGO": "CCEE32",
+    "DESCRIPCION": "m Cable Bafle 2x0.50mm",
+    "PRECIO": "120",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBafle.png"
+  },
+  {
+    "CODIGO": "CCEE33",
+    "DESCRIPCION": "m Cable Bafle 2x0.80mm",
+    "PRECIO": "200",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBafle.png"
+  },
+  {
+    "CODIGO": "CCEE34",
+    "DESCRIPCION": "m Cable Bafle 2x1mm",
+    "PRECIO": "200",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBafle.png"
+  },
+  {
+    "CODIGO": "CCEE35",
+    "DESCRIPCION": "m Cable Bafle 2x1.5mm",
+    "PRECIO": "390",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableBafle.png"
+  },
+  {
+    "CODIGO": "CCEE36",
+    "DESCRIPCION": "m Cable Transparente 2x0.35mm",
+    "PRECIO": "90",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableTransparente.png"
+  },
+  {
+    "CODIGO": "CCEE37",
+    "DESCRIPCION": "m Cable Transparente 2x1mm",
+    "PRECIO": "170",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableTransparente.png"
+  },
+  {
+    "CODIGO": "CCEE38",
+    "DESCRIPCION": "m Cable Amianto 2x0.35mm",
+    "PRECIO": "140",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableAmianto.png"
+  },
+  {
+    "CODIGO": "CCEE39",
+    "DESCRIPCION": "m Cable Coaxil",
+    "PRECIO": "100",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableCoaxil.png"
+  },
+  {
+    "CODIGO": "CCEE40",
+    "DESCRIPCION": "m Cable Telefono",
+    "PRECIO": "100",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableTelefono.png"
+  },
+  {
+    "CODIGO": "CCEE41",
+    "DESCRIPCION": "m Cable Portero",
+    "PRECIO": "130",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CablePortero.png"
+  },
+  {
+    "CODIGO": "CCEE42",
+    "DESCRIPCION": "m Cable UTP-5",
+    "PRECIO": "290",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableUtp5.png"
+  },
+  {
+    "CODIGO": "CCEE43",
+    "DESCRIPCION": "AntenaParrilla",
+    "PRECIO": "4390",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/AntenaParilla.png"
+  },
+  {
+    "CODIGO": "CCEE44",
+    "DESCRIPCION": "Cable Canal 14x7",
+    "PRECIO": "270",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableCanal.png"
+  },
+  {
+    "CODIGO": "CCEE45",
+    "DESCRIPCION": "Cable Canal 20x10",
+    "PRECIO": "300",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableCanal.png"
+  },
+  {
+    "CODIGO": "CCEE46",
+    "DESCRIPCION": "Cable Canal 20x20",
+    "PRECIO": "530",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableCanal.png"
+  },
+  {
+    "CODIGO": "CCEE47",
+    "DESCRIPCION": "Cable Canal 40x16",
+    "PRECIO": "850",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CableCanal.png"
+  },
+  {
+    "CODIGO": "CCEE48",
+    "DESCRIPCION": "Calefon Pvc",
+    "PRECIO": "1790",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CalefonPvc.png"
+  },
+  {
+    "CODIGO": "CCEE49",
+    "DESCRIPCION": "Calefon Loza",
+    "PRECIO": "3920",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CalefonLoza.png"
+  },
+  {
+    "CODIGO": "CCEE50",
+    "DESCRIPCION": "Calefon Acero",
+    "PRECIO": "5150",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CalefonAcero.png"
+  },
+  {
+    "CODIGO": "CCEE51",
+    "DESCRIPCION": "Rollo Caño Corrugado Naranja 5/8 25m",
+    "PRECIO": "1350",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCañoCorrugadoNaranja.png"
+  },
+  {
+    "CODIGO": "CCEE52",
+    "DESCRIPCION": "Rollo Caño Corrugado Naranja 3/4 25m",
+    "PRECIO": "1580",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCañoCorrugadoNaranja.png"
+  },
+  {
+    "CODIGO": "CCEE53",
+    "DESCRIPCION": "Rollo Caño Corrugado Naranja 7/8 25m",
+    "PRECIO": "2030",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCañoCorrugadoNaranja.png"
+  },
+  {
+    "CODIGO": "CCEE54",
+    "DESCRIPCION": "Rollo Caño Corrugado Naranja 1 25m",
+    "PRECIO": "2250",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCañoCorrugadoNaranja.png"
+  },
+  {
+    "CODIGO": "CCEE55",
+    "DESCRIPCION": "Rollo Caño Corrugado Naranja 1 1/4 25m",
+    "PRECIO": "3380",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCañoCorrugadoNaranja.png"
+  },
+  {
+    "CODIGO": "CCEE56",
+    "DESCRIPCION": "Rollo Caño Corrugado Blanco 5/8 25m",
+    "PRECIO": "1580",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCorrugadoBlanco.png"
+  },
+  {
+    "CODIGO": "CCEE57",
+    "DESCRIPCION": "Rollo Caño Corrugado Blanco 3/4 25m",
+    "PRECIO": "2030",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCorrugadoBlanco.png"
+  },
+  {
+    "CODIGO": "CCEE58",
+    "DESCRIPCION": "Rollo Caño Corrugado Blanco 7/8 25m",
+    "PRECIO": "2250",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCorrugadoBlanco.png"
+  },
+  {
+    "CODIGO": "CCEE59",
+    "DESCRIPCION": "Rollo Caño Corrugado Blanco 1 25m",
+    "PRECIO": "2700",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCorrugadoBlanco.png"
+  },
+  {
+    "CODIGO": "CCEE60",
+    "DESCRIPCION": "Rollo Caño Corrugado Blanco 1 1/4 25m",
+    "PRECIO": "3830",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/RolloCorrugadoBlanco.png"
+  },
+  {
+    "CODIGO": "CCEE61",
+    "DESCRIPCION": "Caño Rigido Hierro 5/8 3m",
+    "PRECIO": "1440",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CañoRigidoHierro.png"
+  },
+  {
+    "CODIGO": "CCEE62",
+    "DESCRIPCION": "Caño Rigido Hierro 3/4 3m",
+    "PRECIO": "1710",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CañoRigidoHierro.png"
+  },
+  {
+    "CODIGO": "CCEE63",
+    "DESCRIPCION": "Caño Rigido Hierro 7/8 3m",
+    "PRECIO": "2190",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CañoRigidoHierro.png"
+  },
+  {
+    "CODIGO": "CCEE64",
+    "DESCRIPCION": "Caño Rigido Hierro 1 3m",
+    "PRECIO": "2400",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CañoRigidoHierro.png"
+  },
+  {
+    "CODIGO": "CCEE65",
+    "DESCRIPCION": "Caño Rigido Pvc 5/8 3m",
+    "PRECIO": "210",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CañoRigidoPvc.png"
+  },
+  {
+    "CODIGO": "CCEE66",
+    "DESCRIPCION": "Caño Rigido Pvc 3/4 3m",
+    "PRECIO": "270",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CañoRigidoPvc.png"
+  },
+  {
+    "CODIGO": "CCEE67",
+    "DESCRIPCION": "Caño Rigido Pvc 7/8 3m",
+    "PRECIO": "300",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CañoRigidoPvc.png"
+  },
+  {
+    "CODIGO": "CCEE68",
+    "DESCRIPCION": "Caño Rigido Pvc 1 3m",
+    "PRECIO": "420",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CañoRigidoPvc.png"
+  },
+  {
+    "CODIGO": "CCEE69",
+    "DESCRIPCION": "Conector Chapa 3/4",
+    "PRECIO": "60",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ConectorChapa.png"
+  },
+  {
+    "CODIGO": "CCEE70",
+    "DESCRIPCION": "Conector Chapa 7/8",
+    "PRECIO": "130",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ConectorChapa.png"
+  },
+  {
+    "CODIGO": "CCEE71",
+    "DESCRIPCION": "Conector Chapa 1",
+    "PRECIO": "150",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ConectorChapa.png"
+  },
+  {
+    "CODIGO": "CCEE72",
+    "DESCRIPCION": "Conector Pvc 3/4",
+    "PRECIO": "30",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ConectorPvc.png"
+  },
+  {
+    "CODIGO": "CCEE73",
+    "DESCRIPCION": "Conector Pvc 7/8",
+    "PRECIO": "30",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ConectorPvc.png"
+  },
+  {
+    "CODIGO": "CCEE74",
+    "DESCRIPCION": "Conector Pvc 1",
+    "PRECIO": "30",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ConectorPvc.png"
+  },
+  {
+    "CODIGO": "CCEE75",
+    "DESCRIPCION": "Unión Chapa 3/4",
+    "PRECIO": "50",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/UnionChapa.png"
+  },
+  {
+    "CODIGO": "CCEE76",
+    "DESCRIPCION": "Unión Chapa 7/8",
+    "PRECIO": "50",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/UnionChapa.png"
+  },
+  {
+    "CODIGO": "CCEE77",
+    "DESCRIPCION": "Unión Chapa 1",
+    "PRECIO": "70",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/UnionChapa.png"
+  },
+  {
+    "CODIGO": "CCEE78",
+    "DESCRIPCION": "Unión Pvc 3/4",
+    "PRECIO": "20",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/UnionPvc.png"
+  },
+  {
+    "CODIGO": "CCEE79",
+    "DESCRIPCION": "Unión Pvc 7/8",
+    "PRECIO": "20",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/UnionPvc.png"
+  },
+  {
+    "CODIGO": "CCEE80",
+    "DESCRIPCION": "Unión Pvc 1",
+    "PRECIO": "30",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/UnionPvc.png"
+  },
+  {
+    "CODIGO": "CCEE81",
+    "DESCRIPCION": "Caja Medidor Monofasico",
+    "PRECIO": "2880",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CajaMedidorMonofasico.png"
+  },
+  {
+    "CODIGO": "CCEE82",
+    "DESCRIPCION": "Caja Medidor Trifasico",
+    "PRECIO": "7000",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/CajaMedidorTrifasico.png"
+  },
+  {
+    "CODIGO": "CCEE83",
+    "DESCRIPCION": "Timbre Inalámbrico Analogico 80m",
+    "PRECIO": "2030",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/TimbreInalambricoAnalogico80m.png"
+  },
+  {
+    "CODIGO": "CCEE84",
+    "DESCRIPCION": "Timbre Inalámbrico J.A 3sonidos",
+    "PRECIO": "2550",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/TimbreInalambricoJa3sonidos.png"
+  },
+  {
+    "CODIGO": "CCEE85",
+    "DESCRIPCION": "Timbre Inalámbrico J.A Frente Reemplazable",
+    "PRECIO": "2890",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/TimbreInalambricoJaFrenteReemplazable.png"
+  },
+  {
+    "CODIGO": "CCEE86",
+    "DESCRIPCION": "Llave Térmica 4x10 A 4x32 Jeluz",
+    "PRECIO": "2160",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "00825A",
+    "SRC": "/LlaveTermica4x10A4x32Jeluz.png"
+  },
+  {
+    "CODIGO": "CCEE87",
+    "DESCRIPCION": "/Llave Térmica 1x10 A 1x32 Jeluz",
+    "PRECIO": "550",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "821",
+    "SRC": "/LlaveTermica1x10A1x32Jeluz.png"
+  },
+  {
+    "CODIGO": "CCEE88",
+    "DESCRIPCION": "Llave Térmica 1x40 Sica",
+    "PRECIO": "770",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica1x40Sica.png"
+  },
+  {
+    "CODIGO": "CCEE89",
+    "DESCRIPCION": "Llave Térmica 1x40-50-63 Jeluz",
+    "PRECIO": "600",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica1x40-50-63Jeluz.png"
+  },
+  {
+    "CODIGO": "CCEE90",
+    "DESCRIPCION": "Llave Térmica 1x5 A 1x32 Sica",
+    "PRECIO": "540",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica1x5A1x32Sica.png"
+  },
+  {
+    "CODIGO": "CCEE91",
+    "DESCRIPCION": "Llave Térmica 1x50-63 Sica",
+    "PRECIO": "1120",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica1x50-63Sica.png"
+  },
+  {
+    "CODIGO": "CCEE92",
+    "DESCRIPCION": "Llave Térmica 2x10 A 2x32 Jeluz",
+    "PRECIO": "1080",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica2x10A2x32Jeluz.png"
+  },
+  {
+    "CODIGO": "CCEE93",
+    "DESCRIPCION": "Llave Térmica 2x10 A 2x32 Sica",
+    "PRECIO": "1590",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica2x10A2x32Sica.png"
+  },
+  {
+    "CODIGO": "CCEE94",
+    "DESCRIPCION": "Llave Térmica 2x40 Sica",
+    "PRECIO": "1490",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica2x40Sica.png"
+  },
+  {
+    "CODIGO": "CCEE95",
+    "DESCRIPCION": "Llave Térmica 2x40-50-63 Jeluz",
+    "PRECIO": "1190",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica2x40-50-63Jeluz.png"
+  },
+  {
+    "CODIGO": "CCEE96",
+    "DESCRIPCION": "Llave Térmica 2x50 A 2x63 Sica",
+    "PRECIO": "2040",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica2x50A2x63Sica.png"
+  },
+  {
+    "CODIGO": "CCEE97",
+    "DESCRIPCION": "Llave Térmica 2x80 A 2x100 Sica",
+    "PRECIO": "6910",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica2x80A2x100Sica.png"
+  },
+  {
+    "CODIGO": "CCEE98",
+    "DESCRIPCION": "Llave Térmica 3x10 A 3x32 Sica",
+    "PRECIO": "1910",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica3x10A3x32Sica.png"
+  },
+  {
+    "CODIGO": "CCEE99",
+    "DESCRIPCION": "Llave Térmica 3x40 Sica",
+    "PRECIO": "2450",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica3x40Sica.png"
+  },
+  {
+    "CODIGO": "CCEE100",
+    "DESCRIPCION": "Llave Térmica 3x50 A 3x63 Sica",
+    "PRECIO": "2940",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica3x50A3x63Sica.png"
+  },
+  {
+    "CODIGO": "CCEE101",
+    "DESCRIPCION": "Llave Térmica 3x80-100 Sica",
+    "PRECIO": "8950",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica3x80-100Sica.png"
+  },
+  {
+    "CODIGO": "CCEE102",
+    "DESCRIPCION": "Llave Térmica 4x10 A 4x32 Sica",
+    "PRECIO": "2770",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica4x10A4x32Sica.png"
+  },
+  {
+    "CODIGO": "CCEE103",
+    "DESCRIPCION": "Llave Térmica 4x40 Sica",
+    "PRECIO": "3070",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica4x40Sica.png"
+  },
+  {
+    "CODIGO": "CCEE104",
+    "DESCRIPCION": "Llave Térmica 4x40-50-63 Jeluz",
+    "PRECIO": "2370",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica4x40-50-63Jeluz.png"
+  },
+  {
+    "CODIGO": "CCEE105",
+    "DESCRIPCION": "Llave Térmica 4x50 Y 4x63 Sica",
+    "PRECIO": "4030",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica4x50Y4x63Sica.png"
+  },
+  {
+    "CODIGO": "CCEE106",
+    "DESCRIPCION": "Llave Térmica 4x80-4x100 Sica",
+    "PRECIO": "13780",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LlaveTermica4x80-4x100Sica.png"
+  },
+  {
+    "CODIGO": "CCEE107",
+    "DESCRIPCION": "Plafón Led 40W 60x60",
+    "PRECIO": "6900",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/PlafonLed40W60x60.png"
+  },
+  {
+    "CODIGO": "CCEE108",
+    "DESCRIPCION": "Reflector Sensor Pasivo 20W Led",
+    "PRECIO": "4140",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ReflectorSensorPasivo20WLed.png"
+  },
+  {
+    "CODIGO": "CCEE109",
+    "DESCRIPCION": "Reflector Sensor Pasivo 30W Led",
+    "PRECIO": "5720",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ReflectorSensorPasivo30WLed.png"
+  },
+  {
+    "CODIGO": "CCEE110",
+    "DESCRIPCION": "Reflector Sensor Pasivo 50W Led",
+    "PRECIO": "7040",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ReflectorSensorPasivo50WLed.png"
+  },
+  {
+    "CODIGO": "CCEE111",
+    "DESCRIPCION": "Reflector Led 10W",
+    "PRECIO": "900",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ReflectorLed10W.png"
+  },
+  {
+    "CODIGO": "CCEE112",
+    "DESCRIPCION": "Reflector Led 30W",
+    "PRECIO": "2670",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ReflectorLed30W.png"
+  },
+  {
+    "CODIGO": "CCEE113",
+    "DESCRIPCION": "Reflector Led 50W",
+    "PRECIO": "3540",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ReflectorLed50W.png"
+  },
+  {
+    "CODIGO": "CCEE114",
+    "DESCRIPCION": "Reflector Led 100W",
+    "PRECIO": "8220",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/ReflectorLed100W.png"
+  },
+  {
+    "CODIGO": "CCEE115",
+    "DESCRIPCION": "Lámpara Led 10W A60",
+    "PRECIO": "190",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaLed10WA60.png"
+  },
+  {
+    "CODIGO": "CCEE116",
+    "DESCRIPCION": "Lámpara Led 12W A60",
+    "PRECIO": "220",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaLed12WA60.png"
+  },
+  {
+    "CODIGO": "CCEE117",
+    "DESCRIPCION": "Lampara Led 27W HighPower",
+    "PRECIO": "1020",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaLed27WHighPower.png"
+  },
+  {
+    "CODIGO": "CCEE118",
+    "DESCRIPCION": "Lámpara Led 45W HighPower",
+    "PRECIO": "1900",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaLed45WHighPower.png"
+  },
+  {
+    "CODIGO": "CCEE119",
+    "DESCRIPCION": "Equipo de 1x9W para Tubo Led",
+    "PRECIO": "490",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/Equipode1x9WparaTuboLed.png"
+  },
+  {
+    "CODIGO": "CCEE120",
+    "DESCRIPCION": "Equipo de 1x18W para Tubo Led",
+    "PRECIO": "710",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/Equipode1x18WparaTuboLed.png"
+  },
+  {
+    "CODIGO": "CCEE121",
+    "DESCRIPCION": "Lámpara Bipin 12V x 4W Baw Led",
+    "PRECIO": "820",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaBipin12Vx4WBawLed.png"
+  },
+  {
+    "CODIGO": "CCEE122",
+    "DESCRIPCION": "Lámpara Perfume Led",
+    "PRECIO": "360",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaPerfumeLed.png"
+  },
+  {
+    "CODIGO": "CCEE123",
+    "DESCRIPCION": "Lámpara Vela Balon 5W-7W Led",
+    "PRECIO": "270",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaVelaBalon5W-7WLed.png"
+  },
+  {
+    "CODIGO": "CCEE124",
+    "DESCRIPCION": "Lámpara Dicroica 12V 5W Led",
+    "PRECIO": "590",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaDicroica12V5WLed.png"
+  },
+  {
+    "CODIGO": "CCEE125",
+    "DESCRIPCION": "Lámpara Dicroica Led 7W Rosca E27",
+    "PRECIO": "390",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaDicroicaLed7WRoscaE27.png"
+  },
+  {
+    "CODIGO": "CCEE126",
+    "DESCRIPCION": "Lámpara Dicroica Led 7W Yarlux",
+    "PRECIO": "340",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/LamparaDicroicaLed7WYarlux.png"
+  },
+  {
+    "CODIGO": "CCEE127",
+    "DESCRIPCION": "Spot1LuzC-TulipaDorado",
+    "PRECIO": "2230",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/Spot1LuzC-TulipaDorado.png"
+  },
+  {
+    "CODIGO": "CCEE128",
+    "DESCRIPCION": "Spot2LucesC-TulipaDorado",
+    "PRECIO": "5690",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/Spot2LucesC-TulipaDorado.png"
+  },
+  {
+    "CODIGO": "CCEE129",
+    "DESCRIPCION": "Spot3LucesC-TulipaDorado",
+    "PRECIO": "8640",
+    "LISTA": "Electricidad",
+    "LISTA ORIGEN": "Lisamar",
+    "CODIGO ORIGEN": "",
+    "SRC": "/Spot3LucesC-TulipaDorado.png"
   }
 ]
