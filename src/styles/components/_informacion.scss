@@ -8,3 +8,14 @@
 .informacion__img {
   width: 100%;
 }
+
+@media screen and (min-width:1200px) {
+
+  .informacion__parentDiv {
+    padding: 0 20rem;
+  }
+  
+  .informacion__img {
+    width: 80%;
+  }
+}

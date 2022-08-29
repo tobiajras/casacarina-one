@@ -1,5 +1,3 @@
-import './autoCarousel2.scss';
-
 export const AutoCarousel2 = () => {
   return (
     <div className='wrapper'>

@@ -90,6 +90,10 @@ export const ProductsList = () => {
     }
   };
 
+  useEffect(() => {
+    setCurrentPage(0);
+  }, [q, c]);
+
   if (isLoading) {
     return (
       <div>
@@ -100,13 +104,6 @@ export const ProductsList = () => {
     return (
       <div>
         <SearchFilter />
-        {/* <div className='productsList__bannerDiv'>
-        <img
-          className='productsList__banner'
-          src={`/assets/banners/${params.title}Banner.jpg`}
-          alt='banner'
-        />
-      </div> */}
         <div className='productsList__parentDiv'>
           <div className='productsList__gridDiv'>
             {products.map((product) => (

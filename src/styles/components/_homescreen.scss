@@ -8,3 +8,11 @@
   padding: 0.5rem 0;
   font-weight: 600;
 }
+
+@media screen and (min-width:1200px) {
+  .homescreen__title {
+    font-size: 2rem;
+    padding: 2rem 0;
+    font-weight: 600;
+  }
+}

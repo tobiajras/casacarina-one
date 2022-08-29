@@ -14,6 +14,7 @@ export const ProductsScreen = () => {
       </div>
       <SearchFilter />
       <Categories />
+      <div className='productList__marginDiv'></div>
     </div>
   );
 };

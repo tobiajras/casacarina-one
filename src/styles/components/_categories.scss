@@ -11,3 +11,27 @@
   gap: 1rem;
   grid-template-columns: repeat(2, 1fr)
 }
+
+@media screen and (min-width:800px) {
+  
+.categories__parentDiv {
+  padding: 0 5rem;
+}
+  
+  .categories__gridDiv{
+    gap: 3rem;
+    grid-template-columns: repeat(4, 1fr)
+  }
+}
+
+@media screen and (min-width:1200px) {
+  
+.categories__parentDiv {
+  padding: 0 5rem;
+}
+  
+  .categories__gridDiv{
+    gap: 2rem 3rem;
+    grid-template-columns: repeat(4, 1fr)
+  }
+}

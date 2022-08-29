@@ -43,3 +43,23 @@
     0% {transform: translateX(0);}
     100% {transform: translateX(-100%);}
 }
+
+@media screen and (min-width:1200px) {
+
+    .slider {
+        margin: 0 5rem;
+    }
+
+    .slide {
+        animation: slideshow 25s linear infinite;
+    }
+
+    .slideImg {
+        width: 20rem;
+        height: 10rem;
+
+        img {
+            padding: 0 3rem;
+        }
+    }
+}

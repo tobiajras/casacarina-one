@@ -32,5 +32,10 @@
   text-decoration: none;
   list-style: none;
   color: $primary;
+}
 
+@media screen and (min-width:1200px) {
+  .cardcategories__navlink {
+    font-size: 1.5rem;
+  }  
 }

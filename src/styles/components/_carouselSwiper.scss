@@ -43,4 +43,35 @@
   bottom: 0;
 }
 
+@media screen and (min-width: 800px) {
+  .carouselSwiper__parentDiv {
+    height: 90vh;
+  }
+
+  .carouselSwiper__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: white;
+    opacity: 1;
+    transition: all 0.5s;
+    padding: 0.5rem;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 0.5rem;
+  }
+
+  .swiper-pagination-clickable {
+    padding: 1rem 0;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: $secondary;
+  }
+}
 
