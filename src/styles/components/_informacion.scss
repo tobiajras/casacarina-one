@@ -1,21 +1,51 @@
 .informacion__parentDiv {
+}
+
+.informacion__horariosDiv {
+  display: flex;
+  margin: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+}
+
+.informacion__iconoHorariosDiv {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1.2rem;
+  height: 100px;
+  width: 100px;
+  background-color: $primary;
+  padding: 0.5rem;
 }
 
-.informacion__img {
+.informacion__iconoHorarios {
   width: 100%;
+  font-size: 50px;
+  color: white;
 }
 
-@media screen and (min-width:1200px) {
+.informacion__detalleHorariosDiv {
+  font-family: $poppins;
+  width: 100%;
+  text-align: center;
 
-  .informacion__parentDiv {
-    padding: 0 20rem;
+  h4 {
+
   }
-  
-  .informacion__img {
-    width: 80%;
+
+  p{
+    color: rgba(0, 0, 0, 0.8);
   }
+}
+
+.informacion__horaDetalleHorariosDiv {
+  display: flex;
+  justify-content: center;
+
+  p {
+    margin: 0 5px;
+  }
+}
+
+.informacion__tarjetaDiv {
+  display: flex;
 }
