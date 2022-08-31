@@ -1,0 +1,47 @@
+.horarios__horariosDiv {
+  display: flex;
+  margin: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+}
+
+.horarios__iconoHorariosDiv {
+  display: flex;
+  align-items: center;
+  width: 7rem;
+  background-color: $primary;
+  padding: 1rem;
+}
+
+.horarios__iconoHorarios {
+  width: 100%;
+  font-size: 50px;
+  color: white;
+}
+
+.horarios__detalleHorariosDiv {
+  font-family: $poppins;
+  width: 100%;
+  text-align: start;
+  padding: 1rem;
+
+  h4 {
+
+  }
+
+  p{
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.horarios__horaDetalleHorariosDiv {
+  display: flex;
+  justify-content: center;
+
+  p {
+    margin: 0 5px;
+  }
+}
+
+.horarios__tarjetaDiv {
+  display: flex;
+}

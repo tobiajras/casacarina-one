@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoogleMaps } from '../../components/GoogleMaps';
-import { Informacion } from '../../components/Informacion/Informacion';
+import { Horarios } from '../../components/Informacion/Horarios';
 
 export const ContactScreen = () => {
   return (
@@ -12,7 +12,7 @@ export const ContactScreen = () => {
           alt='banner'
         />
       </div>
-      <Informacion />
+      <Horarios />
       <GoogleMaps />
     </div>
   );

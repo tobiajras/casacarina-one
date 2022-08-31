@@ -2,7 +2,8 @@ import React from 'react';
 import { AutoCarousel2 } from '../../components/AutoCarousel2/AutoCarousel2';
 import CarouselSwiper from '../../components/CarouselSwiper/CarouselSwiper';
 import { GoogleMaps } from '../../components/GoogleMaps';
-import { Informacion } from '../../components/Informacion/Informacion';
+import { Horarios } from '../../components/Informacion/Horarios';
+import { Tarjetas } from '../../components/Informacion/Tarjetas';
 import { Categories } from '../products/Categories';
 
 export const HomeScreen = () => {
@@ -14,7 +15,8 @@ export const HomeScreen = () => {
       <h1 className='homescreen__title'>Marcas</h1>
       <AutoCarousel2 />
       <h1 className='homescreen__title'>Información</h1>
-      <Informacion />
+      <Horarios />
+      <Tarjetas />
       <h1 className='homescreen__title'>Ubicación</h1>
       <GoogleMaps />
     </div>
