@@ -1,17 +1,12 @@
 import React from 'react';
+import { ProductsBanner } from '../../components/ProductsBanner';
 import { SearchFilter } from '../../components/Search/SearchFilter';
 import { Categories } from './Categories';
 
 export const ProductsScreen = () => {
   return (
     <div>
-      <div className='productsList__bannerDiv'>
-        <img
-          className='productsList__banner'
-          src={`/assets/banners/construccionBanner.jpg`}
-          alt='banner'
-        />
-      </div>
+      <ProductsBanner />
       <SearchFilter />
       <Categories />
       <div className='productList__marginDiv'></div>
