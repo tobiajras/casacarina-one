@@ -11,7 +11,8 @@ export const WhatsappBanner = () => {
       />
       <div className='whatsappBanner__consultaDiv'>
         <div className='whatsappBanner__consultaText'>
-          <h5>Envianos tu consulta por Whataspp</h5>
+          <h5>Envianos tu consulta</h5>
+          <h5>por Whatsapp</h5>
           <div className='whatsappBanner__consultaHashtag'>
             <h6>#Pedidos</h6>
             <h6>#Precios</h6>
@@ -23,7 +24,10 @@ export const WhatsappBanner = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faWhatsapp} />
+          <FontAwesomeIcon
+            className='whatsappBanner__icono'
+            icon={faWhatsapp}
+          />
           <h6>CONSULTAR</h6>
         </a>
       </div>

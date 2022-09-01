@@ -13,33 +13,73 @@
   content: "";
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(0deg, #141f4b 0%, #1f253fa5 70%, rgba(84, 101, 163, 0.406) 100%);
-  opacity: 0.6;
+  background: linear-gradient(0deg, rgba(#1f263f,0.8) 20%, rgba(#1f263f,0.6) 80%, rgba(#1f263f,0.8) 100%);
   top: 0;
   right: 0;
   position: absolute;
   }
+}
 
-  &::after {
-    content: "Productos";
-    top: 50%;
-    left: 50%;
-    background: rgba(255, 255, 255, 1);
-    background-clip: text;
-    color: transparent;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    font-family: $merienda;
-    font-weight: 600;
+.productsBanner__containerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.productsBanner__hogarDiv {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 45%;
+  
+  h4 {
+    font-family: $poppins;
+    font-size: 20px;
   }
+}
+
+.productsBanner__secondH4 {
+  padding-left: 30px;
+}
+
+.productsBanner__listUl {
+  list-style: none;
+  width: 45%;
+
+  li {
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 0.2rem;
+  }
+
+  h5 {
+    font-family: $poppins;
+    font-size: 12px;
+  }
+}
+
+.productsBanner__icono {
+  padding-right: 0.3rem;
+  color: rgb(32, 206, 20);
+  font-size: 16px;
+}
+
+.icono2 {
+  padding-left: 1.5rem;
+}
+.icono3 {
+  padding-left: 3rem;
 }
 
 @media screen and (min-width: 1200px) {
   .productsBanner__bannerImg {
     width: 100%;
     height: 300px;
-    object-fit: fill;
   }
 
   .productsBanner__parentDiv {
@@ -47,10 +87,8 @@
     width: 100%;
     height: 100%;
     }
-  
-    &::after {
-      content: "Productos";
-      font-size: 4rem;
-    }
   }
+}
+
+@media screen and (min-width:600px) {
 }

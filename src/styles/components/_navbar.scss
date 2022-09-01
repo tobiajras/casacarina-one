@@ -113,19 +113,10 @@
     padding: 1rem 0;
 
     &:hover{
-      font-size: 1.8rem;
-      margin: 0;
       margin-bottom: 20px;
-      font-family: $poppins;
-      text-decoration: none;
-      color: white;
-      text-align: center;
-      width: 100%;
+      font-size: 1.8rem;
       padding: 1rem 0;
-      background-color: $secondary;
-      border-radius: none;
-      transition: all 0.2s ease;
-      transition-property:background-color; 
+      background-color: transparent;
     }
   }
 

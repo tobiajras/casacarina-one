@@ -13,25 +13,10 @@
   content: "";
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(0deg, #141f4b 0%, #1f253fa5 70%, rgba(84, 101, 163, 0.406) 100%);
-  opacity: 0.6;
+  background: linear-gradient(0deg, rgba(#1f263f,0.8) 20%, rgba(#1f263f,0.6) 80%, rgba(#1f263f,0.8) 100%);
   top: 0;
   right: 0;
   position: absolute;
-  }
-
-  &::after {
-    content: "";
-    top: 50%;
-    left: 50%;
-    background: rgba(255, 255, 255, 1);
-    background-clip: text;
-    color: transparent;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    font-family: $merienda;
-    font-weight: 600;
   }
 }
 
@@ -42,16 +27,18 @@
   position: absolute;
   top: 0;
   padding: 1rem;
+  width: 100%;
+  height: 100%;
   
   h5 {
     color: white;
     font-family: $poppins;
-    font-size: 23px;
+    font-size: 18px;
   }
 }
 
 .whatsappBanner__consultaText {
-  width: 70%;
+  width: 65%;
 }
 
 .whatsappBanner__consultaHashtag {
@@ -60,7 +47,7 @@
   h6 {
     font-family: $poppins;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     color: #25d366;
     padding-right: 7px;
   }
@@ -73,34 +60,33 @@
   padding: 0.5rem;
   background-color: #25d366;
   color: white;
-  width: 30%;
+  width: 35%;
   text-decoration: none;
+  border-radius: 2px;
 
   h6 {
-    padding-left: 0.4rem;
+    padding-left: 0.3rem;
     font-family: $poppins;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
   }
 }
 
+.whatsappBanner__icono {
+  font-size: 20px;
+}
 
 @media screen and (min-width: 1200px) {
   .whatsappBanner__bannerImg {
     width: 100%;
     height: 300px;
-    object-fit: fill;
   }
 
   .whatsappBanner__parentDiv {
     &::before {
     width: 100%;
     height: 100%;
-    }
-  
-    &::after {
-      content: "Productos";
-      font-size: 4rem;
     }
   }
 }
