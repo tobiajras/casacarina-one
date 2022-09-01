@@ -65,16 +65,15 @@
   border-radius: 2px;
 
   h6 {
-    padding-left: 0.3rem;
     font-family: $poppins;
     font-size: 12px;
     font-weight: 600;
-    width: 100%;
   }
 }
 
 .whatsappBanner__icono {
   font-size: 20px;
+  padding-right: 5px;
 }
 
 @media screen and (min-width: 1200px) {
