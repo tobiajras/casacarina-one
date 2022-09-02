@@ -5,6 +5,7 @@ import { GoogleMaps } from '../../components/GoogleMaps';
 import { Envios } from '../../components/Informacion/Envios';
 import { Horarios } from '../../components/Informacion/Horarios';
 import { Tarjetas } from '../../components/Informacion/Tarjetas';
+import { ProductsBanner } from '../../components/ProductsBanner';
 import { WhatsappBanner } from '../../components/WhatsappBanner';
 import { Categories } from '../products/Categories';
 
@@ -12,15 +13,19 @@ export const HomeScreen = () => {
   return (
     <div>
       <CarouselSwiper />
-      <h1 className='homescreen__title'>Productos</h1>
+      <div className='homescreen__ProductsBannerDiv'>
+        <ProductsBanner />
+      </div>
       <Categories />
-      <h1 className='homescreen__title'>Marcas</h1>
-      <AutoCarousel2 />
-      <WhatsappBanner />
+      <div className='homescreen__AutoCarousel2Div'>
+        <AutoCarousel2 />
+      </div>
+      <div className='homescreen__WhatsappBannerDiv'>
+        <WhatsappBanner />
+      </div>
       <Horarios />
       <Tarjetas />
       <Envios />
-      <h1 className='homescreen__title'>Ubicación</h1>
       <GoogleMaps />
     </div>
   );

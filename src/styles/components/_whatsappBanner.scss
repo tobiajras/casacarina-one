@@ -9,6 +9,7 @@
   width: 100%;
   background-image: url('../../../public/assets/banners/whatsappBanner.png');
   background-size: cover;
+  background-position-y: top;
   &::before {
     pointer-events: none;
   content: "";
@@ -62,7 +63,7 @@
   color: white;
   margin: auto;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 5px;
   
   h6 {
     font-family: $poppins;
