@@ -4,11 +4,6 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 export const WhatsappBanner = () => {
   return (
     <div className='whatsappBanner__parentDiv'>
-      <img
-        className='whatsappBanner__bannerImg'
-        src='/assets/banners/whatsappBanner.png'
-        alt='Whatsapp Banner'
-      />
       <div className='whatsappBanner__consultaDiv'>
         <div className='whatsappBanner__consultaText'>
           <h5>Envianos tu consulta</h5>

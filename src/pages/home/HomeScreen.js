@@ -5,6 +5,7 @@ import { GoogleMaps } from '../../components/GoogleMaps';
 import { Envios } from '../../components/Informacion/Envios';
 import { Horarios } from '../../components/Informacion/Horarios';
 import { Tarjetas } from '../../components/Informacion/Tarjetas';
+import { WhatsappBanner } from '../../components/WhatsappBanner';
 import { Categories } from '../products/Categories';
 
 export const HomeScreen = () => {
@@ -15,7 +16,7 @@ export const HomeScreen = () => {
       <Categories />
       <h1 className='homescreen__title'>Marcas</h1>
       <AutoCarousel2 />
-      <h1 className='homescreen__title'>Información</h1>
+      <WhatsappBanner />
       <Horarios />
       <Tarjetas />
       <Envios />

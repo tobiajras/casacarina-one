@@ -7,7 +7,8 @@
   position: relative;
   display: flex;
   width: 100%;
-
+  background-image: url('../../../public/assets/banners/whatsappBanner.png');
+  background-size: cover;
   &::before {
     pointer-events: none;
   content: "";
@@ -24,11 +25,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 0;
   padding: 1rem;
   width: 100%;
   height: 100%;
+  z-index: 1;
   
   h5 {
     color: white;
@@ -38,7 +38,7 @@
 }
 
 .whatsappBanner__consultaText {
-  width: 65%;
+  width: 60%;
 }
 
 .whatsappBanner__consultaHashtag {
@@ -60,14 +60,18 @@
   padding: 0.5rem;
   background-color: #25d366;
   color: white;
-  width: 35%;
+  margin: auto;
   text-decoration: none;
   border-radius: 2px;
-
+  
   h6 {
     font-family: $poppins;
     font-size: 12px;
     font-weight: 600;
+  }
+
+  :hover {
+    cursor: pointer;
   }
 }
 
@@ -76,16 +80,126 @@
   padding-right: 5px;
 }
 
-@media screen and (min-width: 1200px) {
-  .whatsappBanner__bannerImg {
-    width: 100%;
-    height: 300px;
-  }
-
+@media screen and (min-width: 500px) {
   .whatsappBanner__parentDiv {
+    height: 150px;
+
     &::before {
     width: 100%;
     height: 100%;
     }
   }
+  .whatsappBanner__consultaDiv {
+    padding: 1.5rem;
+  h5 {
+    font-size: 25px;
+  }
+}
+
+.whatsappBanner__consultaText {
+  width: 60%;
+}
+
+.whatsappBanner__consultaHashtag {
+  h6 {
+    font-size: 18px;
+    padding-right: 10px;
+  }
+}
+
+.whatsappBanner__consultaLogo {
+  padding: 0.7rem;
+  h6 {
+    font-size: 15px;
+  }
+}
+
+.whatsappBanner__icono {
+  font-size: 25px;
+  padding-right: 5px;
+}
+}
+
+@media screen and (min-width: 800px) {
+  .whatsappBanner__parentDiv {
+    height: 200px;
+
+    &::before {
+    width: 100%;
+    height: 100%;
+    }
+  }
+  .whatsappBanner__consultaDiv {
+    padding: 3rem;
+  h5 {
+    color: white;
+    font-family: $poppins;
+    font-size: 35px;
+  }
+}
+
+.whatsappBanner__consultaText {
+  width: 54%;
+}
+
+.whatsappBanner__consultaHashtag {
+  h6 {
+    font-size: 20px;
+    padding-right: 12px;
+  }
+}
+
+.whatsappBanner__consultaLogo {
+  padding: 1rem;
+  h6 {
+    font-size: 20px;
+  }
+}
+
+.whatsappBanner__icono {
+  font-size: 30px;
+  padding-right: 5px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  .whatsappBanner__parentDiv {
+    height: 300px;
+
+    &::before {
+    width: 100%;
+    height: 100%;
+    }
+  }
+  .whatsappBanner__consultaDiv {
+    padding: 5rem;
+  h5 {
+    color: white;
+    font-family: $poppins;
+    font-size: 48px;
+  }
+}
+
+.whatsappBanner__consultaHashtag {
+  h6 {
+    font-size: 25px;
+    padding-right: 15px;
+  }
+}
+
+.whatsappBanner__consultaLogo {
+  padding: 1.5rem;
+  h6 {
+    font-size: 25px;
+  }
+}
+
+.whatsappBanner__icono {
+  font-size: 35px;
+  padding-right: 5px;
+}
+
+.whatsappBanner__consultaText {
+  width: 50%;
+}
 }
