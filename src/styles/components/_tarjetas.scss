@@ -1,7 +1,7 @@
 .tarjetas__tarjetasDiv {
   display: flex;
-  margin: 1rem;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+  width: 100%;
 }
 
 .tarjetas__iconotarjetasDiv {
@@ -35,6 +35,32 @@
   img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
   }
+}
+
+@media screen and (min-width:1200px) {
+  .tarjetas__iconotarjetasDiv {
+    width: 15rem;
+    padding: 3rem;
+  }
+  
+.tarjetas__iconotarjetas {
+  font-size: 80px;
+}
+
+.tarjetas__detalletarjetasDiv {
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.tarjetas__cardDiv {
+  width: 60px;
+  margin: auto;
+
+  img {
+    width: 100%;
+  }
+}
 }

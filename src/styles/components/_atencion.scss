@@ -1,10 +1,10 @@
-.envios__enviosDiv {
+.atencion__atencionDiv {
   display: flex;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
   width: 100%;
 }
 
-.envios__iconoEnviosDiv {
+.atencion__iconoAtencionDiv {
   display: flex;
   align-items: center;
   width: 7rem;
@@ -12,13 +12,13 @@
   padding: 1rem;
 }
 
-.envios__iconoEnvios {
+.atencion__iconoAtencion {
   width: 100%;
   font-size: 50px;
   color: white;
 }
 
-.envios__detalleEnviosDiv {
+.atencion__detalleAtencionDiv {
   font-family: $poppins;
   width: 100%;
   text-align: start;
@@ -29,7 +29,7 @@
   }
 }
 
-.envios__horaDetalleEnviosDiv {
+.atencion__horaDetalleAtencionDiv {
   display: flex;
   justify-content: center;
 
@@ -38,21 +38,21 @@
   }
 }
 
-.envios__tarjetaDiv {
+.atencion__tarjetaDiv {
   display: flex;
 }
 
 @media screen and (min-width:1200px) {
-  .envios__iconoEnviosDiv {
+  .atencion__iconoAtencionDiv {
     width: 15rem;
     padding: 3rem;
   }
 
-  .envios__iconoEnvios {
+  .atencion__iconoAtencion {
     font-size: 80px;
   }
 
-  .envios__detalleEnviosDiv {
+  .atencion__detalleAtencionDiv {
     padding: 2rem;
 
     h4 {
@@ -60,7 +60,7 @@
     }
   
     p{
-      font-size: 20px;
+      font-size: 25px;
     }
   }
 }

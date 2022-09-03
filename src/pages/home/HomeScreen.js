@@ -2,6 +2,7 @@ import React from 'react';
 import { AutoCarousel2 } from '../../components/AutoCarousel2/AutoCarousel2';
 import CarouselSwiper from '../../components/CarouselSwiper/CarouselSwiper';
 import { GoogleMaps } from '../../components/GoogleMaps';
+import { Atencion } from '../../components/Informacion/Atencion';
 import { Envios } from '../../components/Informacion/Envios';
 import { Horarios } from '../../components/Informacion/Horarios';
 import { Tarjetas } from '../../components/Informacion/Tarjetas';
@@ -23,9 +24,12 @@ export const HomeScreen = () => {
       <div className='homescreen__WhatsappBannerDiv'>
         <WhatsappBanner />
       </div>
-      <Horarios />
-      <Tarjetas />
-      <Envios />
+      <div className='homescreen__informacion'>
+        <Horarios />
+        <Tarjetas />
+        <Envios />
+        <Atencion />
+      </div>
       <GoogleMaps />
     </div>
   );

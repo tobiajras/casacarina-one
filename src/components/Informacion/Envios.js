@@ -3,11 +3,11 @@ import { faTruck } from '@fortawesome/free-solid-svg-icons';
 
 export const Envios = () => {
   return (
-    <div className='horarios__horariosDiv'>
-      <div className='horarios__iconoHorariosDiv'>
-        <FontAwesomeIcon className='horarios__iconoHorarios' icon={faTruck} />
+    <div className='envios__enviosDiv'>
+      <div className='envios__iconoEnviosDiv'>
+        <FontAwesomeIcon className='envios__iconoEnvios' icon={faTruck} />
       </div>
-      <div className='horarios__detalleHorariosDiv'>
+      <div className='envios__detalleEnviosDiv'>
         <h4>Entregas a Domicilio</h4>
         <p>Consultanos zona de entrega y realiza tu pedido</p>
       </div>
