@@ -12,7 +12,7 @@ export const Atencion = () => {
       </div>
       <div className='atencion__detalleAtencionDiv'>
         <h4>Atención Personalizada</h4>
-        <p>Excelente atención y a disposición</p>
+        <p>Excelente atención y asesoramiento</p>
       </div>
     </div>
   );

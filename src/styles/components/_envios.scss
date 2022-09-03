@@ -42,10 +42,20 @@
   display: flex;
 }
 
+@media screen and (min-width:800px) {
+  .envios__enviosDiv {
+    min-height: 150px;
+  }
+}
+
 @media screen and (min-width:1200px) {
+  .envios__enviosDiv {
+    min-height: 200px;
+  }
+  
   .envios__iconoEnviosDiv {
-    width: 15rem;
-    padding: 3rem;
+    width: 12rem;
+    padding: 2rem;
   }
 
   .envios__iconoEnvios {
@@ -53,10 +63,10 @@
   }
 
   .envios__detalleEnviosDiv {
-    padding: 2rem;
+    padding: 1.5rem;
 
     h4 {
-      font-size: 25px ;
+      font-size: 22px ;
     }
   
     p{

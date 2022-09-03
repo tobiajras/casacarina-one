@@ -21,8 +21,8 @@ export const cardsData = [
   },
   {
     id: 5,
-    title: 'Naranja',
-    src: 'NaranjaLogo.svg',
+    title: 'Banco Provincia',
+    src: 'BancoProvinciaLogo.svg',
   },
   {
     id: 6,
@@ -41,8 +41,8 @@ export const cardsData = [
   },
   {
     id: 9,
-    title: 'Banco Provincia',
-    src: 'BancoProvinciaLogo.svg',
+    title: 'Naranja',
+    src: 'NaranjaLogo.svg',
   },
   {
     id: 10,

@@ -42,10 +42,20 @@
   display: flex;
 }
 
+@media screen and (min-width:800px) {
+  .atencion__atencionDiv {
+    min-height: 150px;
+  }
+}
+
 @media screen and (min-width:1200px) {
+  .atencion__atencionDiv {
+    min-height: 200px;
+  }
+
   .atencion__iconoAtencionDiv {
-    width: 15rem;
-    padding: 3rem;
+    width: 12rem;
+    padding: 2rem;
   }
 
   .atencion__iconoAtencion {
@@ -53,14 +63,14 @@
   }
 
   .atencion__detalleAtencionDiv {
-    padding: 2rem;
+    padding: 1.5rem;
 
     h4 {
-      font-size: 25px ;
+      font-size: 22px ;
     }
   
     p{
-      font-size: 25px;
+      font-size: 20px;
     }
   }
 }
