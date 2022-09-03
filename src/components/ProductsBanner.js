@@ -8,7 +8,7 @@ export const ProductsBanner = () => {
       <div className='productsBanner__consultaDiv'>
         <div className='productsBanner__consultaText'>
           <h5>Encontrá todo</h5>
-          <h5>lo que buscás</h5>
+          <h5>lo que necesitas</h5>
           <div className='productsBanner__consultaHashtag'>
             <h6>#Productos</h6>
             <h6>#Calidad</h6>
