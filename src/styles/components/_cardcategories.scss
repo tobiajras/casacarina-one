@@ -4,13 +4,26 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
+  position: relative;
+
+  
 }
 
 .cardcategories__divOne{
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100%
+  height: 100%;
+
+  ::before {
+    content: '';
+    background: linear-gradient(0deg, rgba(#1f263f,1) 6%, rgba(#1f263f,0.3) 90%, rgba(#1f263f,0.8) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
 .cardcategories__divOne img{
@@ -22,7 +35,21 @@
 .cardcategories__divTwo{
   display: flex;
   justify-content: center;
-  padding-top: 0.5rem
+  padding-top: 0.5rem;
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+
+  ::before{
+    content: '';
+    width: 100%;
+    background-color: white;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    border-radius: 2px;
+  
+  }
 }
 
 .cardcategories__navlink {
@@ -31,7 +58,7 @@
   font-weight: 600;
   text-decoration: none;
   list-style: none;
-  color: $primary;
+  color: white;
 }
 
 @media screen and (min-width:1200px) {
