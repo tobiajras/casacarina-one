@@ -27,6 +27,10 @@
   }
 }
 
+.productList__AutoCarousel2Div {
+  margin: 1rem 0;
+}
+
 @media screen and (min-width: 1200px) {
   .productsList__parentDiv {
     padding: 0rem 5rem 1rem 5rem;
@@ -56,5 +60,8 @@
       background-color: white;
       border: none;
     }
+  }
+  .productList__AutoCarousel2Div {
+    margin: 3rem 0;
   }
 }
