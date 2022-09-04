@@ -12,6 +12,9 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import axios from 'axios';
+import { AutoCarousel2 } from '../../components/AutoCarousel2/AutoCarousel2';
+
+import { CircularProgress } from '@mui/material';
 
 export const ProductsList = () => {
   const location = useLocation();
@@ -96,8 +99,8 @@ export const ProductsList = () => {
 
   if (isLoading) {
     return (
-      <div>
-        <h4>Loading...</h4>
+      <div className='productsList__loadingDiv'>
+        <CircularProgress style={{ color: '#1f263f' }} />
       </div>
     );
   } else if (products.length >= 1) {
@@ -119,6 +122,7 @@ export const ProductsList = () => {
             <FontAwesomeIcon icon={faChevronCircleRight} />
           </button>
         </div>
+        <AutoCarousel2 />
       </div>
     );
   }

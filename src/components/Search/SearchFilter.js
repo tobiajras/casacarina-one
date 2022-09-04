@@ -35,6 +35,7 @@ export const SearchFilter = () => {
             id=''
             placeholder='Cemento...'
             autoComplete='none'
+            autoFocus
           />
           <FontAwesomeIcon
             className='searchFilter__icon'

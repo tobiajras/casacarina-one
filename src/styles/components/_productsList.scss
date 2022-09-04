@@ -31,6 +31,15 @@
   margin: 1rem 0;
 }
 
+.productsList__loadingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  padding-top: 10vh;
+}
+
 @media screen and (min-width: 1200px) {
   .productsList__parentDiv {
     padding: 0rem 5rem 1rem 5rem;
