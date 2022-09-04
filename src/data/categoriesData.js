@@ -31,12 +31,12 @@ export const categoriesData = [
   },
   {
     id: 7,
-    title: 'muebleria',
+    title: 'Muebleria',
     src: 'muebles.png',
   },
   {
     id: 8,
-    title: 'electricidad',
+    title: 'Electricidad',
     src: 'electricidad.png',
   },
 ];
