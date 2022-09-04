@@ -1,18 +1,18 @@
 export const carouselData = [
   {
     id: 1,
-    src: "fondoArena.jpg",
+    src: 'fondoArena.jpg',
   },
   {
     id: 2,
-    src: "fondoPiedra.jpg",
+    src: 'fondoPiedra.jpg',
   },
   {
     id: 3,
-    src: "fondoLadrillos.jpg",
+    src: 'fondoLadrillos.jpg',
   },
   {
     id: 4,
-    src: "fondoMallas.jpg",
+    src: 'fondoMallas.jpg',
   },
 ];
