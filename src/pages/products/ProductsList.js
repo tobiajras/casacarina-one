@@ -14,7 +14,7 @@ import {
 import axios from 'axios';
 import { AutoCarousel2 } from '../../components/AutoCarousel2/AutoCarousel2';
 
-import { CircularProgress } from '@mui/material';
+import { CircularProgress, Alert } from '@mui/material';
 
 export const ProductsList = () => {
   const location = useLocation();
@@ -128,7 +128,10 @@ export const ProductsList = () => {
   }
   return (
     <div>
-      <h4>No results</h4>
+      <SearchFilter />
+      <div className='productList__noResults'>
+        <Alert severity='info'>No se encontraron coincidencias con "{q}"</Alert>
+      </div>
     </div>
   );
 };

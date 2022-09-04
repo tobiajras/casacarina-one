@@ -40,6 +40,18 @@
   padding-top: 10vh;
 }
 
+.MuiAlert-root{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+}
+
+.css-1pxa9xg-MuiAlert-message {
+  text-overflow: ellipsis;
+  overflow: hidden !important;
+}
+
 @media screen and (min-width: 1200px) {
   .productsList__parentDiv {
     padding: 0rem 5rem 1rem 5rem;
@@ -72,5 +84,17 @@
   }
   .productList__AutoCarousel2Div {
     margin: 3rem 0;
+  }
+
+  .MuiAlert-root{
+    margin: 3rem 5rem;
+  }
+
+  .MuiAlert-message {
+    font-size: 25px;
+  }
+
+  .MuiAlert-icon svg {
+    font-size: 40px;
   }
 }
