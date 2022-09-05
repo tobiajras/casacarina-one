@@ -1,7 +1,18 @@
-.googleMaps__div {
-  width: 100%;
-}
-
 .googleMaps__iframe {
   width: 100%;
 }
+
+@media screen and (min-width:1200px) {
+  .googleMaps__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5rem;
+  }
+
+  .googleMaps__iframe {
+    height: 450px;
+  }
+}
+
+

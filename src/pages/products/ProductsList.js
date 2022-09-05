@@ -130,7 +130,9 @@ export const ProductsList = () => {
     <div>
       <SearchFilter />
       <div className='productList__noResults'>
-        <Alert severity='info'>No se encontraron coincidencias con "{q}"</Alert>
+        <Alert severity='error'>
+          No se encontraron coincidencias con "{q}"
+        </Alert>
       </div>
     </div>
   );
