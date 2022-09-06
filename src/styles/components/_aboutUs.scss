@@ -36,7 +36,7 @@
 .aboutUs__divDescripcion{
   width: 100%;
 }
-.aboutUs__divDescripcion h4{
+.aboutUs__divDescripcion p{
   padding: 1rem;
   font-family: $poppins;
   font-weight: 500;
@@ -44,4 +44,34 @@
 
 .aboutUs__divDescripcion img {
   width: 100%;
+}
+
+@media screen and (min-width:1200px) {
+  
+  .aboutUs__gridGaleria {
+    margin: 2rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-image: url('../../../public/assets/galeria/ceramicasGaleria.png');
+    background-size: cover;
+    position: relative;
+
+    ::before {
+      width: 100px;
+      height: 100px;
+      content: '';
+      background-color: blue;
+      top: 0;
+      position: absolute;
+    }
+  }
+  
+  .aboutUs__divGaleria {
+  
+    img {
+      width: 100%;
+    }
+  }
 }
