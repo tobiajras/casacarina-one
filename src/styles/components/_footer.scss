@@ -6,20 +6,36 @@
 .footer__firstDiv {
   display: flex;
   flex-direction: column;
-  padding-bottom: 1rem;
+}
+
+.footer__contactDiv {
+  padding: 1rem 0;
+}
+
+.footer__h4 {
+  color: white;
+  font-family: $poppins;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-bottom: solid 2px $secondary;
+}
+
+.footer__aContact {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+.footer__contactIcon {
+  color: white;
+  font-size: 22px;
+  padding-right: 9px;
 }
 
 .footer__firstDiv span {
   color: white;
   font-family: $poppins;
-}
-
-.footer__casacarinaLogo{
-  width: 10rem;
-}
-
-.footer__secondDiv h4 {
-  color: white;
 }
 
 .footer__menuDiv{
@@ -29,17 +45,16 @@
 }
 
 .footer__linksMenu {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
   font-family: $poppins;
+  font-size: 1rem;
 }
 
 .footer__thirdtDiv {
   width: 100%;
-}
-
-.footer__thirdtDiv h4 {
-  color: white;
 }
 
 .footer__iconsDiv {
@@ -50,13 +65,6 @@
   font-size: 2rem;
   color: white;
   padding-right: 1rem;
-}
-
-.footer__h4 {
-  font-family: $poppins;
-  font-weight: 500;
-  font-size: 1.5rem;
-  border-bottom: solid 2px $secondary;
 }
 
 .footer__copyDiv {

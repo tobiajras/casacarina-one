@@ -6,37 +6,71 @@ import {
   faInstagram,
   faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import {
+  faAngleRight,
+  faLocationDot,
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons';
 
 export const Footer = () => {
   return (
     <footer>
       <div className='footer__divParent'>
         <div className='footer__firstDiv'>
-          <img
-            src='/assets/logoCasacarina.svg'
-            alt='casacarinaLogo'
-            className='footer__casacarinaLogo'
-          />
-          <span>Homero 2762, entre Zuberoa y Bayona</span>
-          <span>Lomas de Zamora</span>
-          <span>4273-1474</span>
-          <span>7500-8000</span>
+          <h4 className='footer__h4'>CONTACTO</h4>
+          <div className='footer__contactDiv'>
+            <a
+              className='footer__aContact'
+              href='https://www.google.com/maps/place/Casa+Carina/@-34.7394597,-58.4592977,15z/data=!4m5!3m4!1s0x0:0xda0c8e4831dd87e0!8m2!3d-34.7394597!4d-58.4592977'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FontAwesomeIcon
+                className='footer__contactIcon'
+                icon={faLocationDot}
+              />
+              <span>Homero 2762, Lomas de Zamora</span>
+            </a>
+            <a className='footer__aContact' href='tel:+5411427314'>
+              <FontAwesomeIcon className='footer__contactIcon' icon={faPhone} />
+              <span>4273-1474</span>
+            </a>
+            <a className='footer__aContact' href='tel:+541175008000'>
+              <FontAwesomeIcon className='footer__contactIcon' icon={faPhone} />
+              <span>7500-8000</span>
+            </a>
+          </div>
         </div>
         <div className='footer__secondDiv'>
           <h4 className='footer__h4'>MENU</h4>
           <div className='footer__menuDiv'>
             <Link to={'/'} className='footer__linksMenu'>
-              <FontAwesomeIcon icon={faAngleRight} /> Inicio
+              <FontAwesomeIcon
+                className='footer__contactIcon'
+                icon={faAngleRight}
+              />
+              Inicio
             </Link>
             <Link to={'productos'} className='footer__linksMenu'>
-              <FontAwesomeIcon icon={faAngleRight} /> Productos
+              <FontAwesomeIcon
+                className='footer__contactIcon'
+                icon={faAngleRight}
+              />
+              Productos
             </Link>
             <Link to={'nosotros'} className='footer__linksMenu'>
-              <FontAwesomeIcon icon={faAngleRight} /> Nosotros
+              <FontAwesomeIcon
+                className='footer__contactIcon'
+                icon={faAngleRight}
+              />
+              Nosotros
             </Link>
             <Link to={'contacto'} className='footer__linksMenu'>
-              <FontAwesomeIcon icon={faAngleRight} /> Contacto
+              <FontAwesomeIcon
+                className='footer__contactIcon'
+                icon={faAngleRight}
+              />
+              Contacto
             </Link>
           </div>
         </div>
