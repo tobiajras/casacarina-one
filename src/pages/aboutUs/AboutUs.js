@@ -16,7 +16,7 @@ export const AboutUs = () => {
         </p>
         <img src='/assets/Fondos/salon3.png' alt='salonImagen' />
       </div>
-      <h4>Galeria</h4>
+      {/* <h4>Galeria</h4>
       <div className='aboutUs__gridGaleria'>
         {galeriaData.map((img) => {
           return (
@@ -25,7 +25,7 @@ export const AboutUs = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };

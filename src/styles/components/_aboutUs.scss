@@ -46,26 +46,33 @@
   width: 100%;
 }
 
+.aboutUs__gridGaleria {
+  margin:1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(223, 223, 223);
+  position: relative;
+}
+
+.aboutUs__divGaleria {
+  
+  img {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width:1200px) {
   
   .aboutUs__gridGaleria {
     margin: 2rem 3rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap: 20px;
     padding: 20px;
-    background-image: url('../../../public/assets/galeria/ceramicasGaleria.png');
-    background-size: cover;
+    background-color: rgb(223, 223, 223);
     position: relative;
-
-    ::before {
-      width: 100px;
-      height: 100px;
-      content: '';
-      background-color: blue;
-      top: 0;
-      position: absolute;
-    }
   }
   
   .aboutUs__divGaleria {
