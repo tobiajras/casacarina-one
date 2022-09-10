@@ -43,3 +43,22 @@
         object-fit: cover;
     }
 }
+
+@media screen and (max-width:799px) {
+    .galeriaImagenes__gridGaleria {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .galeria1 {
+        grid-column: span 1;
+    }
+    
+    .galeria4 {
+        grid-column: span 1;
+    }
+    
+    .galeria8 {
+        grid-column: span 1;
+    }
+}

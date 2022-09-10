@@ -14,9 +14,10 @@
 
 .navbar__childDiv {
   height: 100%;
-  flex: 1;
   display: flex;
   padding-left: 2rem;
+  z-index: 1;
+  flex: 1;
 }
 
 .navbar__logoLink {
@@ -39,6 +40,7 @@
   text-decoration: none;
   list-style: none;
   position: absolute;
+  background-color: none;
 }
 
 .navbar__childNavlink {
