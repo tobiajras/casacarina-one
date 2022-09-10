@@ -66,15 +66,12 @@
   margin: auto;
   text-decoration: none;
   border-radius: 3px;
+  position: relative;
   
   h6 {
     font-family: $poppins;
     font-size: 12px;
     font-weight: 600;
-  }
-
-  :hover {
-    cursor: pointer;
   }
 }
 
@@ -184,9 +181,18 @@
 
 .productsBanner__consultaLogo {
   padding: 1.5rem;
+
   h6 {
     font-size: 30px;
   }
+
+ 
+}
+
+.productsBanner__consultaLogo:hover {
+  background-color: white;
+  cursor: pointer;
+  color: $primary;
 }
 
 .productsBanner__icono {

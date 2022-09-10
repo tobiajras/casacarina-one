@@ -1,7 +1,6 @@
 import React from 'react';
+import { GaleriaImagenes } from '../../components/GaleriaImagenes';
 import { VisitarBanner } from '../../components/VisitarBanner';
-
-import { galeriaData } from '../../data/galeriaData';
 
 export const AboutUs = () => {
   return (
@@ -14,18 +13,13 @@ export const AboutUs = () => {
           iste molestias dignissimos molestiae libero maxime voluptates neque
           autem eligendi velit laudantium ratione harum modi excepturi.
         </p>
-        <img src='/assets/Fondos/salon3.png' alt='salonImagen' />
+        <p>
+          Exercitationem recusandae officiis iste molestias dignissimos
+          molestiae libero maxime voluptates neque autem eligendi velit
+          laudantium ratione harum modi excepturi.
+        </p>
       </div>
-      {/* <h4>Galeria</h4>
-      <div className='aboutUs__gridGaleria'>
-        {galeriaData.map((img) => {
-          return (
-            <div className='aboutUs__divGaleria' key={img.id}>
-              <img src={`/assets/galeria/${img.src}`} alt={img.title} />
-            </div>
-          );
-        })}
-      </div> */}
+      <GaleriaImagenes />
     </div>
   );
 };

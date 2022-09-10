@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <div className='navbar__parentDiv'>
       <div className='navbar__childDiv'>
-        <Link className='navbar__logoLink' to={'/'}>
+        <Link to={'/'} className='navbar__logoLink'>
           <img src='/assets/logoCasaCarina.svg' alt='LogoCasaCarina' />
         </Link>
       </div>

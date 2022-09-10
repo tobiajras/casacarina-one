@@ -16,12 +16,27 @@ export const galeriaData = [
   },
   {
     id: 4,
+    title: 'Huecos Local',
+    src: 'huecosGaleria.png',
+  },
+  {
+    id: 5,
     title: 'Colchones Local',
     src: 'colchonesGaleria.png',
   },
   {
-    id: 5,
+    id: 6,
+    title: 'Cemento Local',
+    src: 'cementoGaleria.png',
+  },
+  {
+    id: 7,
     title: 'Ceramicas Local',
     src: 'ceramicasGaleria.png',
+  },
+  {
+    id: 8,
+    title: 'Arena Local',
+    src: 'arenaGaleria.png',
   },
 ];

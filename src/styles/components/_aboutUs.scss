@@ -46,39 +46,7 @@
   width: 100%;
 }
 
-.aboutUs__gridGaleria {
-  margin:1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
-  gap: 20px;
-  padding: 20px;
-  background-color: rgb(223, 223, 223);
-  position: relative;
-}
-
-.aboutUs__divGaleria {
-  
-  img {
-    width: 100%;
-  }
-}
-
 @media screen and (min-width:1200px) {
   
-  .aboutUs__gridGaleria {
-    margin: 2rem 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    background-color: rgb(223, 223, 223);
-    position: relative;
-  }
   
-  .aboutUs__divGaleria {
-  
-    img {
-      width: 100%;
-    }
-  }
 }

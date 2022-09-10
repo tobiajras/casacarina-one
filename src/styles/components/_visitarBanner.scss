@@ -9,7 +9,7 @@
   width: 100%;
   background-image: url('../../../public/assets/banners/visitarBanner.png');
   background-size: cover;
-  background-position-y: center;
+  background-position-y: top;
   &::before {
     pointer-events: none;
   content: "";
