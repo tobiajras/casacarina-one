@@ -203,4 +203,10 @@
 .whatsappBanner__consultaText {
   width: 60%;
 }
+
+.whatsappBanner__consultaLogo:hover {
+  background-color: white;
+  cursor: pointer;
+  color: $primary;
+}
 }

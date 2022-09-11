@@ -109,6 +109,10 @@
     font-size: 40px;
   }
 
+  .footer__icons:hover {
+    color: $secondary;
+  }
+
   .foooter__iconsDivH4 {
     font-size: 18px;
     padding-bottom: 1rem;
@@ -118,5 +122,13 @@
     padding-right: 20px;
   }
 
+  .footer__linksMenu:hover {
+    color: $secondary;
+  }
+
+  .footer__aContact:hover {
+    color: $secondary;
+    background-color: blue;
+  }
   
 }

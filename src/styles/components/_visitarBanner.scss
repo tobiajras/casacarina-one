@@ -203,4 +203,10 @@
 .visitarBanner__consultaText {
   width: 60%;
 }
+
+.visitarBanner__consultaLogo:hover {
+  background-color: white;
+  cursor: pointer;
+  color: $primary;
+}
 }

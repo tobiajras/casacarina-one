@@ -35,6 +35,7 @@ export const ProductsList = () => {
     const getProducts = async () => {
       const res = await axios.get('/casacarinaDataProductos.json');
       const { data } = res;
+      window.scrollTo(0, 0);
       filterData(q, c, data).then(
         setProducts((products) =>
           products.slice(indexPage, indexPage + productsPerPage)
