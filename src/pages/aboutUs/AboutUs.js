@@ -19,7 +19,9 @@ export const AboutUs = () => {
           laudantium ratione harum modi excepturi.
         </p>
       </div>
-      <GaleriaImagenes />
+      <div className='aboutUs__GaleriaImagenes'>
+        <GaleriaImagenes />
+      </div>
     </div>
   );
 };

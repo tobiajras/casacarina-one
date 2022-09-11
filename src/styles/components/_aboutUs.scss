@@ -34,8 +34,8 @@
 }
 
 .aboutUs__divDescripcion{
-  width: 100%;
 }
+
 .aboutUs__divDescripcion p{
   padding: 1rem;
   font-family: $poppins;
@@ -48,5 +48,11 @@
 
 @media screen and (min-width:1200px) {
   
-  
+  .aboutUs__GaleriaImagenes {
+    margin: 2rem 5rem;
+  }
+
+  .aboutUs__divDescripcion{
+    margin: 2rem 5rem;
+  }
 }
