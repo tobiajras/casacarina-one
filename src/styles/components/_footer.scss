@@ -61,6 +61,13 @@
   padding: 1rem 0;
 }
 
+.foooter__iconsDivH4 {
+  color: white;
+  font-family: $poppins;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
 .footer__icons {
   font-size: 2rem;
   color: white;
@@ -89,4 +96,27 @@
     background-color: $primary;
     padding: 2rem 5rem;
   }
+
+  .footer__linksMenu {
+    font-size: 18px;
+  }
+
+  .footer__firstDiv span {
+    font-size: 18px;
+  }
+
+  .footer__icons {
+    font-size: 40px;
+  }
+
+  .foooter__iconsDivH4 {
+    font-size: 18px;
+    padding-bottom: 1rem;
+  }
+
+  .footer__icons {
+    padding-right: 20px;
+  }
+
+  
 }

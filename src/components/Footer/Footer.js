@@ -77,6 +77,9 @@ export const Footer = () => {
         <div className='footer__thirdtDiv'>
           <h4 className='footer__h4'>REDES</h4>
           <div className='footer__iconsDiv'>
+            <h4 className='foooter__iconsDivH4'>
+              Seguinos en nuestras redes sociales:
+            </h4>
             <a
               href='https://wa.me/5491135560618/?text=Hola, queria solicitar lista de precios. Gracias'
               target='_blank'
