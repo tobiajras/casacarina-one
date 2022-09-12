@@ -111,6 +111,7 @@
 
   .footer__icons:hover {
     color: $secondary;
+    transition: .4s;
   }
 
   .foooter__iconsDivH4 {
@@ -124,11 +125,6 @@
 
   .footer__linksMenu:hover {
     color: $secondary;
-  }
-
-  .footer__aContact:hover {
-    color: $secondary;
-    background-color: blue;
-  }
-  
+    transition: .4s;
+  }  
 }

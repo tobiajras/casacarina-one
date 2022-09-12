@@ -9868,7 +9868,7 @@
   },
   {
     "CODIGO": "CCRR1",
-    "DESCRIPCION": "Revestimiento 2da Blanco Plus 35x35",
+    "DESCRIPCION": "Cerámica 2da Blanco Plus 35x35",
     "PRECIO": "1000",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9878,7 +9878,7 @@
   },
   {
     "CODIGO": "CCRR2",
-    "DESCRIPCION": "Revestimiento 2da Travertino Gris 35x35",
+    "DESCRIPCION": "Cerámica 2da Travertino Gris 35x35",
     "PRECIO": "910",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9888,7 +9888,7 @@
   },
   {
     "CODIGO": "CCRR3",
-    "DESCRIPCION": "Revestimiento Blanco Plus 35x35",
+    "DESCRIPCION": "Cerámica Blanco Plus 35x35",
     "PRECIO": "1160",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9898,7 +9898,7 @@
   },
   {
     "CODIGO": "CCRR4",
-    "DESCRIPCION": "Revestimiento Cotto Azul 35x35",
+    "DESCRIPCION": "Cerámica Cotto Azul 35x35",
     "PRECIO": "1110",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9908,7 +9908,7 @@
   },
   {
     "CODIGO": "CCRR5",
-    "DESCRIPCION": "Revestimiento Cotto Gris 35x35",
+    "DESCRIPCION": "Cerámica Cotto Gris 35x35",
     "PRECIO": "1110",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9918,7 +9918,7 @@
   },
   {
     "CODIGO": "CCRR6",
-    "DESCRIPCION": "Revestimiento Cotto Terra 35x35",
+    "DESCRIPCION": "Cerámica Cotto Terra 35x35",
     "PRECIO": "1110",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9928,7 +9928,7 @@
   },
   {
     "CODIGO": "CCRR7",
-    "DESCRIPCION": "Revestimiento Cotto Verde 35x35",
+    "DESCRIPCION": "Cerámica Cotto Verde 35x35",
     "PRECIO": "1110",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9938,7 +9938,7 @@
   },
   {
     "CODIGO": "CCRR8",
-    "DESCRIPCION": "Revestimiento Grafiato Beige 35x35",
+    "DESCRIPCION": "Cerámica Grafiato Beige 35x35",
     "PRECIO": "1080",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9948,7 +9948,7 @@
   },
   {
     "CODIGO": "CCRR9",
-    "DESCRIPCION": "Revestimiento Grafiato Marron 35x35",
+    "DESCRIPCION": "Cerámica Grafiato Marron 35x35",
     "PRECIO": "1080",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9958,7 +9958,7 @@
   },
   {
     "CODIGO": "CCRR10",
-    "DESCRIPCION": "Revestimiento Madera Parquet 35x35",
+    "DESCRIPCION": "Cerámica Madera Parquet 35x35",
     "PRECIO": "1120",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9968,7 +9968,7 @@
   },
   {
     "CODIGO": "CCRR11",
-    "DESCRIPCION": "Revestimiento Madera Entramada Gris 35x35",
+    "DESCRIPCION": "Cerámica Madera Entramada Gris 35x35",
     "PRECIO": "1120",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9978,7 +9978,7 @@
   },
   {
     "CODIGO": "CCRR12",
-    "DESCRIPCION": "Revestimiento Madera Entramada Marron 35x35",
+    "DESCRIPCION": "Cerámica Madera Entramada Marron 35x35",
     "PRECIO": "1120",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9988,7 +9988,7 @@
   },
   {
     "CODIGO": "CCRR13",
-    "DESCRIPCION": "Revestimiento Madrid Azul 35x35",
+    "DESCRIPCION": "Cerámica Madrid Azul 35x35",
     "PRECIO": "1120",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -9998,7 +9998,7 @@
   },
   {
     "CODIGO": "CCRR14",
-    "DESCRIPCION": "Revestimiento Madrid Rojo 35x35",
+    "DESCRIPCION": "Cerámica Madrid Rojo 35x35",
     "PRECIO": "1120",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10008,7 +10008,7 @@
   },
   {
     "CODIGO": "CCRR15",
-    "DESCRIPCION": "Revestimiento Marino Beige 35x35",
+    "DESCRIPCION": "Cerámica Marino Beige 35x35",
     "PRECIO": "1120",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10018,7 +10018,7 @@
   },
   {
     "CODIGO": "CCRR16",
-    "DESCRIPCION": "Revestimiento Marino Gris 35x35",
+    "DESCRIPCION": "Cerámica Marino Gris 35x35",
     "PRECIO": "1120",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10028,7 +10028,7 @@
   },
   {
     "CODIGO": "CCRR17",
-    "DESCRIPCION": "Revestimiento Marino Rubi 35x35",
+    "DESCRIPCION": "Cerámica Marino Rubi 35x35",
     "PRECIO": "1120",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10038,7 +10038,7 @@
   },
   {
     "CODIGO": "CCRR18",
-    "DESCRIPCION": "Revestimiento Montecarlo Beige 35x35",
+    "DESCRIPCION": "Cerámica Montecarlo Beige 35x35",
     "PRECIO": "1160",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10048,7 +10048,7 @@
   },
   {
     "CODIGO": "CCRR19",
-    "DESCRIPCION": "Revestimiento Negro Plus 35x35",
+    "DESCRIPCION": "Cerámica Negro Plus 35x35",
     "PRECIO": "1160",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10058,7 +10058,7 @@
   },
   {
     "CODIGO": "CCRR20",
-    "DESCRIPCION": "Revestimiento Porfido Marron 35x35",
+    "DESCRIPCION": "Cerámica Porfido Marron 35x35",
     "PRECIO": "1160",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10068,7 +10068,7 @@
   },
   {
     "CODIGO": "CCRR21",
-    "DESCRIPCION": "Revestimiento Porfido Verde 35x35",
+    "DESCRIPCION": "Cerámica Porfido Verde 35x35",
     "PRECIO": "1160",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10078,7 +10078,7 @@
   },
   {
     "CODIGO": "CCRR22",
-    "DESCRIPCION": "Revestimiento Raiz Nogal 35x35",
+    "DESCRIPCION": "Cerámica Raiz Nogal 35x35",
     "PRECIO": "1160",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10088,7 +10088,7 @@
   },
   {
     "CODIGO": "CCRR23",
-    "DESCRIPCION": "Revestimiento Romano Bianco 35x35",
+    "DESCRIPCION": "Cerámica Romano Bianco 35x35",
     "PRECIO": "1160",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10098,7 +10098,7 @@
   },
   {
     "CODIGO": "CCRR24",
-    "DESCRIPCION": "Revestimiento San Telmo Gris 35x35",
+    "DESCRIPCION": "Cerámica San Telmo Gris 35x35",
     "PRECIO": "1210",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10108,7 +10108,7 @@
   },
   {
     "CODIGO": "CCRR25",
-    "DESCRIPCION": "Revestimiento San Telmo Terra 35x35",
+    "DESCRIPCION": "Cerámica San Telmo Terra 35x35",
     "PRECIO": "1210",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10118,7 +10118,7 @@
   },
   {
     "CODIGO": "CCRR26",
-    "DESCRIPCION": "Revestimiento Tafi Beige 35x35",
+    "DESCRIPCION": "Cerámica Tafi Beige 35x35",
     "PRECIO": "1110",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10128,7 +10128,7 @@
   },
   {
     "CODIGO": "CCRR27",
-    "DESCRIPCION": "Revestimiento Tafi Marron 35x35",
+    "DESCRIPCION": "Cerámica Tafi Marron 35x35",
     "PRECIO": "1110",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10138,7 +10138,7 @@
   },
   {
     "CODIGO": "CCRR28",
-    "DESCRIPCION": "Revestimiento Travertino Gris 35x35",
+    "DESCRIPCION": "Cerámica Travertino Gris 35x35",
     "PRECIO": "1070",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10148,7 +10148,7 @@
   },
   {
     "CODIGO": "CCRR29",
-    "DESCRIPCION": "Revestimiento Travertino Marron 35x35",
+    "DESCRIPCION": "Cerámica Travertino Marron 35x35",
     "PRECIO": "1070",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10158,7 +10158,7 @@
   },
   {
     "CODIGO": "CCRR30",
-    "DESCRIPCION": "Revestimiento Victoria Gris 35x35",
+    "DESCRIPCION": "Cerámica Victoria Gris 35x35",
     "PRECIO": "1070",
     "MEDIDA": "35x35",
     "CAJA": "2.20m2",
@@ -10168,7 +10168,7 @@
   },
   {
     "CODIGO": "CCRR32",
-    "DESCRIPCION": "Revestimiento 2da Acuario Blanco 25x35",
+    "DESCRIPCION": "Cerámica 2da Acuario Blanco 25x35",
     "PRECIO": "1120",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10178,7 +10178,7 @@
   },
   {
     "CODIGO": "CCRR33",
-    "DESCRIPCION": "Revestimiento 2da Romano Noce 25x35",
+    "DESCRIPCION": "Cerámica 2da Romano Noce 25x35",
     "PRECIO": "1120",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10188,7 +10188,7 @@
   },
   {
     "CODIGO": "CCRR34",
-    "DESCRIPCION": "Revestimiento 2da Romano Bianco 25x35",
+    "DESCRIPCION": "Cerámica 2da Romano Bianco 25x35",
     "PRECIO": "1120",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10198,7 +10198,7 @@
   },
   {
     "CODIGO": "CCRR35",
-    "DESCRIPCION": "Revestimiento 2da Serrano Gris 25x35",
+    "DESCRIPCION": "Cerámica 2da Serrano Gris 25x35",
     "PRECIO": "1120",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10208,7 +10208,7 @@
   },
   {
     "CODIGO": "CCRR37",
-    "DESCRIPCION": "Revestimiento Acuario Blanco 25x35",
+    "DESCRIPCION": "Cerámica Acuario Blanco 25x35",
     "PRECIO": "1790",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10218,7 +10218,7 @@
   },
   {
     "CODIGO": "CCRR38",
-    "DESCRIPCION": "Revestimiento Carla Beige 25x35",
+    "DESCRIPCION": "Cerámica Carla Beige 25x35",
     "PRECIO": "1260",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10228,7 +10228,7 @@
   },
   {
     "CODIGO": "CCRR39",
-    "DESCRIPCION": "Revestimiento Marino Gris 25x35",
+    "DESCRIPCION": "Cerámica Marino Gris 25x35",
     "PRECIO": "1290",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10238,7 +10238,7 @@
   },
   {
     "CODIGO": "CCRR40",
-    "DESCRIPCION": "Revestimiento Marino Rubi 25x35",
+    "DESCRIPCION": "Cerámica Marino Rubi 25x35",
     "PRECIO": "1290",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10248,7 +10248,7 @@
   },
   {
     "CODIGO": "CCRR41",
-    "DESCRIPCION": "Revestimiento Mureto Arena 25x35",
+    "DESCRIPCION": "Cerámica Mureto Arena 25x35",
     "PRECIO": "1330",
     "MEDIDA": "25x35",
     "CAJA": "2.10m2",
@@ -10258,7 +10258,7 @@
   },
   {
     "CODIGO": "CCRR42",
-    "DESCRIPCION": "Revestimiento Mureto Cobre 25x35",
+    "DESCRIPCION": "Cerámica Mureto Cobre 25x35",
     "PRECIO": "1330",
     "MEDIDA": "25x35",
     "CAJA": "2.10m2",
@@ -10268,7 +10268,7 @@
   },
   {
     "CODIGO": "CCRR43",
-    "DESCRIPCION": "Revestimiento Mureto Mercurio 25x35",
+    "DESCRIPCION": "Cerámica Mureto Mercurio 25x35",
     "PRECIO": "1330",
     "MEDIDA": "25x35",
     "CAJA": "2.10m2",
@@ -10278,7 +10278,7 @@
   },
   {
     "CODIGO": "CCRR44",
-    "DESCRIPCION": "Revestimiento Romano Beige 25x35",
+    "DESCRIPCION": "Cerámica Romano Beige 25x35",
     "PRECIO": "1290",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10288,7 +10288,7 @@
   },
   {
     "CODIGO": "CCRR45",
-    "DESCRIPCION": "Revestimiento Romano Bianco 25x35",
+    "DESCRIPCION": "Cerámica Romano Bianco 25x35",
     "PRECIO": "1290",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10298,7 +10298,7 @@
   },
   {
     "CODIGO": "CCRR46",
-    "DESCRIPCION": "Revestimiento Romano Noce 25x35",
+    "DESCRIPCION": "Cerámica Romano Noce 25x35",
     "PRECIO": "1290",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10308,7 +10308,7 @@
   },
   {
     "CODIGO": "CCRR47",
-    "DESCRIPCION": "Revestimiento Montecarlo Beige 25x35",
+    "DESCRIPCION": "Cerámica Montecarlo Beige 25x35",
     "PRECIO": "1290",
     "MEDIDA": "25x35",
     "CAJA": "2.22m2",
@@ -10318,7 +10318,7 @@
   },
   {
     "CODIGO": "CCRR49",
-    "DESCRIPCION": "Revestimiento 2da Calipso Gris 31x53",
+    "DESCRIPCION": "Cerámica 2da Calipso Gris 31x53",
     "PRECIO": "1180",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10328,7 +10328,7 @@
   },
   {
     "CODIGO": "CCRR50",
-    "DESCRIPCION": "Revestimiento 2da Nieve Satinado 31x53",
+    "DESCRIPCION": "Cerámica 2da Nieve Satinado 31x53",
     "PRECIO": "1180",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10338,7 +10338,7 @@
   },
   {
     "CODIGO": "CCRR52",
-    "DESCRIPCION": "Revestimiento Calipso Gris 31x53",
+    "DESCRIPCION": "Cerámica Calipso Gris 31x53",
     "PRECIO": "1460",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10348,7 +10348,7 @@
   },
   {
     "CODIGO": "CCRR53",
-    "DESCRIPCION": "Revestimiento Calipso Marfil 31x53",
+    "DESCRIPCION": "Cerámica Calipso Marfil 31x53",
     "PRECIO": "1460",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10358,7 +10358,7 @@
   },
   {
     "CODIGO": "CCRR54",
-    "DESCRIPCION": "Revestimiento Calipso Marron 31x53",
+    "DESCRIPCION": "Cerámica Calipso Marron 31x53",
     "PRECIO": "1460",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10368,7 +10368,7 @@
   },
   {
     "CODIGO": "CCRR55",
-    "DESCRIPCION": "Revestimiento Carrara 31x53",
+    "DESCRIPCION": "Cerámica Carrara 31x53",
     "PRECIO": "1460",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10378,7 +10378,7 @@
   },
   {
     "CODIGO": "CCRR56",
-    "DESCRIPCION": "Revestimiento Castor Marron 31x53",
+    "DESCRIPCION": "Cerámica Castor Marron 31x53",
     "PRECIO": "1350",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10388,7 +10388,7 @@
   },
   {
     "CODIGO": "CCRR57",
-    "DESCRIPCION": "Revestimiento Madera Lenga 31x53",
+    "DESCRIPCION": "Cerámica Madera Lenga 31x53",
     "PRECIO": "1350",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10398,7 +10398,7 @@
   },
   {
     "CODIGO": "CCRR58",
-    "DESCRIPCION": "Revestimiento Madera Lenga Gris 31x53",
+    "DESCRIPCION": "Cerámica Madera Lenga Gris 31x53",
     "PRECIO": "1350",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10408,7 +10408,7 @@
   },
   {
     "CODIGO": "CCRR59",
-    "DESCRIPCION": "Revestimiento Muro Piedra Brick 31x53",
+    "DESCRIPCION": "Cerámica Muro Piedra Brick 31x53",
     "PRECIO": "1800",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10418,7 +10418,7 @@
   },
   {
     "CODIGO": "CCRR60",
-    "DESCRIPCION": "Revestimiento Muro Travertino Beige 31x53",
+    "DESCRIPCION": "Cerámica Muro Travertino Beige 31x53",
     "PRECIO": "1460",
     "MEDIDA": "31x53",
     "CAJA": "1.65m2",
@@ -10428,7 +10428,7 @@
   },
   {
     "CODIGO": "CCRR62",
-    "DESCRIPCION": "Revestimiento 2da Cotto Natural 56x56",
+    "DESCRIPCION": "Cerámica 2da Cotto Natural 56x56",
     "PRECIO": "1070",
     "MEDIDA": "56x56",
     "CAJA": "2.17m2",
@@ -10438,7 +10438,7 @@
   },
   {
     "CODIGO": "CCRR63",
-    "DESCRIPCION": "Revestimiento 2da Cotto Gris 56x56",
+    "DESCRIPCION": "Cerámica 2da Cotto Gris 56x56",
     "PRECIO": "1070",
     "MEDIDA": "56x56",
     "CAJA": "2.17m2",
@@ -10448,7 +10448,7 @@
   },
   {
     "CODIGO": "CCRR65",
-    "DESCRIPCION": "Revestimiento Calcareo Color 56x56",
+    "DESCRIPCION": "Cerámica Calcareo Color 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10458,7 +10458,7 @@
   },
   {
     "CODIGO": "CCRR66",
-    "DESCRIPCION": "Revestimiento Calcareo Gris 56x56",
+    "DESCRIPCION": "Cerámica Calcareo Gris 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10468,7 +10468,7 @@
   },
   {
     "CODIGO": "CCRR67",
-    "DESCRIPCION": "Revestimiento Cotto Beige 56x56",
+    "DESCRIPCION": "Cerámica Cotto Beige 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10478,7 +10478,7 @@
   },
   {
     "CODIGO": "CCRR68",
-    "DESCRIPCION": "Revestimiento Cotto Gris 56x56",
+    "DESCRIPCION": "Cerámica Cotto Gris 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10488,7 +10488,7 @@
   },
   {
     "CODIGO": "CCRR69",
-    "DESCRIPCION": "Revestimiento Eucalipto Beige 56x56",
+    "DESCRIPCION": "Cerámica Eucalipto Beige 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10498,7 +10498,7 @@
   },
   {
     "CODIGO": "CCRR70",
-    "DESCRIPCION": "Revestimiento Mediterraneo Gris 56x56",
+    "DESCRIPCION": "Cerámica Mediterraneo Gris 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10508,7 +10508,7 @@
   },
   {
     "CODIGO": "CCRR71",
-    "DESCRIPCION": "Revestimiento Mediterraneo Arena 56x56",
+    "DESCRIPCION": "Cerámica Mediterraneo Arena 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10518,7 +10518,7 @@
   },
   {
     "CODIGO": "CCRR72",
-    "DESCRIPCION": "Revestimiento Pino Claro 56x56",
+    "DESCRIPCION": "Cerámica Pino Claro 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10528,7 +10528,7 @@
   },
   {
     "CODIGO": "CCRR73",
-    "DESCRIPCION": "Revestimiento Pino Oscuro 56x56",
+    "DESCRIPCION": "Cerámica Pino Oscuro 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10538,7 +10538,7 @@
   },
   {
     "CODIGO": "CCRR74",
-    "DESCRIPCION": "Revestimiento Roma Beige 56x56",
+    "DESCRIPCION": "Cerámica Roma Beige 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10548,7 +10548,7 @@
   },
   {
     "CODIGO": "CCRR75",
-    "DESCRIPCION": "Revestimiento Roma Marron 56x56",
+    "DESCRIPCION": "Cerámica Roma Marron 56x56",
     "PRECIO": "1330",
     "MEDIDA": "56x56",
     "CAJA": "2,17m2",
@@ -10558,7 +10558,7 @@
   },
   {
     "CODIGO": "CCRR77",
-    "DESCRIPCION": "Revestimiento Calipso Marfil 53x53",
+    "DESCRIPCION": "Porcelanato Calipso Marfil 53x53",
     "PRECIO": "2410",
     "MEDIDA": "53x53",
     "CAJA": "2.00m2",
@@ -10568,7 +10568,7 @@
   },
   {
     "CODIGO": "CCRR78",
-    "DESCRIPCION": "Revestimiento Cemento Beige 53x53",
+    "DESCRIPCION": "Porcelanato Cemento Beige 53x53",
     "PRECIO": "2410",
     "MEDIDA": "53x53",
     "CAJA": "2.00m2",
@@ -10578,7 +10578,7 @@
   },
   {
     "CODIGO": "CCRR79",
-    "DESCRIPCION": "Revestimiento Cemento Hd 53x53",
+    "DESCRIPCION": "Porcelanato Cemento Hd 53x53",
     "PRECIO": "2410",
     "MEDIDA": "53x53",
     "CAJA": "2.00m2",
@@ -10588,7 +10588,7 @@
   },
   {
     "CODIGO": "CCRR80",
-    "DESCRIPCION": "Revestimiento Gloria Marfil 53x53",
+    "DESCRIPCION": "Porcelanato Gloria Marfil 53x53",
     "PRECIO": "2070",
     "MEDIDA": "53x53",
     "CAJA": "2.00m2",
@@ -10598,7 +10598,7 @@
   },
   {
     "CODIGO": "CCRR81",
-    "DESCRIPCION": "Revestimiento Kairo Beige 53x53",
+    "DESCRIPCION": "Porcelanato Kairo Beige 53x53",
     "PRECIO": "2070",
     "MEDIDA": "53x53",
     "CAJA": "2.00m2",
@@ -15909,7 +15909,7 @@
   },
   {
     "CODIGO": "CCFR35",
-    "DESCRIPCION": "Alambre Galvanizado 1kg",
+    "DESCRIPCION": "Kerosene 1l",
     "PRECIO": "1000",
     "LISTA": "Ferreteria",
     "LISTA ORIGEN": "Gamma",
@@ -15918,7 +15918,7 @@
   },
   {
     "CODIGO": "CCFR36",
-    "DESCRIPCION": "Alambre Pua 50m",
+    "DESCRIPCION": "Alambre Galvanizado 1kg",
     "PRECIO": "3250",
     "LISTA": "Ferreteria",
     "LISTA ORIGEN": "Gamma",
