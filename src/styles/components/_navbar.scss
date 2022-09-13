@@ -70,6 +70,12 @@
   border-radius: 2px;
 }
 
+@media screen and (max-width:1200px) {
+  .navbar__menuList {
+    position: relative;
+  }
+}
+
 @media screen and (max-width:799px) {
   .navbar__childDiv{
     padding-left: 0.5rem;
