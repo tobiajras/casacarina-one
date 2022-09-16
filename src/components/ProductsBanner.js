@@ -19,7 +19,7 @@ export const ProductsBanner = () => {
           to={'/productos/busqueda?c=construccion'}
         >
           <FontAwesomeIcon className='productsBanner__icono' icon={faSearch} />
-          <h6>BUSCAR</h6>
+          <h6 className='productsBanner__buscarH6'>BUSCAR</h6>
         </Link>
       </div>
     </div>

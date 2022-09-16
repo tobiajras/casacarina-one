@@ -67,6 +67,7 @@
   text-decoration: none;
   border-radius: 3px;
   position: relative;
+  z-index: 1;
   
   h6 {
     font-family: $poppins;
@@ -181,19 +182,47 @@
 
 .productsBanner__consultaLogo {
   padding: 1.5rem;
+  overflow: hidden;
 
   h6 {
     font-size: 30px;
-  }
 
- 
+    // ::before {
+    //   content: '';
+    //   width: 100%;
+    //   height: 100%;
+    //   background-color: white;
+    //   top: 0;
+    //   left: 0;
+    //   position: absolute;
+    //   transform: translateX(-100%);
+    //   transition: 1s;
+    //   z-index: 99;
+    // }
+  } 
+}
+
+.productsBanner__consultaLogo ::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
 }
 
 .productsBanner__consultaLogo:hover {
-  background-color: white;
   cursor: pointer;
   color: $primary;
-  transition: .4s;
+  transition: .3s;
+
+  ::after {
+    width: 100%;
+  }
 }
 
 .productsBanner__icono {
