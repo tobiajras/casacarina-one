@@ -55,6 +55,22 @@
 }
 
 
+@media screen and (min-width:800px) {
+  .cardcategories__titleDiv {
+    padding: 2.5vw 2vw; 
+  
+    ::before {
+      height: 3px;
+      bottom: -3px;
+      border-radius: 5px;
+    }
+  
+    h4 {
+      font-size: 1rem;
+    }  
+  }
+}
+
 
 @media (hover:hover) and (min-width:1200px) {
 .cardcategories__parentDiv {
