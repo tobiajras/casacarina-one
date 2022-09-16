@@ -6,8 +6,8 @@
 
 .productsList__gridDiv{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
-  grid-template-rows: repeat(auto-fit, minmax(120px,1fr));
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
   width: 100%;
 }
@@ -50,6 +50,26 @@
 .css-1pxa9xg-MuiAlert-message {
   text-overflow: ellipsis;
   overflow: hidden !important;
+}
+
+@media screen and (min-width:800px) {
+  .productsList__gridDiv{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .productList__pagination {
+  
+    button {
+      padding: 0 1rem;
+      color: $primary;
+      font-size: 2.3rem;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {
