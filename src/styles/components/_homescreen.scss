@@ -23,11 +23,28 @@
 }
 
 @media screen and (min-width:800px) {
+  
+  .homescreen__ProductsBannerDiv{
+    margin: 2rem;
+  }
+
+  .homescreen__WhatsappBannerDiv {
+    margin: 2rem;
+  }
+
   .homescreen__informacion {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    margin: 1rem;
+    margin: 2rem;
+  }
+
+  .homescreen__AutoCarousel2Div {
+    margin: 2rem 0;
+  }
+
+  .homescreen__GoogleMaps {
+      margin: 2rem;
   }
 }
 
@@ -57,4 +74,8 @@
     gap: 2rem;
     margin: 2rem 5rem;
   }
+
+  .homescreen__GoogleMaps {
+    margin: 3rem 5rem;
+}
 }

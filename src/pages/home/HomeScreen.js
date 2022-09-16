@@ -30,7 +30,9 @@ export const HomeScreen = () => {
         <Envios />
         <Atencion />
       </div>
-      <GoogleMaps />
+      <div className='homescreen__GoogleMaps'>
+        <GoogleMaps />
+      </div>
     </div>
   );
 };
