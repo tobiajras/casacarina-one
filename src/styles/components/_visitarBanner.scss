@@ -63,7 +63,7 @@
   color: white;
   margin: auto;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 3px;
   
   h6 {
     font-family: $poppins;
@@ -152,8 +152,33 @@
 
 .visitarBanner__consultaLogo {
   padding: 1rem;
+  position: relative;
+  z-index: 1;
   h6 {
     font-size: 20px;
+  }
+}
+
+.visitarBanner__consultaLogo ::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.visitarBanner__consultaLogo:hover {
+  cursor: pointer;
+  color: $primary;
+  transition: .3s;
+
+  ::after {
+    width: 100%;
   }
 }
 
@@ -205,9 +230,8 @@
 }
 
 .visitarBanner__consultaLogo:hover {
-  background-color: white;
   cursor: pointer;
   color: $primary;
-  transition: .4s;
+  transition: .3s;
 }
 }
