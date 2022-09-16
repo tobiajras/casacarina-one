@@ -161,6 +161,31 @@
 }
 }
 
+@media (hover:hover) and (min-width:800px) {
+  .whatsappBanner__consultaLogo ::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .whatsappBanner__consultaLogo:hover {
+    cursor: pointer;
+    color: $primary;
+    transition: .4s;
+  
+    ::after {
+      width: 100%;
+    }
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .whatsappBanner__parentDiv {
     height: 300px;
@@ -201,27 +226,29 @@
 .whatsappBanner__consultaText {
   width: 60%;
 }
-
-.whatsappBanner__consultaLogo ::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background-color: white;
-  border-radius: 3px;
-  transition: all 0.3s ease;
 }
 
-.whatsappBanner__consultaLogo:hover {
-  cursor: pointer;
-  color: $primary;
-  transition: .4s;
-
-  ::after {
-    width: 100%;
+@media (hover:hover) and (min-width:1200px) {
+  .whatsappBanner__consultaLogo ::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
   }
-}
+  
+  .whatsappBanner__consultaLogo:hover {
+    cursor: pointer;
+    color: $primary;
+    transition: .4s;
+  
+    ::after {
+      width: 100%;
+    }
+  }
 }

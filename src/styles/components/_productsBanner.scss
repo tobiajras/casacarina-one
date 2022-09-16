@@ -155,6 +155,31 @@
 }
 }
 
+@media (hover:hover) and (min-width:800px) {
+  .productsBanner__consultaLogo ::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .productsBanner__consultaLogo:hover {
+    cursor: pointer;
+    color: $primary;
+    transition: .3s;
+  
+    ::after {
+      width: 100%;
+    }
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .productsBanner__parentDiv {
     height: 300px;
@@ -202,31 +227,33 @@
   } 
 }
 
-.productsBanner__consultaLogo ::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background-color: white;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-}
-
-.productsBanner__consultaLogo:hover {
-  cursor: pointer;
-  color: $primary;
-  transition: .3s;
-
-  ::after {
-    width: 100%;
-  }
-}
-
 .productsBanner__icono {
   font-size: 30px;
   padding-right: 10px;
 }
+}
+
+@media (hover:hover) and (min-width:1200px) {
+  .productsBanner__consultaLogo ::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .productsBanner__consultaLogo:hover {
+    cursor: pointer;
+    color: $primary;
+    transition: .3s;
+  
+    ::after {
+      width: 100%;
+    }
+  }
 }

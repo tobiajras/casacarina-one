@@ -56,6 +56,15 @@
 
 
 @media screen and (min-width:800px) {
+  .cardcategories__parentDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+  }
+  
   .cardcategories__titleDiv {
     padding: 2.5vw 2vw; 
   
@@ -69,10 +78,73 @@
       font-size: 1rem;
     }  
   }
+  .cardcategories__divOne{
+    ::before{
+      content: '';
+      background: linear-gradient(0deg, rgba($primary,0.9) 6%, rgba($primary,0) 90%, rgba($primary,0.5) 100%);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 0;
+      z-index: -1;
+  
+      transition: opacity 0.5s;
+    }
+  }
+  
+.cardcategories__titleDiv {
+  position: absolute;
+  background: linear-gradient(0deg, rgba(black,0.8) 3%, rgba(black,0) 90%, rgba(black,0.5) 100%);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 20px; 
+  z-index: 1;
+
+  h4 {
+    font-family: $poppins;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+    max-width: 0%;
+
+    transition: 0.5s;
+  }  
+}
+}
+
+@media (hover:hover) and (min-width:800px) {
+  .cardcategories__parentDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    :hover {
+      h4 {
+        font-size: 1.3rem;
+        max-width: 100%;
+      }
+      ::before {
+        opacity: 1;
+        
+      }   
+    }
+  }
 }
 
 
-@media (hover:hover) and (min-width:1200px) {
+
+@media screen and (min-width:1200px) {
 .cardcategories__parentDiv {
   display: flex;
   justify-content: center;
@@ -80,18 +152,7 @@
   width: 100%;
   height: 100%;
   position: relative;
-  
-  :hover {
-    h4 {
-      font-size: 1.5rem;
-      max-width: 100%;
-    }
-    ::before {
-      opacity: 1;
-      
-    }   
   }
-}
 
 .cardcategories__divOne{
   ::before{
@@ -133,4 +194,26 @@
     transition: 0.5s;
   }  
 }
+}
+
+@media (hover:hover) and (min-width:1200px) {
+  .cardcategories__parentDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    :hover {
+      h4 {
+        font-size: 1.5rem;
+        max-width: 100%;
+      }
+      ::before {
+        opacity: 1;
+        
+      }   
+    }
+  }
 }

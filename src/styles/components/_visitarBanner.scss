@@ -159,33 +159,35 @@
   }
 }
 
-.visitarBanner__consultaLogo ::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background-color: white;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-}
-
-.visitarBanner__consultaLogo:hover {
-  cursor: pointer;
-  color: $primary;
-  transition: .3s;
-
-  ::after {
-    width: 100%;
-  }
-}
-
 .visitarBanner__icono {
   font-size: 30px;
   padding-right: 5px;
 }
+}
+
+@media (hover:hover) and (min-width:800px) {
+  .visitarBanner__consultaLogo ::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .visitarBanner__consultaLogo:hover {
+    cursor: pointer;
+    color: $primary;
+    transition: .3s;
+  
+    ::after {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -227,11 +229,5 @@
 
 .visitarBanner__consultaText {
   width: 60%;
-}
-
-.visitarBanner__consultaLogo:hover {
-  cursor: pointer;
-  color: $primary;
-  transition: .3s;
 }
 }
