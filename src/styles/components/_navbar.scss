@@ -1,11 +1,16 @@
-.navbar__parentDiv {
+.navbar__header {
   background-color: $primary;
+}
+
+.navbar__parentDiv {
   display: flex;
   align-items: center;
   height: 5rem;
   position: sticky;
   top: 0;
   z-index: 2;
+  max-width: 1400px;
+
 }
 
 .navbar__menuIcon{
@@ -17,6 +22,7 @@
   display: flex;
   padding-left: 2rem;
   z-index: 1;
+  flex: 1;
 }
 
 .navbar__logoLink {
@@ -39,6 +45,7 @@
   text-decoration: none;
   list-style: none;
   position: absolute;
+  flex: 1;
 }
 
 .navbar__childNavlink {
