@@ -52,6 +52,12 @@
   overflow: hidden !important;
 }
 
+.productList__Categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width:800px) {
   .productsList__gridDiv{
     grid-template-columns: repeat(4, 1fr);
