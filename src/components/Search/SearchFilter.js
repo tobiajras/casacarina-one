@@ -23,25 +23,23 @@ export const SearchFilter = () => {
   };
 
   return (
-    <div>
-      <div className='searchFilter__div'>
-        <form onSubmit={handleSearch} className='searchFilter__form'>
-          <input
-            className='searchFilter__input'
-            value={searchValue}
-            onChange={handleInputSearch}
-            type='text'
-            name=''
-            id=''
-            placeholder='Cemento...'
-            autoComplete='none'
-          />
-          <FontAwesomeIcon
-            className='searchFilter__icon'
-            icon={faMagnifyingGlass}
-          />
-        </form>
-      </div>
+    <div className='searchFilter__div'>
+      <form onSubmit={handleSearch} className='searchFilter__form'>
+        <input
+          className='searchFilter__input'
+          value={searchValue}
+          onChange={handleInputSearch}
+          type='text'
+          name=''
+          id=''
+          placeholder='Cemento...'
+          autoComplete='none'
+        />
+        <FontAwesomeIcon
+          className='searchFilter__icon'
+          icon={faMagnifyingGlass}
+        />
+      </form>
     </div>
   );
 };

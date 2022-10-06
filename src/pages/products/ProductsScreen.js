@@ -8,7 +8,9 @@ export const ProductsScreen = () => {
   return (
     <div>
       <ProductsBanner />
-      <SearchFilter />
+      <div className='productList__SearchFilter'>
+        <SearchFilter />
+      </div>
       <div className='productList__Categories'>
         <Categories />
       </div>

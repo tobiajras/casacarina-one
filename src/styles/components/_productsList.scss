@@ -58,6 +58,12 @@
   align-items: center;
 }
 
+.productList__SearchFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width:800px) {
   .productsList__gridDiv{
     grid-template-columns: repeat(4, 1fr);
