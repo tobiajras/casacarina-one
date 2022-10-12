@@ -93,7 +93,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
+    background-color: $primary;
   }
 
   .footer__divParent {
@@ -101,6 +101,7 @@
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     background-color: $primary;
+    width: 100%;
     max-width: 1400px;
   }
 
@@ -134,4 +135,8 @@
     color: $secondary;
     transition: .4s;
   }  
+  
+  .footer__copyDiv {
+    width: 100%;
+  }
 }
