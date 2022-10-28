@@ -33,3 +33,55 @@
     font-weight: 600;
   }
 }
+
+.contactScreen__informacion {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.contactScreen_GoogleMaps {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width:800px) {
+  .contactScreen__informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 2rem;
+  }
+
+  .contactScreen_GoogleMaps {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .contactScreen__informacionFlex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contactScreen__informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: auto;
+    margin: 5rem;
+    max-width: 1400px;
+    justify-items: center;
+  }
+
+  .contactScreen__GoogleMapsFlex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contactScreen__GoogleMaps {
+    margin: 0 5rem 5rem 5rem;
+    width: 100%;
+    max-width: 1400px;
+  }
+}

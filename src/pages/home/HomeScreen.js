@@ -14,24 +14,26 @@ export const HomeScreen = () => {
   return (
     <div>
       <CarouselSwiper />
-      <div className='homescreen__ProductsBannerDiv'>
+      <div className='homescreen_ProductsBanner'>
         <ProductsBanner />
       </div>
       <Categories />
       <div className='homescreen__AutoCarousel2Div'>
         <AutoCarousel2 />
       </div>
-      <div className='homescreen__WhatsappBannerDiv'>
-        <WhatsappBanner />
+      <WhatsappBanner />
+      <div className='homescreen__informacionFlex'>
+        <div className='homescreen__informacion'>
+          <Horarios />
+          <Tarjetas />
+          <Envios />
+          <Atencion />
+        </div>
       </div>
-      <div className='homescreen__informacion'>
-        <Horarios />
-        <Tarjetas />
-        <Envios />
-        <Atencion />
-      </div>
-      <div className='homescreen__GoogleMaps'>
-        <GoogleMaps />
+      <div className='homescreen__GoogleMapsFlex'>
+        <div className='homescreen__GoogleMaps'>
+          <GoogleMaps />
+        </div>
       </div>
     </div>
   );

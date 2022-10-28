@@ -1,7 +1,5 @@
 .searchFilter__div {
   margin: 1rem;
-  width: 100%;
-  max-width: 1400px;
 }
 
 .searchFilter__form{
@@ -40,11 +38,14 @@
 @media screen and (min-width:1200px) {
 
   .searchFilter__div {
-    margin: 2rem 5rem;
+    margin: 3rem 5rem;
+    display: flex;
+    justify-content: center;
   }
 
   .searchFilter__form{
     width: 100%;
+    max-width: 1400px;
     background-color: $primary;
     display: flex;
     align-items: center;

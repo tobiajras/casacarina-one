@@ -189,6 +189,8 @@
 @media screen and (min-width: 1200px) {
   .whatsappBanner__parentDiv {
     height: 300px;
+    display: flex;
+    justify-content: center;
 
     &::before {
     width: 100%;
@@ -196,6 +198,7 @@
     }
   }
   .whatsappBanner__consultaDiv {
+    max-width: 1400px;
     padding: 5rem;
   h5 {
     color: white;

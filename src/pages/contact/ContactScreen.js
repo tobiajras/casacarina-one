@@ -10,13 +10,19 @@ export const ContactScreen = () => {
   return (
     <div>
       <WhatsappBanner />
-      <div className='homescreen__informacion'>
-        <Horarios />
-        <Tarjetas />
-        <Envios />
-        <Atencion />
+      <div className='contactScreen__informacionFlex'>
+        <div className='contactScreen__informacion'>
+          <Horarios />
+          <Tarjetas />
+          <Envios />
+          <Atencion />
+        </div>
       </div>
-      <GoogleMaps />
+      <div className='contactScreen__GoogleMapsFlex'>
+        <div className='contactScreen__GoogleMaps'>
+          <GoogleMaps />
+        </div>
+      </div>
     </div>
   );
 };

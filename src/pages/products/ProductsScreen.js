@@ -8,13 +8,9 @@ export const ProductsScreen = () => {
   return (
     <div>
       <ProductsBanner />
-      <div className='productList__SearchFilter'>
-        <SearchFilter />
-      </div>
-      <div className='productList__Categories'>
-        <Categories />
-      </div>
-      <div className='productList__AutoCarousel2Div'>
+      <SearchFilter />
+      <Categories />
+      <div className='productList_AutoCarousel2'>
         <AutoCarousel2 />
       </div>
       <div className='productList__marginDiv'></div>

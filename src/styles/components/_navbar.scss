@@ -1,15 +1,21 @@
 .navbar__header {
   background-color: $primary;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar__parentDiv {
   display: flex;
+  flex: 1;
   align-items: center;
   height: 5rem;
-  position: sticky;
-  top: 0;
-  z-index: 2;
   max-width: 1400px;
+  padding: 0 2rem;
 
 }
 
@@ -20,7 +26,6 @@
 .navbar__childDiv {
   height: 100%;
   display: flex;
-  padding-left: 2rem;
   z-index: 1;
   flex: 1;
 }

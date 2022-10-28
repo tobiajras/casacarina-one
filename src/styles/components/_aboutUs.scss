@@ -48,17 +48,22 @@
 }
 
 .aboutUs__GaleriaImagenes {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 
 @media screen and (min-width:1200px) {
   
   .aboutUs__GaleriaImagenes {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
     margin: 2rem 5rem;
+    max-width: 1400px;
   }
 
   .aboutUs__divDescripcion{
     margin: 2rem 5rem;
+    max-width: 1400px;
   }
 }

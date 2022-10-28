@@ -7,7 +7,7 @@
   font-weight: 600;
 }
 
-.homescreen__ProductsBannerDiv{
+.homescreen_ProductsBanner {
   margin: 1rem 0;
 }
 
@@ -20,6 +20,10 @@
   grid-template-columns: repeat(1fr);
   gap: 1rem;
   margin: 1rem;
+}
+
+.homescreen__GoogleMaps {
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width:800px) {
@@ -43,6 +47,10 @@
     margin: 2rem 0;
   }
 
+  .homescreen_ProductsBanner {
+    margin: 2rem 0;
+  }
+
   .homescreen__GoogleMaps {
       margin: 2rem;
   }
@@ -56,26 +64,37 @@
     font-weight: 600;
   }
 
-  .homescreen__ProductsBannerDiv{
-    margin: 3rem 5rem;
+  .homescreen__informacionFlex {
+    display: flex;
+    justify-content: center;
   }
   
-  .homescreen__WhatsappBannerDiv {
-    margin: 3rem 5rem;
-  }
-
-  .homescreen__AutoCarousel2Div {
-    margin: 3rem 0;
-  }
-
   .homescreen__informacion {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    margin: 2rem 5rem;
+    margin: auto;
+    margin: 5rem;
+    max-width: 1400px;
+    justify-items: center;
+  }
+
+  .homescreen_ProductsBanner {
+    margin: 5rem 0;
+  }
+
+  .homescreen__AutoCarousel2Div {
+    margin: 5rem 0;
+  }
+
+  .homescreen__GoogleMapsFlex {
+    display: flex;
+    justify-content: center;
   }
 
   .homescreen__GoogleMaps {
-    margin: 3rem 5rem;
-}
+    margin: 0 5rem 5rem 5rem;
+    width: 100%;
+    max-width: 1400px;
+  }
 }
