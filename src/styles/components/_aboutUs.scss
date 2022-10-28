@@ -53,6 +53,11 @@
 
 
 @media screen and (min-width:1200px) {
+
+  .aboutUs__GaleriaImagenesFlex {
+    display: flex;
+    justify-content: center;
+  }
   
   .aboutUs__GaleriaImagenes {
     display: flex;
@@ -60,6 +65,11 @@
     flex-direction: column;
     margin: 2rem 5rem;
     max-width: 1400px;
+  }
+
+  .aboutUs__divDescripcionFlex {
+    display: flex;
+    justify-content: center;
   }
 
   .aboutUs__divDescripcion{
