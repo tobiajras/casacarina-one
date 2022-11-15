@@ -1,18 +1,18 @@
 export const carouselData = [
   {
     id: 1,
-    src: 'fondoArena.jpg',
+    src: 'fondoArena.webp',
   },
   {
     id: 2,
-    src: 'fondoPiedra.jpg',
+    src: 'fondoPiedra.webp',
   },
   {
     id: 3,
-    src: 'fondoLadrillos.jpg',
+    src: 'fondoLadrillos.webp',
   },
   {
     id: 4,
-    src: 'fondoMallas.jpg',
+    src: 'fondoMallas.webp',
   },
 ];
