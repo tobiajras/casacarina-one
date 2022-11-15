@@ -2,41 +2,41 @@ export const galeriaData = [
   {
     id: 1,
     title: 'Sillones Local',
-    src: 'sillonesGaleria.png',
+    src: 'sillonesGaleria.webp',
   },
   {
     id: 2,
     title: 'Muebles Local',
-    src: 'bajomesadaGaleria.png',
+    src: 'bajomesadaGaleria.webp',
   },
   {
     id: 3,
     title: 'Placares Local',
-    src: 'placaresGaleria.png',
+    src: 'placaresGaleria.webp',
   },
   {
     id: 4,
     title: 'Huecos Local',
-    src: 'huecosGaleria.png',
+    src: 'huecosGaleria.webp',
   },
   {
     id: 5,
     title: 'Colchones Local',
-    src: 'colchonesGaleria.png',
+    src: 'colchonesGaleria.webp',
   },
   {
     id: 6,
     title: 'Cemento Local',
-    src: 'cementoGaleria.png',
+    src: 'cementoGaleria.webp',
   },
   {
     id: 7,
     title: 'Ceramicas Local',
-    src: 'ceramicasGaleria.png',
+    src: 'ceramicasGaleria.webp',
   },
   {
     id: 8,
     title: 'Arena Local',
-    src: 'arenaGaleria.png',
+    src: 'arenaGaleria.webp',
   },
 ];
