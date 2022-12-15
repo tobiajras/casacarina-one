@@ -14,7 +14,7 @@ export default function CarouselSwiper() {
         className='carouselSwiper__Swiper'
         modules={[Autoplay, Pagination, EffectCoverflow]}
         slidesPerView={1}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
         pagination={{
           clickable: true,
         }}
