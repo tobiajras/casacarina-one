@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, EffectCoverflow } from 'swiper';
+import { Autoplay, Pagination } from 'swiper';
 
 // Import Swiper styles
 import 'swiper/scss';
@@ -12,7 +12,7 @@ export default function CarouselSwiper() {
     <div className='carouselSwiper__parentDiv'>
       <Swiper
         className='carouselSwiper__Swiper'
-        modules={[Autoplay, Pagination, EffectCoverflow]}
+        modules={[Autoplay, Pagination]}
         slidesPerView={1}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         pagination={{
