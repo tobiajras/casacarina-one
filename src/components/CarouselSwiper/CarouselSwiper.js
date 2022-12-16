@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
+import { useEffect } from 'react';
 
 // Import Swiper styles
 import 'swiper/scss';
@@ -8,6 +9,8 @@ import 'swiper/scss/pagination';
 import { carouselData } from '../../data/carouselData';
 
 export default function CarouselSwiper() {
+  useEffect(() => {}, []);
+
   return (
     <div className='carouselSwiper__parentDiv'>
       <Swiper
