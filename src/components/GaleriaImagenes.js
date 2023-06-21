@@ -3,10 +3,10 @@ import { galeriaData } from '../data/galeriaData';
 export const GaleriaImagenes = () => {
   return (
     <>
-      <div className='galeriaImagenes__titleDiv'>
-        <h4 className='galeriaImagenes__title'>Galería</h4>
+      <div className="galeriaImagenes__titleDiv">
+        <h4 className="galeriaImagenes__title">Galería</h4>
       </div>
-      <div className='galeriaImagenes__gridGaleria'>
+      <div className="galeriaImagenes__gridGaleria">
         {galeriaData.map((img) => {
           return (
             <div

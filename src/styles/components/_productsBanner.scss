@@ -3,24 +3,28 @@
   height: 100%;
 }
 
-.productsBanner__parentDiv{
+.productsBanner__parentDiv {
   position: relative;
   display: flex;
   width: 100%;
   background-image: url('../../../public/assets/banners/productsBanner.webp');
   background-size: cover;
   background-position-y: center;
- 
-  
+
   &::before {
     pointer-events: none;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(0deg, rgba(#1f263f,0.8) 20%, rgba(#1f263f,0.6) 80%, rgba(#1f263f,0.8) 100%);
-  top: 0;
-  right: 0;
-  position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      0deg,
+      rgba(#1f263f, 0.8) 20%,
+      rgba(#1f263f, 0.6) 80%,
+      rgba(#1f263f, 0.8) 100%
+    );
+    top: 0;
+    right: 0;
+    position: absolute;
   }
 }
 
@@ -32,7 +36,7 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  
+
   h5 {
     color: white;
     font-family: $poppins;
@@ -68,7 +72,7 @@
   border-radius: 3px;
   position: relative;
   z-index: 1;
-  
+
   h6 {
     font-family: $poppins;
     font-size: 12px;
@@ -86,35 +90,35 @@
     height: 150px;
 
     &::before {
-    width: 100%;
-    height: 100%;
+      width: 100%;
+      height: 100%;
     }
   }
   .productsBanner__consultaDiv {
     padding: 1.5rem;
-  h5 {
+    h5 {
+      font-size: 25px;
+    }
+  }
+
+  .productsBanner__consultaHashtag {
+    h6 {
+      font-size: 18px;
+      padding-right: 10px;
+    }
+  }
+
+  .productsBanner__consultaLogo {
+    padding: 0.7rem;
+    h6 {
+      font-size: 15px;
+    }
+  }
+
+  .productsBanner__icono {
     font-size: 25px;
+    padding-right: 5px;
   }
-}
-
-.productsBanner__consultaHashtag {
-  h6 {
-    font-size: 18px;
-    padding-right: 10px;
-  }
-}
-
-.productsBanner__consultaLogo {
-  padding: 0.7rem;
-  h6 {
-    font-size: 15px;
-  }
-}
-
-.productsBanner__icono {
-  font-size: 25px;
-  padding-right: 5px;
-}
 }
 
 @media screen and (min-width: 800px) {
@@ -122,43 +126,43 @@
     height: 200px;
 
     &::before {
-    width: 100%;
-    height: 100%;
+      width: 100%;
+      height: 100%;
     }
   }
   .productsBanner__consultaDiv {
     padding: 3rem;
-  h5 {
-    color: white;
-    font-family: $poppins;
-    font-size: 35px;
+    h5 {
+      color: white;
+      font-family: $poppins;
+      font-size: 35px;
+    }
+  }
+
+  .productsBanner__consultaHashtag {
+    h6 {
+      font-size: 20px;
+      padding-right: 12px;
+    }
+  }
+
+  .productsBanner__consultaLogo {
+    padding: 1rem;
+    h6 {
+      font-size: 20px;
+    }
+  }
+
+  .productsBanner__icono {
+    font-size: 30px;
+    padding-right: 5px;
   }
 }
 
-.productsBanner__consultaHashtag {
-  h6 {
-    font-size: 20px;
-    padding-right: 12px;
-  }
-}
-
-.productsBanner__consultaLogo {
-  padding: 1rem;
-  h6 {
-    font-size: 20px;
-  }
-}
-
-.productsBanner__icono {
-  font-size: 30px;
-  padding-right: 5px;
-}
-}
-
-@media (hover:hover) and (min-width:800px) {
+@media (hover: hover) and (min-width: 800px) {
   .productsBanner__consultaLogo ::after {
     position: absolute;
-    content: "";
+    content: '';
     width: 0;
     height: 100%;
     top: 0;
@@ -168,12 +172,12 @@
     border-radius: 3px;
     transition: all 0.3s ease;
   }
-  
+
   .productsBanner__consultaLogo:hover {
     cursor: pointer;
     color: $primary;
-    transition: .3s;
-  
+    transition: 0.3s;
+
     ::after {
       width: 100%;
     }
@@ -187,59 +191,59 @@
     justify-content: center;
 
     &::before {
-    width: 100%;
-    height: 100%;
+      width: 100%;
+      height: 100%;
     }
   }
   .productsBanner__consultaDiv {
     max-width: 1400px;
     padding: 5rem;
-  h5 {
-    color: white;
-    font-family: $poppins;
-    font-size: 48px;
+    h5 {
+      color: white;
+      font-family: $poppins;
+      font-size: 48px;
+    }
   }
-}
 
-.productsBanner__consultaHashtag {
-  h6 {
-    font-size: 25px;
-    padding-right: 15px;
+  .productsBanner__consultaHashtag {
+    h6 {
+      font-size: 25px;
+      padding-right: 15px;
+    }
   }
-}
 
-.productsBanner__consultaLogo {
-  padding: 1.5rem;
-  overflow: hidden;
+  .productsBanner__consultaLogo {
+    padding: 1.5rem;
+    overflow: hidden;
 
-  h6 {
+    h6 {
+      font-size: 30px;
+
+      // ::before {
+      //   content: '';
+      //   width: 100%;
+      //   height: 100%;
+      //   background-color: white;
+      //   top: 0;
+      //   left: 0;
+      //   position: absolute;
+      //   transform: translateX(-100%);
+      //   transition: 1s;
+      //   z-index: 99;
+      // }
+    }
+  }
+
+  .productsBanner__icono {
     font-size: 30px;
-
-    // ::before {
-    //   content: '';
-    //   width: 100%;
-    //   height: 100%;
-    //   background-color: white;
-    //   top: 0;
-    //   left: 0;
-    //   position: absolute;
-    //   transform: translateX(-100%);
-    //   transition: 1s;
-    //   z-index: 99;
-    // }
-  } 
+    padding-right: 10px;
+  }
 }
 
-.productsBanner__icono {
-  font-size: 30px;
-  padding-right: 10px;
-}
-}
-
-@media (hover:hover) and (min-width:1200px) {
+@media (hover: hover) and (min-width: 1200px) {
   .productsBanner__consultaLogo ::after {
     position: absolute;
-    content: "";
+    content: '';
     width: 0;
     height: 100%;
     top: 0;
@@ -249,12 +253,12 @@
     border-radius: 3px;
     transition: all 0.3s ease;
   }
-  
+
   .productsBanner__consultaLogo:hover {
     cursor: pointer;
     color: $primary;
-    transition: .3s;
-  
+    transition: 0.3s;
+
     ::after {
       width: 100%;
     }
