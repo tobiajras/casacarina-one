@@ -5,11 +5,16 @@ export const CardCategories = ({ src, title }) => {
   return (
     <div className="cardcategories__parentDiv">
       <div className="cardcategories__divOne">
-        <Link to={`/productos/busqueda?c=${title}`}>
+        <Link
+          className="cardcategories__a"
+          to={`/productos/busqueda?c=${title}`}
+        >
           <img
             className="cardcategories__img"
             src={`/assets/categories/${src}`}
             alt={title}
+            width="320px"
+            height="320px"
           />
         </Link>
         <div className="cardcategories__titleDiv">
