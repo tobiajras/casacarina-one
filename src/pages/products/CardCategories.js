@@ -13,8 +13,6 @@ export const CardCategories = ({ src, title }) => {
             className="cardcategories__img"
             src={`/assets/categories/${src}`}
             alt={title}
-            width="320px"
-            height="320px"
           />
         </Link>
         <div className="cardcategories__titleDiv">
