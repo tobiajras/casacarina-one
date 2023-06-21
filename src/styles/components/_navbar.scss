@@ -91,7 +91,6 @@
   .navbar__childDiv{
     padding-left: 0.5rem;
     flex: 1;
-
   }
 
   .navbar__logoLink {
@@ -115,6 +114,7 @@
 
   .navbar__menuList {
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     height: calc(100% - 5rem);
     position: fixed;
