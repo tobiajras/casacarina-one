@@ -1,12 +1,12 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper";
 
 // Import Swiper styles
-import 'swiper/scss';
-import 'swiper/scss/autoplay';
-import 'swiper/scss/pagination';
-import { carouselData } from '../../data/carouselData';
-import { useEffect } from 'react';
+import "swiper/scss";
+import "swiper/scss/autoplay";
+import "swiper/scss/pagination";
+import { carouselData } from "../../data/carouselData";
+import { useEffect } from "react";
 
 export default function CarouselSwiper() {
   useEffect(() => {}, []);
