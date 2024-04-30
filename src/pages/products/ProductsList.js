@@ -1,26 +1,26 @@
-import { useLocation, useNavigate } from 'react-router-dom';
-import { ProductCard } from './ProductCard';
-import { useState, useEffect } from 'react';
+import { useLocation, useNavigate } from "react-router-dom";
+import { ProductCard } from "./ProductCard";
+import { useState, useEffect } from "react";
 
-import queryString from 'query-string';
-import { SearchFilter } from '../../components/Search/SearchFilter';
+import queryString from "query-string";
+import { SearchFilter } from "../../components/Search/SearchFilter";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronCircleLeft,
   faChevronCircleRight,
-} from '@fortawesome/free-solid-svg-icons';
+} from "@fortawesome/free-solid-svg-icons";
 
-import axios from 'axios';
-import { AutoCarousel2 } from '../../components/AutoCarousel2/AutoCarousel2';
+import axios from "axios";
+import { AutoCarousel2 } from "../../components/AutoCarousel2/AutoCarousel2";
 
-import { CircularProgress, Alert } from '@mui/material';
+import { CircularProgress, Alert } from "@mui/material";
 
 export const ProductsList = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const { q = '' } = queryString.parse(location.search); // search query
-  const { c = '' } = queryString.parse(location.search); // category query
+  const { q = "" } = queryString.parse(location.search); // search query
+  const { c = "" } = queryString.parse(location.search); // category query
   const { i = 0 } = queryString.parse(location.search); // index query (pagination)
   const indexPage = parseInt(i); // queryParam i (string) to a number
 
@@ -33,7 +33,7 @@ export const ProductsList = () => {
   useEffect(() => {
     setIsLoading(true);
     const getProducts = async () => {
-      const res = await axios.get('/casacarinaDataProductos.json');
+      const res = await axios.get("/casacarinaDataProductosDolar.json");
       const { data } = res;
       window.scrollTo(0, 0);
       filterData(q, c, data).then(
@@ -47,31 +47,31 @@ export const ProductsList = () => {
   }, [search]); //  eslint-disable-line react-hooks/exhaustive-deps
 
   const filterData = (q, c, dataFetch) => {
-    if (q !== '') {
+    if (q !== "") {
       setProducts(
         dataFetch.filter((oneData) =>
           oneData.DESCRIPCION.toLowerCase()
-            .normalize('NFD')
-            .replace(/[\u0300-\u036f]/g, '')
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
             .includes(
               q
                 .toLowerCase()
-                .normalize('NFD')
-                .replace(/[\u0300-\u036f]/g, '')
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
             )
         )
       );
-    } else if (c !== '') {
+    } else if (c !== "") {
       setProducts(
         dataFetch.filter(
           (oneData) =>
             oneData.LISTA.toLowerCase()
-              .normalize('NFD')
-              .replace(/[\u0300-\u036f]/g, '') ===
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "") ===
             c
               .toLowerCase()
-              .normalize('NFD')
-              .replace(/[\u0300-\u036f]/g, '')
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")
         )
       );
     }
@@ -101,7 +101,7 @@ export const ProductsList = () => {
   if (isLoading) {
     return (
       <div className='productsList__loadingDiv'>
-        <CircularProgress style={{ color: '#1f263f' }} />
+        <CircularProgress style={{ color: "#1f263f" }} />
       </div>
     );
   } else if (products.length >= 1) {

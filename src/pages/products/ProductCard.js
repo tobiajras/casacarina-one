@@ -1,4 +1,6 @@
 export const ProductCard = ({ DESCRIPCION, PRECIO, SRC }) => {
+  const precioDolar = 1040;
+
   return (
     <div className='productCard__parentDiv'>
       <div className='productCard__imgDiv'>
@@ -10,7 +12,7 @@ export const ProductCard = ({ DESCRIPCION, PRECIO, SRC }) => {
       </div>
       <div className='productCard__details'>
         <div className='productCard__priceDiv'>
-          <h3>${PRECIO}</h3>
+          <h3>${Math.ceil((PRECIO * precioDolar) / 10) * 10}</h3>
         </div>
         <div className='productCard__titleDiv'>
           <h4>{DESCRIPCION}</h4>
