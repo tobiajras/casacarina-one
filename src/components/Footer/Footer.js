@@ -100,10 +100,31 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-
-      <div className='footer__copyDiv'>
-        <h5>Copyright © 2022 Casa Carina</h5>
-      </div>
+      <section class='footer-section'>
+        <article class='footer-content'>
+          <div class='footer-copyright'>
+            <span>© Copyright 2024</span>
+            <span>-</span>
+            <span>Casa Carina</span>
+          </div>
+          <div class='footer-developed-by'>
+            <span>Desarrollado por:</span>
+            <a
+              href='https://www.agenciagrvity.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+              class='grvity-link'
+            >
+              <img
+                src='/assets/grvityLogo.svg'
+                width={130}
+                height={50}
+                alt='grvity logo'
+              />
+            </a>
+          </div>
+        </article>
+      </section>
     </footer>
   );
 };

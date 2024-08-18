@@ -38,7 +38,7 @@
   font-family: $poppins;
 }
 
-.footer__menuDiv{
+.footer__menuDiv {
   display: flex;
   flex-direction: column;
   padding: 1rem 0;
@@ -88,13 +88,13 @@
   font-size: 1rem;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width: 800px) {
   .footer__divParent {
     padding: 2rem;
   }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .footer__footer {
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@
 
   .footer__icons:hover {
     color: $secondary;
-    transition: .4s;
+    transition: 0.4s;
   }
 
   .foooter__iconsDivH4 {
@@ -139,10 +139,88 @@
 
   .footer__linksMenu:hover {
     color: $secondary;
-    transition: .4s;
-  }  
-  
+    transition: 0.4s;
+  }
+
   .footer__copyDiv {
     width: 100%;
   }
+}
+
+.footer-copyright {
+  color: #ffff;
+  font-family: $poppins;
+}
+
+.footer-section {
+  background: #121729;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 64px;
+  padding-top: 32px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 16px; /* Equivale a text-sm en Tailwind */
+  gap: 12px;
+  width: 100%;
+  max-width: 1400px; /* Equivale a max-w-6xl en Tailwind */
+  padding: 0 32px; /* Para diferentes tamaños de pantalla */
+}
+
+.footer_imggg {
+  width: 130px;
+}
+
+.footer-developed-by {
+  color: #ffff;
+  font-family: $poppins;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    font-size: 1rem; /* Equivale a text-base en Tailwind */
+    gap: 20px;
+    margin: 0 40px;
+  }
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer-developed-by {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.grvity-link {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.grvity-link:hover {
+  opacity: 0.7;
+}
+
+.grvity-logo {
+  height: 20px;
+  width: 50px; /* Equivale a w-32 en Tailwind */
+  color: white;
+  transition: color 0.3s ease; /* Equivale a transition-colors en Tailwind */
+}
+
+.grvity-link:hover .grvity-logo {
+  color: #d1fa2d;
 }
