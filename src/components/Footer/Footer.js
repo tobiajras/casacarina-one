@@ -35,10 +35,6 @@ export const Footer = () => {
               <FontAwesomeIcon className='footer__contactIcon' icon={faPhone} />
               <span>4273-1474</span>
             </a>
-            <a className='footer__aContact' href='tel:+541175008000'>
-              <FontAwesomeIcon className='footer__contactIcon' icon={faPhone} />
-              <span>7500-8000</span>
-            </a>
           </div>
         </div>
         <div className='footer__secondDiv'>

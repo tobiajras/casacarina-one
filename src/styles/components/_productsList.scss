@@ -4,7 +4,7 @@
   padding: 0rem 1rem 1rem 1rem;
 }
 
-.productsList__gridDiv{
+.productsList__gridDiv {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(auto-fit, minmax(120px, 1fr));
@@ -40,7 +40,7 @@
   padding-top: 10vh;
 }
 
-.MuiAlert-root{
+.MuiAlert-root {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -52,15 +52,14 @@
   overflow: hidden !important;
 }
 
-@media screen and (min-width:800px) {
-  .productsList__gridDiv{
-    grid-template-columns: repeat(4, 1fr);
+@media screen and (min-width: 680px) {
+  .productsList__gridDiv {
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     width: 100%;
   }
 
   .productList__pagination {
-  
     button {
       padding: 0 1rem;
       color: $primary;
@@ -76,12 +75,18 @@
   }
 }
 
+@media screen and (min-width: 800px) {
+  .productsList__gridDiv {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .productsList__parentDiv {
     padding: 0rem 5rem 1rem 5rem;
   }
 
-  .productsList__gridDiv{
+  .productsList__gridDiv {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem;
@@ -98,7 +103,7 @@
     justify-content: center;
     align-items: center;
     margin: 1rem;
-  
+
     button {
       padding: 0 1rem;
       color: $primary;
@@ -108,8 +113,8 @@
       cursor: pointer;
     }
   }
-  
-  .MuiAlert-root{
+
+  .MuiAlert-root {
     margin: 3rem 5rem;
   }
 
