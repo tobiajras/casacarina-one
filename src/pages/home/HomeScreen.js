@@ -1,7 +1,7 @@
 import React from 'react';
 import { AutoCarousel2 } from '../../components/AutoCarousel2/AutoCarousel2';
-import CarouselSwiper from '../../components/CarouselSwiper/CarouselSwiper';
 import { GoogleMaps } from '../../components/GoogleMaps';
+import HeroHome from '../../components/HeroHome';
 import { Atencion } from '../../components/Informacion/Atencion';
 import { Envios } from '../../components/Informacion/Envios';
 import { Horarios } from '../../components/Informacion/Horarios';
@@ -13,7 +13,7 @@ import { Categories } from '../products/Categories';
 export const HomeScreen = () => {
   return (
     <div>
-      <CarouselSwiper />
+      <HeroHome />
       <div className='homescreen_ProductsBanner'>
         <ProductsBanner />
       </div>
