@@ -4,66 +4,66 @@ export const AutoCarousel2 = () => {
       <div className='slider'>
         <div className='slide'>
           <div className='slideImg'>
-            <img src='/assets/marcas/LomanegraLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/LomanegraLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/WeberLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/WeberLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/AcindarLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/AcindarLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/LourdesLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/LourdesLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/TersuaveLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/TersuaveLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/NovoplackLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/NovoplackLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/KlaukolLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/KlaukolLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/EternitLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/EternitLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/CañuelasLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/CañuelasLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/CannonLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/CannonLogo.webp' alt='imgSlider' />
           </div>
         </div>
         <div className='slide'>
           <div className='slideImg'>
-            <img src='/assets/marcas/LomanegraLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/LomanegraLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/WeberLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/WeberLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/AcindarLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/AcindarLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/LourdesLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/LourdesLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/TersuaveLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/TersuaveLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/NovoplackLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/NovoplackLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/KlaukolLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/KlaukolLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/EternitLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/EternitLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/CañuelasLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/CañuelasLogo.webp' alt='imgSlider' />
           </div>
           <div className='slideImg'>
-            <img src='/assets/marcas/CannonLogo.webp' alt='imgSlider' />
+            <img src='/assets/Marcas/CannonLogo.webp' alt='imgSlider' />
           </div>
         </div>
       </div>
