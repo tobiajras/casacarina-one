@@ -9,16 +9,17 @@ export const AboutUs = () => {
       <div className='aboutUs__divDescripcionFlex'>
         <div className='aboutUs__divDescripcion'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            doloribus voluptatibus quae dolore, exercitationem recusandae
-            officiis iste molestias dignissimos molestiae libero maxime
-            voluptates neque autem eligendi velit laudantium ratione harum modi
-            excepturi.
+            En Casa Carina, nos dedicamos desde hace años a proveer materiales
+            de construcción y productos para el hogar de alta calidad, siempre
+            enfocados en satisfacer las necesidades de nuestros clientes, ya
+            sean profesionales del sector o personas que buscan mejorar sus
+            espacios.
           </p>
           <p>
-            Exercitationem recusandae officiis iste molestias dignissimos
-            molestiae libero maxime voluptates neque autem eligendi velit
-            laudantium ratione harum modi excepturi.
+            Nuestro compromiso es ofrecerte una experiencia completa, desde
+            productos de primera calidad hasta un servicio amable y
+            personalizado, para que encuentres todo lo que necesitas en un solo
+            lugar.
           </p>
         </div>
       </div>
